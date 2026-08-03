@@ -80,6 +80,7 @@ button { cursor: pointer; }
 .project-hero h1, .case-hero h1 { margin: .7rem 0 1rem; overflow-wrap: normal; word-break: normal; hyphens: none; letter-spacing: -.055em; line-height: .98; text-transform: uppercase; }
 .project-hero h1 { font-size: clamp(2.4rem, 7vw, 5.8rem); }
 .case-hero h1 { font-size: clamp(2.4rem, 5.2vw, 5rem); }
+.case-hero--legend h1 { width: min(100%, 600px); font-size: clamp(2.2rem, 4.55vw, 4.4rem); overflow-wrap: normal; word-break: normal; hyphens: none; }
 .project-hero p, .case-hero__summary { max-width: 680px; margin: 0; color: var(--project-muted); font-size: clamp(1rem, 1.7vw, 1.22rem); }
 .project-hero__actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.7rem; }
 .outline-btn, .text-link { display: inline-flex; align-items: center; gap: .6rem; color: var(--project-green); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-decoration: none; text-transform: uppercase; }
@@ -88,10 +89,10 @@ button { cursor: pointer; }
 .project-hub-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
 .hub-card, .case-panel, .demo-card, .contact-card { border: 1px solid var(--project-line); background: var(--project-panel); box-shadow: var(--project-shadow); }
 .hub-card { min-width: 0; display: flex; flex-direction: column; }
-.hub-card-art { position: relative; aspect-ratio: 1 / .72; overflow: hidden; border-bottom: 1px solid var(--project-line); background: #071616; }
-.project-card-art, .project-card-art img { width: 100%; height: 100%; display: block; }
-.project-card-art img { object-fit: cover; }
-.project-card-category { position: absolute; left: 1rem; bottom: .85rem; color: var(--project-text); font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-shadow: 0 2px 14px #000; text-transform: uppercase; }
+.hub-card-art { position: relative; aspect-ratio: 16 / 10; overflow: hidden; border-bottom: 1px solid var(--project-line); background: #071616; }
+.project-card__picture, .project-card__picture img { width: 100%; height: 100%; display: block; }
+.project-card__picture img { object-fit: contain; object-position: center; }
+.project-card-category { position: absolute; top: .85rem; left: .85rem; border: 1px solid var(--project-line-strong); padding: .3rem .45rem; background: rgba(7, 16, 16, .82); color: var(--project-text); font-size: .6rem; font-weight: 700; letter-spacing: .14em; text-shadow: 0 2px 14px #000; text-transform: uppercase; }
 .hub-card-body { display: flex; flex: 1; flex-direction: column; padding: 1.25rem; }
 .hub-card h2 { min-height: 3.2rem; margin: .85rem 0 .55rem; font-size: 1.1rem; letter-spacing: -.02em; line-height: 1.2; text-transform: uppercase; }
 .hub-card p { min-height: 5.3rem; margin: 0; color: var(--project-muted); font-size: .9rem; }
@@ -107,11 +108,11 @@ button { cursor: pointer; }
 .project-footer nav { display: flex; flex-wrap: wrap; gap: 1rem; }
 .project-footer nav a { color: var(--project-muted); font-size: .68rem; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
 .project-footer nav a:hover { color: var(--project-text); }
-.case-hero { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr); align-items: center; gap: clamp(2rem, 6vw, 6rem); margin-bottom: 3.5rem; }
+.case-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(2rem, 4vw, 4rem); margin-bottom: 3.5rem; }
 .breadcrumbs { display: flex; flex-wrap: wrap; gap: .55rem; margin-bottom: 2rem; color: var(--project-muted); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
 .breadcrumbs a { color: var(--project-teal); text-decoration: none; }
-.case-hero__art { min-width: 0; border: 1px solid var(--project-line-strong); padding: .55rem; background: rgba(5, 20, 20, .74); box-shadow: 0 0 55px rgba(85, 226, 187, .08); }
-.case-hero__art img { width: 100%; aspect-ratio: 1; display: block; object-fit: cover; }
+.case-hero__art { min-width: 0; width: 100%; aspect-ratio: 4 / 3; display: grid; place-items: center; border: 1px solid var(--project-line-strong); padding: .35rem; background: rgba(5, 20, 20, .74); box-shadow: 0 0 55px rgba(85, 226, 187, .08); }
+.case-hero__art img { width: 100%; height: 100%; display: block; object-fit: contain; object-position: center; }
 .case-hero__meta { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
 .case-hero__meta span { border: 1px solid var(--project-line); padding: .38rem .58rem; color: var(--project-muted); font-size: .68rem; }
 .case-layout { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(230px, .55fr); gap: 1.25rem; }
@@ -122,6 +123,13 @@ button { cursor: pointer; }
 .case-panel p { margin: .7rem 0 0; color: var(--project-muted); }
 .case-panel ul { margin: .8rem 0 0; padding-left: 1.2rem; color: var(--project-muted); }
 .case-panel li + li { margin-top: .45rem; }
+.model-assumptions { margin-top: 1rem !important; border-top: 1px solid var(--project-line); padding-top: .8rem; color: var(--project-text) !important; }
+.case-evidence h2 { margin-bottom: 1rem; }
+.evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.evidence-card { min-width: 0; margin: 0; border: 1px solid var(--project-line); background: rgba(5, 20, 20, .62); }
+.evidence-card picture, .evidence-card img { display: block; width: 100%; }
+.evidence-card img { aspect-ratio: 16 / 10; object-fit: contain; background: #071616; }
+.evidence-card figcaption { padding: .75rem; color: var(--project-muted); font-size: .75rem; line-height: 1.45; }
 .case-aside { min-width: 0; }
 .case-aside .case-panel { position: sticky; top: 100px; }
 .aside-list { display: grid; gap: .85rem; margin: 0; }
@@ -157,6 +165,7 @@ button { cursor: pointer; }
   .case-hero__art { max-width: 620px; }
   .case-layout { grid-template-columns: 1fr; }
   .case-aside .case-panel { position: static; }
+  .evidence-grid { grid-template-columns: 1fr; }
   .flow-diagram { grid-template-columns: repeat(2, 1fr); }
   .flow-node:not(:nth-child(4n))::after { right: -.72rem; }
   .flow-node:nth-child(2n)::after { display: none; }
@@ -172,6 +181,7 @@ button { cursor: pointer; }
   .project-main { padding-top: 4.2rem; }
   .project-hero h1 { font-size: clamp(2.3rem, 14vw, 4rem); }
   .case-hero h1 { font-size: clamp(2.1rem, 11vw, 3.4rem); }
+  .case-hero--legend h1 { width: 100%; font-size: clamp(2.1rem, 11vw, 3.4rem); }
   .project-hub-grid { grid-template-columns: 1fr; }
   .hub-card h2, .hub-card p { min-height: auto; }
   .project-footer__inner { align-items: flex-start; flex-direction: column; }

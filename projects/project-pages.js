@@ -50,7 +50,7 @@
   function pictureMarkup(project) {
     var webp = project.artwork + ".webp";
     var png = project.artwork + ".png";
-    return "<picture class=\"project-card-art\"><source srcset=\"" + webp + "\" type=\"image/webp\"><img src=\"" + png + "\" width=\"1254\" height=\"1254\" loading=\"lazy\" decoding=\"async\" alt=\"" + project.alt + "\"></picture>";
+    return "<picture class=\"project-card__picture\"><source srcset=\"" + webp + "\" type=\"image/webp\"><img src=\"" + png + "\" width=\"1600\" height=\"997\" loading=\"lazy\" decoding=\"async\" alt=\"" + project.alt + "\"></picture>";
   }
 
   function renderHub() {
@@ -103,7 +103,7 @@
           packsPerCarton: form.elements.packsPerCarton.value,
           cartonsPerCase: form.elements.cartonsPerCase.value
         });
-        output.innerHTML = "<strong>Estimated output</strong><span>" + result.sticks.toLocaleString() + " sticks · " + result.packs.toLocaleString() + " packs · " + result.cartons.toLocaleString() + " cartons · " + result.cases.toLocaleString() + " cases</span>";
+        output.innerHTML = "<strong>Estimated output</strong><span>Available production minutes: " + result.availableMinutes.toLocaleString() + "</span><span>Complete packs: " + result.completePacks.toLocaleString() + " · Sticks: " + result.sticks.toLocaleString() + "</span><span>Complete cartons: " + result.completeCartons.toLocaleString() + " · Complete cases: " + result.completeCases.toLocaleString() + " · Remaining cartons: " + result.remainingCartons.toLocaleString() + "</span><span>Assumptions: " + form.elements.sticksPerPack.value + " sticks/pack · " + form.elements.packsPerCarton.value + " packs/carton · " + form.elements.cartonsPerCase.value + " cartons/case</span>";
       } catch (error) {
         output.textContent = error.message;
       }

@@ -21,22 +21,28 @@
     if (ratedSpeed <= 0 || shiftHours <= 0 || sticksPerPack <= 0 || packsPerCarton <= 0 || cartonsPerCase <= 0) {
       throw new Error("Rate, shift and conversion values must be greater than zero.");
     }
-    if (downtimePercent < 0 || downtimePercent > 100 || efficiencyPercent <= 0 || efficiencyPercent > 100) {
-      throw new Error("Downtime must be 0–100% and efficiency must be greater than 0% up to 100%.");
+    if (downtimePercent < 0 || downtimePercent > 100 || efficiencyPercent < 0 || efficiencyPercent > 100) {
+      throw new Error("Downtime and efficiency must be between 0% and 100%.");
+    }
+    if (![sticksPerPack, packsPerCarton, cartonsPerCase].every(Number.isInteger)) {
+      throw new Error("Packaging conversion values must be whole numbers.");
     }
 
     var availableMinutes = shiftHours * 60 * (1 - downtimePercent / 100);
-    var sticks = Math.floor(ratedSpeed * availableMinutes * efficiencyPercent / 100);
-    var packs = Math.floor(sticks / sticksPerPack);
-    var cartons = Math.floor(packs / packsPerCarton);
-    var cases = Math.floor(cartons / cartonsPerCase);
+    var effectivePacks = ratedSpeed * availableMinutes * efficiencyPercent / 100;
+    var completePacks = Math.floor(effectivePacks);
+    var sticks = completePacks * sticksPerPack;
+    var completeCartons = Math.floor(completePacks / packsPerCarton);
+    var completeCases = Math.floor(completeCartons / cartonsPerCase);
+    var remainingCartons = completeCartons % cartonsPerCase;
 
     return {
-      availableMinutes: Math.floor(availableMinutes),
+      availableMinutes: Number(availableMinutes.toFixed(2)),
       sticks: sticks,
-      packs: packs,
-      cartons: cartons,
-      cases: cases
+      completePacks: completePacks,
+      completeCartons: completeCartons,
+      completeCases: completeCases,
+      remainingCartons: remainingCartons
     };
   }
 
