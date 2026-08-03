@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Android Operations evidence composition</title>
+  <desc id="desc">A sanitised Android operations home screen connected to packet scanning, packet details and a generic REST API boundary.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06151c"/>
+      <stop offset="1" stop-color="#071b22"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#163a42"/>
+      <stop offset="1" stop-color="#071116"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="phone-screen"><rect x="570" y="135" width="460" height="930" rx="28"/></clipPath>
+    <clipPath id="scan-screen"><rect x="90" y="245" width="330" height="570" rx="18"/></clipPath>
+    <clipPath id="packet-screen"><rect x="1180" y="245" width="330" height="570" rx="18"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="1100" rx="42" fill="url(#bg)"/>
+  <path d="M64 160H1536M64 934H1536" stroke="#20e8d1" stroke-opacity=".16"/>
+  <path d="M64 180H420M1180 180H1536" stroke="#8cf55a" stroke-opacity=".45"/>
+
+  <text x="80" y="105" fill="#b8f96a" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">ANDROID OPERATIONS</text>
+  <text x="80" y="135" fill="#9fb7c9" font-family="Arial, sans-serif" font-size="13" letter-spacing="1">SANITISED APPLICATION EVIDENCE</text>
+
+  <g filter="url(#glow)" opacity=".5">
+    <circle cx="800" cy="590" r="390" fill="none" stroke="#00f5df" stroke-width="2"/>
+    <circle cx="800" cy="590" r="325" fill="none" stroke="#8cf55a" stroke-width="1"/>
+  </g>
+
+  <g>
+    <rect x="550" y="70" width="500" height="1030" rx="54" fill="url(#phone)" stroke="#00f5df" stroke-width="3"/>
+    <rect x="570" y="135" width="460" height="930" rx="28" fill="#06131f" stroke="#8cf55a" stroke-opacity=".28"/>
+    <rect x="750" y="93" width="100" height="13" rx="7" fill="#142c32"/>
+    <image x="570" y="135" width="460" height="930" preserveAspectRatio="xMidYMid slice" clip-path="url(#phone-screen)" xlink:href="../screenshots/android/android-home-sanitised.png"/>
+  </g>
+
+  <g>
+    <rect x="55" y="210" width="400" height="650" rx="28" fill="#07161d" stroke="#00f5df" stroke-opacity=".65" stroke-width="2"/>
+    <rect x="90" y="245" width="330" height="570" rx="18" fill="#06131f"/>
+    <image x="90" y="245" width="330" height="570" preserveAspectRatio="xMidYMid slice" clip-path="url(#scan-screen)" xlink:href="../screenshots/android/android-qr-scan-sanitised.png"/>
+    <text x="85" y="900" fill="#b8f96a" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">QR SCAN FLOW</text>
+  </g>
+
+  <g>
+    <rect x="1145" y="210" width="400" height="650" rx="28" fill="#07161d" stroke="#8cf55a" stroke-opacity=".65" stroke-width="2"/>
+    <rect x="1180" y="245" width="330" height="570" rx="18" fill="#06131f"/>
+    <image x="1180" y="245" width="330" height="570" preserveAspectRatio="xMidYMid slice" clip-path="url(#packet-screen)" xlink:href="../screenshots/android/android-packet-details-sanitised.png"/>
+    <text x="1175" y="900" fill="#b8f96a" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">PACKET DETAILS</text>
+  </g>
+
+  <g fill="none" stroke="#00f5df" stroke-width="2" opacity=".85">
+    <path d="M455 535H530"/>
+    <path d="M1070 535H1145"/>
+    <path d="M492 525l18 10-18 10M1108 525l18 10-18 10"/>
+  </g>
+
+  <g transform="translate(560 1010)">
+    <rect width="480" height="58" rx="29" fill="#0b2b31" stroke="#00f5df" stroke-opacity=".7"/>
+    <circle cx="30" cy="29" r="8" fill="#8cf55a"/>
+    <text x="52" y="36" fill="#effff8" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">REST API BOUNDARY</text>
+  </g>
+</svg>

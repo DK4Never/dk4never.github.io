@@ -40,8 +40,10 @@
       category: "Android operations",
       status: "Private implementation",
       summary: "An authenticated Android client for operational login, system-health checks, QR scanning and controlled access to production packet information.",
-      artwork: "../assets/projects/case-studies/web/android-operations-app",
-      alt: "Android operational scanning and mobile workflow illustration.",
+      artwork: "../assets/projects/case-studies/web/android-operations-evidence",
+      artworkWidth: 1600,
+      artworkHeight: 1100,
+      alt: "Sanitised Android operations evidence composition showing application, QR scanning and packet details workflow.",
       tags: ["Kotlin", "Retrofit", "REST API"],
       route: "android-operations/"
     },

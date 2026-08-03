@@ -50,7 +50,9 @@
   function pictureMarkup(project) {
     var webp = project.artwork + ".webp";
     var png = project.artwork + ".png";
-    return "<picture class=\"project-card__picture\"><source srcset=\"" + webp + "\" type=\"image/webp\"><img src=\"" + png + "\" width=\"1600\" height=\"997\" loading=\"lazy\" decoding=\"async\" alt=\"" + project.alt + "\"></picture>";
+    var width = project.artworkWidth || 1600;
+    var height = project.artworkHeight || 997;
+    return "<picture class=\"project-card__picture\"><source srcset=\"" + webp + "\" type=\"image/webp\"><img src=\"" + png + "\" width=\"" + width + "\" height=\"" + height + "\" loading=\"lazy\" decoding=\"async\" alt=\"" + project.alt + "\"></picture>";
   }
 
   function renderHub() {
