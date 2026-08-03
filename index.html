@@ -1,275 +1,642 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#05080d" />
-  <meta name="description" content="Dean Kruger — Senior Full-Stack Software Engineer, Systems Architect and Digital Transformation Lead." />
-  <title>Dean Kruger | Software Engineer & Systems Architect</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#04070b">
+  <meta name="description" content="Portfolio of Dean Kruger: software engineering, systems integration, DevOps, mobile workflows and practical operational technology.">
+  <meta property="og:title" content="Dean Kruger | Software Engineer &amp; Systems Architect">
+  <meta property="og:description" content="Dean Kruger's software engineering, systems integration, DevOps and operational technology portfolio.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dk4never.github.io/">
+  <meta property="og:image" content="https://dk4never.github.io/assets/projects/web/btc-production-intelligence.png">
+  <link rel="canonical" href="https://dk4never.github.io/">
+  <title>Dean Kruger | Software Engineer &amp; Systems Architect</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logos/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/ui/favicon.svg" type="image/svg+xml">
+  <style id="dean-precision-layout">
+    /* Corrective layer: keeps the existing visual language, but removes the
+       nested/chamfered card frames and gives the architecture diagram a real
+       grid on desktop plus a readable linear flow on small screens. */
+    :root {
+      --precision-emerald: #20e6ad;
+      --precision-cyan: #53d9e8;
+      --precision-border: rgba(91, 235, 205, .26);
+      --precision-border-strong: rgba(91, 235, 205, .72);
+      --precision-panel: rgba(5, 22, 29, .88);
+      --precision-muted: rgba(201, 224, 224, .72);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    main, section, article, div, a { min-width: 0; }
+    img, svg, canvas { max-width: 100%; }
+
+    .project-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items: stretch;
+    }
+
+    .project-card {
+      position: relative;
+      display: flex;
+      min-width: 0;
+      flex-direction: column;
+      overflow: hidden !important;
+      clip-path: none !important;
+      border: 1px solid var(--precision-border) !important;
+      border-radius: 10px !important;
+      background: linear-gradient(155deg, rgba(8, 31, 38, .96), rgba(3, 14, 20, .96)) !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .035), 0 12px 28px rgba(0, 0, 0, .24) !important;
+      transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+    }
+
+    .project-card::before { display: none; }
+
+    .project-card:hover {
+      border-color: var(--precision-border-strong) !important;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, .30), 0 0 24px rgba(32, 230, 173, .08) !important;
+      transform: translateY(-2px);
+    }
+
+    .project-card .project-visual {
+      position: relative;
+      min-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 10px 0;
+      overflow: hidden;
+      aspect-ratio: 4 / 3;
+      border: 0 !important;
+      border-radius: 10px;
+      background: #08151b;
+      box-shadow: none !important;
+    }
+
+    @media (min-width: 761px) {
+      .project-card .project-visual { aspect-ratio: 16 / 10; }
+    }
+
+    .project-card .project-visual > img {
+      display: block;
+      width: auto;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      margin: auto;
+      justify-self: center;
+      align-self: center;
+      object-fit: contain;
+      object-position: center;
+    }
+    .project-card .project-visual::after { display: none; }
+
+    .project-card .project-brand { display: none !important; }
+    .project-card .project-content {
+      display: flex;
+      min-width: 0;
+      flex: 1 1 auto;
+      flex-direction: column;
+    }
+    .project-card .project-content h3 { margin: 14px 14px 8px; }
+    .project-card .project-content p { flex: 1 1 auto; margin: 0 14px 12px; color: var(--precision-muted); }
+    .project-card .project-content .tags { margin: 0 14px 14px; }
+    .project-card .project-link {
+      display: inline-flex;
+      align-items: center;
+      margin: auto 14px 16px;
+      color: var(--green);
+      font: 700 .62rem/1 var(--mono);
+      letter-spacing: .06em;
+      text-decoration: none;
+    }
+    .project-card .project-link:hover { color: #fff; }
+
+    .capability {
+      min-width: 0;
+      min-height: 152px;
+      border: 1px solid rgba(91, 235, 205, .16) !important;
+      border-radius: 10px;
+      background: rgba(7, 26, 33, .44);
+      box-shadow: none !important;
+    }
+
+    .capability:hover {
+      border-color: rgba(91, 235, 205, .50) !important;
+      background: rgba(7, 32, 38, .70);
+    }
+
+    .project-architecture,
+    .architecture-diagram,
+    .architecture-copy { min-width: 0; }
+
+    .architecture-diagram {
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    /* Keep the diagram and closing panels clean; their content already carries
+       the technical structure without the decorative grid overlays. */
+    .architecture-blueprint,
+    .contact-circuit,
+    .footer-circuit { display: none; }
+
+    .hero h1 span {
+      display: inline-block;
+      padding-right: .045em;
+      overflow: visible;
+    }
+
+    .desktop-diagram {
+      display: block;
+      padding: clamp(14px, 2vw, 24px);
+      border: 1px solid rgba(91, 235, 205, .20);
+      border-radius: 10px;
+      background: rgba(2, 14, 19, .72);
+    }
+
+    .diagram-grid {
+      display: grid;
+      grid-template-columns: repeat(11, minmax(0, 1fr));
+      grid-template-rows: minmax(84px, auto) 34px minmax(112px, auto) 36px minmax(92px, auto);
+      gap: 0 .65rem;
+      align-items: stretch;
+    }
+
+    .diagram-node {
+      display: flex;
+      min-width: 0;
+      min-height: 0;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 12px 8px;
+      border: 1px solid rgba(91, 235, 205, .46);
+      border-radius: 8px;
+      background: linear-gradient(145deg, rgba(6, 31, 38, .98), rgba(4, 18, 24, .98));
+      color: #d9f8f0;
+      text-align: center;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .035);
+    }
+
+    .diagram-node img {
+      flex: 0 0 auto;
+      width: clamp(22px, 2.2vw, 30px);
+      height: clamp(22px, 2.2vw, 30px);
+      object-fit: contain;
+    }
+
+    .diagram-node span {
+      min-width: 0;
+      font-size: clamp(.56rem, .72vw, .72rem);
+      line-height: 1.25;
+      letter-spacing: .04em;
+      overflow-wrap: anywhere;
+    }
+
+    .node-ai { grid-column: 7 / 9; grid-row: 1; }
+    .node-machines { grid-column: 1 / 3; grid-row: 3; }
+    .node-data { grid-column: 4 / 6; grid-row: 3; }
+    .node-processing { grid-column: 7 / 9; grid-row: 3; }
+    .node-dashboards { grid-column: 10 / 12; grid-row: 3; }
+    .node-database { grid-column: 4 / 6; grid-row: 5; }
+    .node-users { grid-column: 7 / 9; grid-row: 5; }
+
+    .diagram-connector {
+      position: relative;
+      display: flex;
+      min-width: 0;
+      align-items: center;
+      justify-content: center;
+      color: var(--precision-emerald);
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    .diagram-connector::before {
+      display: block;
+      background: rgba(91, 235, 205, .58);
+      content: "";
+    }
+
+    .diagram-connector--horizontal { grid-row: 3; }
+    .diagram-connector--horizontal::before {
+      width: calc(100% + 1.3rem);
+      height: 1px;
+    }
+    .diagram-connector--horizontal::after {
+      position: absolute;
+      width: 0;
+      height: 0;
+      right: -.12rem;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 6px solid var(--precision-emerald);
+      content: "";
+      text-shadow: 0 0 10px rgba(32, 230, 173, .70);
+    }
+    .diagram-connector--h1 { grid-column: 3; }
+    .diagram-connector--h2 { grid-column: 6; }
+    .diagram-connector--h3 { grid-column: 9; }
+
+    .diagram-connector--vertical {
+      grid-column: 8;
+      grid-row: 2;
+    }
+    .diagram-connector--vertical::before {
+      width: 1px;
+      height: calc(100% + 1rem);
+    }
+    .diagram-connector--vertical::after {
+      position: absolute;
+      bottom: -.15rem;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-top: 6px solid var(--precision-emerald);
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+      content: "";
+      transform: translateX(-50%);
+      text-shadow: 0 0 10px rgba(32, 230, 173, .70);
+    }
+
+    .diagram-connector--branch {
+      grid-column: 4 / 6;
+      grid-row: 4;
+    }
+    .diagram-connector--branch::before {
+      width: 1px;
+      height: calc(100% + 1rem);
+    }
+    .diagram-connector--branch::after {
+      position: absolute;
+      bottom: -.15rem;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-top: 6px solid var(--precision-emerald);
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+      content: "";
+      transform: translateX(-50%);
+      text-shadow: 0 0 10px rgba(32, 230, 173, .70);
+    }
+
+    .diagram-connector--bidirectional {
+      grid-column: 6;
+      grid-row: 5;
+    }
+    .diagram-connector--bidirectional::before {
+      width: calc(100% + 1.3rem);
+      height: 1px;
+    }
+    .diagram-connector--bidirectional::after {
+      position: absolute;
+      width: 18px;
+      height: 9px;
+      background: var(--precision-emerald);
+      clip-path: polygon(0 50%, 5px 0, 5px 35%, 13px 35%, 13px 0, 18px 50%, 13px 100%, 13px 65%, 5px 65%, 5px 100%);
+      content: "";
+      text-shadow: 0 0 10px rgba(32, 230, 173, .70);
+    }
+
+    .mobile-diagram { display: none; }
+
+    @media (max-width: 1040px) {
+      .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .capability-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .project-architecture { grid-template-columns: 1fr; }
+      .diagram-node { flex-direction: column; }
+    }
+
+    @media (max-width: 960px) {
+      .project-architecture { grid-template-columns: 1fr; }
+      .desktop-diagram { display: none; }
+      .mobile-diagram {
+        display: block;
+        padding: clamp(12px, 3vw, 18px);
+        border: 1px solid rgba(91, 235, 205, .20);
+        border-radius: 10px;
+        background: rgba(2, 14, 19, .72);
+      }
+      .mobile-flow {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0;
+      }
+      .mobile-flow .diagram-node {
+        min-height: 72px;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 12px 14px;
+        text-align: left;
+      }
+      .mobile-flow .diagram-node img {
+        width: 28px;
+        height: 28px;
+      }
+      .mobile-flow .diagram-node span { font-size: .68rem; }
+      .diagram-flow-arrow {
+        display: grid;
+        width: 100%;
+        height: 26px;
+        place-items: center;
+        position: relative;
+        color: transparent;
+      }
+      .diagram-flow-arrow::before {
+        width: 1px;
+        height: 20px;
+        background: rgba(91, 235, 205, .68);
+        box-shadow: 0 0 8px rgba(32, 230, 173, .45);
+        content: "";
+      }
+      .diagram-flow-arrow::after {
+        position: absolute;
+        bottom: 1px;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-top: 6px solid var(--precision-emerald);
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+        content: "";
+        transform: translateX(-50%);
+      }
+    }
+
+    @media (max-width: 680px) {
+      .project-grid { grid-template-columns: minmax(0, 1fr); }
+      .capability-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 440px) {
+      .capability-grid { grid-template-columns: minmax(0, 1fr); }
+      .project-card .project-visual { margin: 8px 8px 0; }
+      .project-card h3 { margin-inline: 12px; }
+      .project-card p { margin-inline: 12px; }
+      .project-card .tags { margin-inline: 12px; }
+      .project-card > a:last-child { margin-inline: 12px; }
+    }
+
+    @media (max-width: 760px) {
+      .hero-visual { min-height: 500px; }
+
+      .terminal-card {
+        right: 4%;
+        bottom: 104px;
+        left: 4%;
+        width: auto;
+        min-height: 190px;
+        padding: 15px 14px 14px;
+      }
+
+      .terminal-title {
+        align-items: center;
+        padding-bottom: 12px;
+        font-size: .62rem;
+      }
+
+      #terminal-output {
+        min-height: 136px;
+        margin-top: 14px;
+        font-size: .56rem;
+        line-height: 1.75;
+      }
+
+      .metric-strip {
+        display: grid;
+      }
+
+      .terminal-card { bottom: 74px; }
+
+      .footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 18px;
+        margin-top: 18px;
+        padding: 24px 16px 26px;
+        text-align: center;
+      }
+
+      .footer-brand,
+      .footer-links,
+      .footer-connect,
+      .footer-copy {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: 100%;
+      }
+
+      .footer-brand {
+        justify-content: center;
+        min-width: 0;
+        text-align: left;
+      }
+
+      .footer-brand > span:last-child { min-width: 0; }
+      .footer-brand small {
+        max-width: 230px;
+        overflow: visible;
+        text-overflow: clip;
+        white-space: normal;
+      }
+
+      .footer-links > span,
+      .footer-connect > span { display: block; margin-bottom: 8px; }
+      .footer-links > div { justify-content: center; }
+      .footer-social { justify-content: center; }
+      .footer-copy { text-align: center; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .project-card { transition: none; }
+      .project-card:hover { transform: none; }
+    }
+  </style>
 </head>
 <body>
   <canvas id="matrix-bg" aria-hidden="true"></canvas>
+  <div class="site-atmosphere" aria-hidden="true">
+    <img src="assets/backgrounds/page-grid.svg" alt="">
+    <img src="assets/backgrounds/pcb-overlay.svg" alt="">
+  </div>
 
   <header class="topbar">
-    <a class="brand" href="#home" aria-label="Dean Kruger home">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 64 64"><path d="M32 3 56 17v30L32 61 8 47V17Z"/><path d="m32 11 17 10v22L32 53 15 43V21Z"/><path d="m32 20 9 5v14l-9 5-9-5V25Z"/></svg>
-      </span>
-      <span>
-        <strong>DEAN KRUGER</strong>
-        <small>SOFTWARE ENGINEER | SYSTEMS ARCHITECT</small>
-      </span>
-    </a>
-
-    <nav id="nav" aria-label="Main navigation">
-      <a class="active" href="#home">HOME</a>
-      <a href="#about">ABOUT</a>
-      <a href="#skills">SKILLS</a>
-      <a href="#projects">PROJECTS</a>
-      <a href="#experience">EXPERIENCE</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-
-    <a class="outline-btn desktop-only" href="Dean-Kruger-CV.pdf" download>
-      DOWNLOAD CV <span>⇩</span>
-    </a>
-
-    <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-  </header>
+      <a class="brand" href="#home" aria-label="Dean Kruger home">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/logos/favicon.ico" alt=""></span>
+        <span><strong>DEAN KRUGER</strong><small>SOFTWARE ENGINEER • SYSTEMS ARCHITECT • DEVOPS</small></span>
+      </a>
+      <nav id="nav" aria-label="Main navigation">
+        <a class="active" href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#focus">FOCUS</a>
+        <a href="#achievements">ACHIEVEMENTS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+      <a class="outline-btn desktop-only" href="dean-green-master-cv/Dean-Kruger-Green-Master-CV.pdf" download>DOWNLOAD CV <span aria-hidden="true">&#8595;</span></a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-controls="nav" aria-label="Open navigation" aria-expanded="false">
+        <img src="assets/icons/menu.svg" alt="" aria-hidden="true">
+      </button>
+    </header>
 
   <main>
     <section id="home" class="hero shell">
       <div class="hero-copy">
         <span class="eyebrow">WELCOME</span>
         <h1>DEAN <span>KRUGER</span></h1>
-        <p class="hero-role">Software Engineer | Systems Architect<br />Digital Transformation Lead</p>
-        <p class="hero-text">
-          I build intelligent systems for industry, manufacturing operations, reporting,
-          automation, and AI-assisted workflows that turn data into real business insight.
-        </p>
-
+        <p class="hero-role">SOFTWARE ENGINEER • SYSTEMS ARCHITECT •<br>DEVOPS</p>
+        <p class="hero-text">I BUILD RELIABLE SYSTEMS FOR REAL-WORLD OPERATIONS. I design software platforms, data integrations, mobile workflows and automation tools that make complex operations easier to run, support and improve.</p>
         <div class="hero-actions">
-          <a class="primary-btn" href="#projects">EXPLORE PROJECTS <span>→</span></a>
-          <a class="outline-btn" href="#contact">CONTACT ME <span>◎</span></a>
+          <a class="primary-btn" href="#projects">VIEW SELECTED WORK <span aria-hidden="true">&rarr;</span></a>
+          <a class="outline-btn" href="#contact">CONTACT DEAN <span aria-hidden="true">&#9678;</span></a>
         </div>
-
         <div class="social-row">
           <span>LET'S CONNECT</span>
-          <a href="https://github.com/DK4Never" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
-          <a href="#" aria-label="LinkedIn">in</a>
-          <a href="mailto:SamFisher.Ghost@proton.me" aria-label="Email">✉</a>
-          <a href="https://wa.me/27674632394" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+          <a href="https://github.com/DK4Never" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="assets/icons/github.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/dean-kruger/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt=""></a>
+          <a href="mailto:dean.kruger3@gmail.com" aria-label="Email Dean Kruger"><img src="assets/icons/email.svg" alt=""></a>
+          <a href="https://dk4never.github.io" target="_blank" rel="noopener noreferrer" aria-label="Portfolio"><img src="assets/icons/portfolio.svg" alt=""></a>
         </div>
       </div>
 
-      <div class="hero-visual" aria-label="Animated systems globe">
-        <canvas id="globe"></canvas>
+      <div class="hero-visual" aria-label="Animated systems globe showing structured operational network routes">
+        <img class="hero-network-art" src="assets/illustrations/hero-network.svg" alt="" aria-hidden="true">
+        <img class="hero-world-map" src="assets/illustrations/rich/hero-world-map.svg" alt="" aria-hidden="true">
+        <canvas id="globe" aria-hidden="true"></canvas>
         <div class="globe-hud" aria-hidden="true">
-          <span class="hud-node n1"></span><span class="hud-node n2"></span>
-          <span class="hud-node n3"></span><span class="hud-node n4"></span>
+          <span class="hud-node n1"></span><span class="hud-node n2"></span><span class="hud-node n3"></span><span class="hud-node n4"></span>
           <span class="hud-line l1"></span><span class="hud-line l2"></span>
         </div>
         <div class="terminal-card glass">
-          <div class="terminal-title">
-            <strong>SYSTEM STATUS</strong>
-            <span><i></i> ONLINE</span>
-          </div>
-          <pre id="terminal-output"></pre>
-          <span class="cursor">_</span>
+          <div class="terminal-title"><strong>ENGINEERING PROFILE</strong><span><i></i> OPEN TO OPPORTUNITIES</span></div>
+          <pre id="terminal-output"></pre><span class="cursor">_</span>
         </div>
-
-        <div class="metric-strip glass" aria-label="Portfolio metrics">
-          <div><span>PROJECTS</span><strong>25+</strong></div>
-          <div><span>YEARS EXPERIENCE</span><strong>20+</strong></div>
-          <div><span>SYSTEMS BUILT</span><strong>50+</strong></div>
-          <div><span>TECHNOLOGIES</span><strong>30+</strong></div>
+        <div class="metric-strip glass" aria-label="Portfolio summary">
+          <div><span>SYSTEMS</span><strong>Architecture</strong></div>
+          <div><span>DATA</span><strong>Integration</strong></div>
+          <div><span>DEVOPS</span><strong>Reliability</strong></div>
+          <div><span>PRODUCTION</span><strong>Operations</strong></div>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section shell panel">
-      <div class="section-heading">
-        <span>CORE CAPABILITIES</span>
-      </div>
+    <section id="skills" class="section shell panel capabilities-section">
+      <div class="section-heading"><div><span class="section-kicker">01 / ENGINEERING PROFILE</span><h2>CORE CAPABILITIES</h2></div><img class="section-divider" src="assets/graphics/section-divider.svg" alt="" aria-hidden="true"></div>
       <div class="capability-grid">
-        <article class="capability">
-          <div class="icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 48h48M13 48V30h10v18M27 48V20h10v28M41 48V10h10v38M16 25l9-8 8 6 15-14"/><circle cx="16" cy="25" r="2"/><circle cx="25" cy="17" r="2"/><circle cx="33" cy="23" r="2"/><circle cx="48" cy="9" r="2"/></svg></div><h3>INDUSTRIAL SYSTEMS</h3>
-          <p>Manufacturing intelligence and automation</p>
-        </article>
-        <article class="capability">
-          <div class="icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 50h44M14 46V28M24 46V20M34 46V34M44 46V14M54 46V24"/><path d="M12 19l12-8 10 7 18-10"/></svg></div><h3>DATA & REPORTING</h3>
-          <p>Real-time dashboards and analytics</p>
-        </article>
-        <article class="capability">
-          <div class="icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 10c-9 0-16 7-16 16 0 6 3 10 8 13v7h16v-7c5-3 8-7 8-13 0-9-7-16-16-16Z"/><path d="M25 52h14M27 46v6M37 46v6M24 27h16M32 19v16M27 22l10 10M37 22 27 32"/></svg></div><h3>AI & AUTOMATION</h3>
-          <p>AI-assisted workflows and copilots</p>
-        </article>
-        <article class="capability">
-          <div class="icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="m32 6 13 8v15l-13 8-13-8V14Z"/><path d="m15 35 11 7v12l-11 7-11-7V42Zm34 0 11 7v12l-11 7-11-7V42Z"/><path d="M32 37v8M26 42l-6 4M38 42l6 4"/></svg></div><h3>SYSTEMS ARCHITECTURE</h3>
-          <p>Scalable, reliable, maintainable systems</p>
-        </article>
-        <article class="capability">
-          <div class="icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 8h16l-2 8 6 5-3 7 5 7-6 11H24L18 35l5-7-3-7 6-5Z"/><path d="M12 56h40M20 46l-6 10M44 46l6 10M27 23h10M25 30h14"/></svg></div><h3>DEVOPS & LINUX</h3>
-          <p>Infrastructure, automation and deployments</p>
-        </article>
-        <article class="capability">
-          <div class="icon"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="13" cy="20" r="7"/><circle cx="51" cy="12" r="7"/><circle cx="51" cy="46" r="7"/><circle cx="22" cy="52" r="7"/><path d="M19 22l25-8M18 25l28 17M26 47l20-29"/></svg></div><h3>INTEGRATION</h3>
-          <p>Machine, API and data integrations</p>
-        </article>
+        <article class="capability"><div class="icon"><img src="assets/icons/capabilities/industrial-data.svg" alt="" aria-hidden="true"></div><h3>INDUSTRIAL SYSTEMS</h3><p>Software that supports operational processes, equipment and people.</p></article>
+        <article class="capability"><div class="icon"><img src="assets/icons/capabilities/data-intelligence.svg" alt="" aria-hidden="true"></div><h3>DATA &amp; REPORTING</h3><p>Validated pipelines that turn raw events into useful information.</p></article>
+        <article class="capability"><div class="icon"><img src="assets/icons/capabilities/ai-analytics.svg" alt="" aria-hidden="true"></div><h3>BACKEND ENGINEERING</h3><p>Maintainable services, APIs, databases and domain logic.</p></article>
+        <article class="capability"><div class="icon"><img src="assets/icons/capabilities/systems-architecture.svg" alt="" aria-hidden="true"></div><h3>SYSTEMS INTEGRATION</h3><p>Reliable connections across devices, applications and teams.</p></article>
+        <article class="capability"><div class="icon"><img src="assets/icons/capabilities/backend-services.svg" alt="" aria-hidden="true"></div><h3>DEVOPS &amp; INFRASTRUCTURE</h3><p>Deployment, monitoring, backup and recovery workflows.</p></article>
+        <article class="capability"><div class="icon"><img src="assets/icons/capabilities/integration.svg" alt="" aria-hidden="true"></div><h3>APPLIED AI &amp; AUTOMATION</h3><p>Practical assistance and automation grounded in trusted data.</p></article>
       </div>
     </section>
 
-    <section id="projects" class="section shell panel">
-      <div class="section-heading"><span>FEATURED PROJECTS</span></div>
+    <section id="projects" class="section shell panel projects-section">
+      <div class="section-heading"><div><span class="section-kicker">02 / SELECTED ENGINEERING</span><h2>FEATURED PROJECTS</h2></div><img class="section-divider" src="assets/graphics/section-divider.svg" alt="" aria-hidden="true"></div>
       <div class="project-grid">
-        <article class="project-card">
-          <div class="project-visual visual-dashboard"><span>LIVE ANALYTICS</span></div>
-          <h3>BTC Production Intelligence Suite</h3>
-          <p>Real-time production monitoring, OEE, KPI dashboards and reporting platform.</p>
-          <div class="tags"><span>Flask</span><span>SQLite</span><span>JS</span></div>
-          <a href="#">View Project <span>→</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-machine"><span>NX3</span></div>
-          <h3>NX3 Maker Integration</h3>
-          <p>Machine data integration, event tracking and production traceability system.</p>
-          <div class="tags"><span>Python</span><span>Beckhoff</span><span>API</span></div>
-          <a href="#">View Project <span>→</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-qr"><span>▦</span></div>
-          <h3>QR Traceability System</h3>
-          <p>End-to-end QR tracking for packets, shifts and production records.</p>
-          <div class="tags"><span>QR Code</span><span>Flask</span><span>JS</span></div>
-          <a href="#">View Project <span>→</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-mobile"><span>APP</span></div>
-          <h3>Android Operations App</h3>
-          <p>Mobile production data, reports and real-time operational updates.</p>
-          <div class="tags"><span>Android</span><span>Kotlin</span><span>API</span></div>
-          <a href="#">View Project <span>→</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-chart"><span>CAPACITY</span></div>
-          <h3>Production Calculator & Planner</h3>
-          <p>Capacity planning, scenario modelling and forecasting tools.</p>
-          <div class="tags"><span>Python</span><span>Pandas</span><span>Plotly</span></div>
-          <a href="#">View Project <span>→</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-security"><span>◆</span></div>
-          <h3>Legend Investigations Platform</h3>
-          <p>Investigation workflows, evidence management and OSINT tooling.</p>
-          <div class="tags"><span>OSINT</span><span>Flask</span><span>AI</span></div>
-          <a href="#">View Project <span>→</span></a>
-        </article>
+        <article class="project-card"><div class="project-visual"><picture class="project-card__picture"><source srcset="assets/projects/web/btc-production-intelligence.webp" type="image/webp"><img class="project-card__artwork" loading="lazy" decoding="async" width="1254" height="1254" src="assets/projects/web/btc-production-intelligence.png" alt="BTC Production Intelligence Suite authored production intelligence artwork"></picture><span class="project-kicker">MANUFACTURING INTELLIGENCE</span></div><div class="project-content"><h3>BTC Production Intelligence Suite</h3><p>A modular platform for operational visibility, reporting, traceability and support workflows in a manufacturing environment.</p><div class="tags"><span>Python</span><span>Flask</span><span>SQL</span></div><a class="project-link" href="#contact">VIEW PROJECT <span aria-hidden="true">&#8594;</span></a></div></article>
+        <article class="project-card"><div class="project-visual"><picture class="project-card__picture"><source srcset="assets/projects/web/btc-integration.webp" type="image/webp"><img class="project-card__artwork" loading="lazy" decoding="async" width="1254" height="1254" src="assets/projects/web/btc-integration.png" alt="BTC systems integration authored industrial integration artwork"></picture><span class="project-kicker">SYSTEMS INTEGRATION</span></div><div class="project-content"><h3>Integration</h3><p>A resilient integration layer connecting industrial equipment, edge services and operational applications.</p><div class="tags"><span>Python</span><span>APIs</span><span>Networking</span></div><a class="project-link" href="#contact">VIEW PROJECT <span aria-hidden="true">&#8594;</span></a></div></article>
+        <article class="project-card"><div class="project-visual"><picture class="project-card__picture"><source srcset="assets/projects/web/qr-traceability.webp" type="image/webp"><img class="project-card__artwork" loading="lazy" decoding="async" width="1254" height="1254" src="assets/projects/web/qr-traceability.png" alt="QR Traceability System authored scanning and traceability artwork"></picture><span class="project-kicker">QR TRACEABILITY</span></div><div class="project-content"><h3>QR Traceability System</h3><p>A controlled workflow for production packets, mobile scanning, validation and record lookup.</p><div class="tags"><span>Data Matrix</span><span>Android</span><span>APIs</span></div><a class="project-link" href="#contact">VIEW PROJECT <span aria-hidden="true">&#8594;</span></a></div></article>
+        <article class="project-card"><div class="project-visual"><picture class="project-card__picture"><source srcset="assets/projects/web/android-operations.webp" type="image/webp"><img class="project-card__artwork" loading="lazy" decoding="async" width="1254" height="1254" src="assets/projects/web/android-operations.png" alt="Android Operations App authored mobile operations artwork"></picture><span class="project-kicker">ANDROID OPERATIONS</span></div><div class="project-content"><h3>Android Operations App</h3><p>An authenticated mobile interface for scanning, field tasks and access to operational information.</p><div class="tags"><span>Android</span><span>Java</span><span>REST</span></div><a class="project-link" href="#contact">VIEW PROJECT <span aria-hidden="true">&#8594;</span></a></div></article>
+        <article class="project-card"><div class="project-visual"><picture class="project-card__picture"><source srcset="assets/projects/web/production-calculator-planner.webp" type="image/webp"><img class="project-card__artwork" loading="lazy" decoding="async" width="1254" height="1254" src="assets/projects/web/production-calculator-planner.png" alt="Production Calculator and Planner authored capacity planning artwork"></picture><span class="project-kicker">PRODUCTION PLANNING</span></div><div class="project-content"><h3>Production Calculator &amp; Planner</h3><p>A configurable tool for modelling capacity, schedules and operational scenarios.</p><div class="tags"><span>Python</span><span>Data Models</span><span>UI</span></div><a class="project-link" href="#contact">VIEW PROJECT <span aria-hidden="true">&#8594;</span></a></div></article>
+        <article class="project-card"><div class="project-visual"><picture class="project-card__picture"><source srcset="assets/projects/web/legend-investigations-platform.webp" type="image/webp"><img class="project-card__artwork" loading="lazy" decoding="async" width="1254" height="1254" src="assets/projects/web/legend-investigations-platform.png" alt="Legend Investigations Platform authored evidence and security artwork"></picture><span class="project-kicker">LEGEND SYSTEMS</span></div><div class="project-content"><h3>Legend Investigations Platform</h3><p>A secure case-support environment for research, evidence organisation and controlled investigative workflows.</p><div class="tags"><span>OSINT</span><span>Security</span><span>Web</span></div><a class="project-link" href="#contact">VIEW PROJECT <span aria-hidden="true">&#8594;</span></a></div></article>
       </div>
-      <div class="center"><a class="outline-btn" href="#">VIEW ALL PROJECTS <span>▦</span></a></div>
+      <div class="center"><a class="outline-btn" href="#contact">VIEW ALL PROJECTS <span class="grid-icon" aria-hidden="true"><img src="assets/icons/menu.svg" alt=""></span></a></div>
+
+      <section id="focus" class="project-architecture" aria-labelledby="flow-title" aria-describedby="flow-description">
+        <span id="about" class="anchor-target" aria-hidden="true"></span>
+        <div class="architecture-diagram">
+          <img class="architecture-blueprint" src="assets/graphics/engineering-blueprint.svg" alt="" aria-hidden="true">
+          <div class="sr-only"><p id="flow-description">Operational sources feed data collection, validation and integration, services and automation, dashboards and apps, storage and recovery, and users and roles.</p></div>
+          <div class="decision-diagram desktop-diagram" role="img" aria-label="Operational sources feed data collection, validation and integration, services and automation, dashboards and apps, storage and recovery, and users and roles.">
+            <div class="diagram-grid">
+              <div class="diagram-node node-ai"><img src="assets/icons/capabilities/ai-analytics.svg" alt="" aria-hidden="true"><span>SERVICES &amp;<br>AUTOMATION</span></div>
+              <span class="diagram-connector diagram-connector--vertical" aria-hidden="true"></span>
+
+              <div class="diagram-node node-machines"><img src="assets/icons/factory.svg" alt="" aria-hidden="true"><span>OPERATIONAL<br>SOURCES</span></div>
+              <span class="diagram-connector diagram-connector--horizontal diagram-connector--h1" aria-hidden="true"></span>
+              <div class="diagram-node node-data"><img src="assets/icons/database.svg" alt="" aria-hidden="true"><span>DATA<br>COLLECTION</span></div>
+              <span class="diagram-connector diagram-connector--horizontal diagram-connector--h2" aria-hidden="true"></span>
+              <div class="diagram-node node-processing"><img src="assets/icons/engineering.svg" alt="" aria-hidden="true"><span>VALIDATION<br>&amp; INTEGRATION</span></div>
+              <span class="diagram-connector diagram-connector--horizontal diagram-connector--h3" aria-hidden="true"></span>
+              <div class="diagram-node node-dashboards"><img src="assets/icons/capabilities/data-intelligence.svg" alt="" aria-hidden="true"><span>DASHBOARDS<br>&amp; APPS</span></div>
+
+              <span class="diagram-connector diagram-connector--branch" aria-hidden="true"></span>
+              <div class="diagram-node node-database"><img src="assets/icons/database.svg" alt="" aria-hidden="true"><span>STORAGE<br>&amp; RECOVERY</span></div>
+              <span class="diagram-connector diagram-connector--bidirectional" aria-hidden="true"></span>
+              <div class="diagram-node node-users"><img src="assets/icons/user.svg" alt="" aria-hidden="true"><span>USERS &amp;<br>ROLES</span></div>
+            </div>
+          </div>
+
+          <div class="decision-diagram mobile-diagram" aria-hidden="true">
+            <div class="mobile-flow">
+              <div class="diagram-node"><img src="assets/icons/capabilities/ai-analytics.svg" alt=""><span>SERVICES &amp; AUTOMATION</span></div><span class="diagram-flow-arrow" aria-hidden="true"></span>
+              <div class="diagram-node"><img src="assets/icons/factory.svg" alt=""><span>OPERATIONAL SOURCES</span></div><span class="diagram-flow-arrow" aria-hidden="true"></span>
+              <div class="diagram-node"><img src="assets/icons/database.svg" alt=""><span>DATA COLLECTION</span></div><span class="diagram-flow-arrow" aria-hidden="true"></span>
+              <div class="diagram-node"><img src="assets/icons/engineering.svg" alt=""><span>VALIDATION &amp; INTEGRATION</span></div><span class="diagram-flow-arrow" aria-hidden="true"></span>
+              <div class="diagram-node"><img src="assets/icons/capabilities/data-intelligence.svg" alt=""><span>DASHBOARDS &amp; APPS</span></div><span class="diagram-flow-arrow" aria-hidden="true"></span>
+              <div class="diagram-node"><img src="assets/icons/database.svg" alt=""><span>STORAGE &amp; RECOVERY</span></div><span class="diagram-flow-arrow" aria-hidden="true"></span>
+              <div class="diagram-node"><img src="assets/icons/user.svg" alt=""><span>USERS &amp; ROLES</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="architecture-copy">
+          <div class="profile-orbit"><img class="profile-glow" src="assets/graphics/profile-hex-glow.svg" alt="" aria-hidden="true"><img class="profile-frame" src="assets/graphics/profile-hex-frame.svg" alt="" aria-hidden="true"><picture class="profile-picture"><source srcset="assets/portraits/web/dean-profile-square.webp" type="image/webp"><img class="profile-photo" loading="lazy" decoding="async" width="1000" height="1000" src="assets/portraits/web/dean-profile-square.png" alt="Dean Kruger portrait"></picture></div>
+          <span class="mini-heading">03 / ENGINEERING APPROACH</span><h2 id="flow-title">FROM COMPLEXITY TO CLARITY</h2>
+          <p>I begin with the operation, map the data and failure points, then build the smallest reliable system that teams can understand, operate and recover.</p>
+          <ul><li>Architecture shaped by real workflows</li><li>Validation at every system boundary</li><li>Offline-first and recovery-aware design</li><li>Clear interfaces for operators and support teams</li><li>Security and maintainability by default</li></ul>
+          <a class="outline-btn" href="#experience">VIEW MY APPROACH <span aria-hidden="true">&#8594;</span></a>
+        </div>
+      </section>
     </section>
-
-    <section id="about" class="section shell panel architecture-section">
-      <div class="architecture-diagram">
-        <div class="diagram-node top">AI & ANALYTICS</div>
-        <div class="diagram-row">
-          <div class="diagram-node">MACHINES &<br>SENSORS</div>
-          <span>→</span>
-          <div class="diagram-node">DATA<br>COLLECTION</div>
-          <span>→</span>
-          <div class="diagram-node primary-node">PROCESSING<br>& INTEGRATION</div>
-          <span>→</span>
-          <div class="diagram-node">DASHBOARDS<br>& REPORTS</div>
-        </div>
-        <div class="diagram-row bottom">
-          <div class="diagram-node">DATABASE<br>& STORAGE</div>
-          <span>↔</span>
-          <div class="diagram-node">USERS<br>& ROLES</div>
-        </div>
-      </div>
-
-      <div class="architecture-copy">
-        <span class="mini-heading">HOW I BUILD SYSTEMS</span>
-        <h2>From Data to Decisions</h2>
-        <p>
-          I design and build end-to-end systems that capture data from the shop floor,
-          process it intelligently, and deliver actionable insights to the right people at the right time.
-        </p>
-        <ul>
-          <li>Scalable architecture for growing operations</li>
-          <li>Real-time data processing and event handling</li>
-          <li>AI-assisted insights and automation</li>
-          <li>Secure, reliable and maintainable systems</li>
-          <li>Built for the way your team actually works</li>
-        </ul>
-        <a class="outline-btn" href="#experience">VIEW MY APPROACH <span>→</span></a>
+    <section id="experience" class="section shell panel experience-section">
+      <div class="section-heading"><div><span class="section-kicker">03 / ENGINEERING TIMELINE</span><h2>EXPERIENCE HIGHLIGHTS</h2></div><img class="section-divider" src="assets/graphics/section-divider.svg" alt="" aria-hidden="true"></div>
+      <div class="timeline timeline-detailed">
+        <article><span class="timeline-year">HANDS-ON FOUNDATION</span><i></i><h3>Hands-On Technical Foundation</h3><p>PC repair, hardware diagnostics and self-directed software learning.</p></article>
+        <article><span class="timeline-year">INDEPENDENT SYSTEMS</span><i></i><h3>Independent Systems Engineering</h3><p>Software, networking, infrastructure and security-focused technical projects.</p></article>
+        <article><span class="timeline-year">CONTROL SYSTEMS</span><i></i><h3>FAS Control Equipment</h3><p>Control-equipment assembly, programming and technical production support.</p></article>
+        <article><span class="timeline-year">FIELD SYSTEMS</span><i></i><h3>GAAP Point of Sale</h3><p>POS deployment, troubleshooting and client-site systems support.</p></article>
+        <article><span class="timeline-year">INDEPENDENT R&amp;D</span><i></i><h3>Legend Systems &amp; Investigations</h3><p>Software platforms, infrastructure tooling and applied technology research.</p></article>
+        <article><span class="timeline-year">CURRENT FOCUS</span><i></i><h3>Manufacturing Intelligence</h3><p>Industrial software, systems integration, reporting and DevOps.</p></article>
       </div>
     </section>
-
-    <section id="experience" class="section shell panel">
-      <div class="section-heading"><span>EXPERIENCE HIGHLIGHTS</span></div>
-      <div class="timeline">
-        <article><strong>2004+</strong><i></i><h3>Started in IT</h3><p>Hands-on technology and troubleshooting.</p></article>
-        <article><strong>2008+</strong><i></i><h3>System Engineering</h3><p>Infrastructure, automation and solutions.</p></article>
-        <article><strong>2014+</strong><i></i><h3>Software Development</h3><p>Enterprise systems, APIs and integrations.</p></article>
-        <article><strong>2018+</strong><i></i><h3>Industrial Systems</h3><p>Manufacturing intelligence and production systems.</p></article>
-        <article><strong>2021+</strong><i></i><h3>AI & Automation</h3><p>AI-assisted workflows and smart automation.</p></article>
-        <article><strong>2024+</strong><i></i><h3>Digital Transformation</h3><p>Leading digital transformation initiatives.</p></article>
-      </div>
-    </section>
-
-    <section class="section shell split-grid">
-      <article class="panel compact-panel">
-        <div class="section-heading"><span>KEY ACHIEVEMENTS</span></div>
-        <ul class="achievement-list">
-          <li>Built production reporting systems for daily, weekly, monthly and yearly analytics.</li>
-          <li>Developed dashboards for operational visibility and management decision-making.</li>
-          <li>Integrated machine production data into centralized reporting workflows.</li>
-          <li>Designed scalable architecture for industrial operations software.</li>
-          <li>Created foundations for AI-assisted operational support and reporting.</li>
-        </ul>
-      </article>
-
-      <article class="panel compact-panel">
-        <div class="section-heading"><span>TECHNOLOGY STACK</span></div>
-        <div class="tech-cloud">
-          <span>Python</span><span>Flask</span><span>SQL</span><span>SQLite</span>
-          <span>JavaScript</span><span>HTML</span><span>CSS</span><span>Linux</span>
-          <span>Windows</span><span>PowerShell</span><span>Bash</span><span>Docker</span>
-          <span>Nginx</span><span>Git</span><span>Pandas</span><span>REST API</span>
-          <span>JSON</span><span>XML</span><span>Kotlin</span><span>Android</span>
-          <span>Java</span><span>AI / LLM</span><span>Automation</span><span>MQTT</span>
-          <span>IoT</span><span>Beckhoff</span><span>Siemens</span>
-        </div>
-      </article>
+    <section id="achievements" class="section shell split-grid achievements-section">
+      <article class="panel compact-panel"><div class="section-heading"><div><span class="section-kicker">04 / PROOF OF PRACTICE</span><h2>ADDITIONAL ENGINEERING WORK</h2></div></div><ul class="achievement-list">
+        <li><span class="achievement-icon"><picture class="achievement-picture"><source srcset="SVG/project_images/image_40ff5817.webp" type="image/webp"><img loading="lazy" decoding="async" width="1408" height="768" src="SVG/project_images/image_40ff5817.png" alt="GNU Radio and RF systems authored artwork"></picture></span><span><strong>GNU Radio &amp; RF Systems</strong>Signal analysis, SDR experimentation and communications research.</span></li>
+        <li><span class="achievement-icon"><picture class="achievement-picture"><source srcset="SVG/project_images/image_b9b0c54c.webp" type="image/webp"><img loading="lazy" decoding="async" width="1408" height="768" src="SVG/project_images/image_b9b0c54c.png" alt="Reverse engineering and diagnostics authored artwork"></picture></span><span><strong>Reverse Engineering &amp; Diagnostics</strong>Protocol inspection, data-format analysis and legacy-system interoperability.</span></li>
+        <li><span class="achievement-icon"><picture class="achievement-picture"><source srcset="SVG/project_images/image_e15a719f.webp" type="image/webp"><img loading="lazy" decoding="async" width="1408" height="768" src="SVG/project_images/image_e15a719f.png" alt="Android applications authored artwork"></picture></span><span><strong>Android Applications</strong>Mobile tools for scanning, field workflows and offline operation.</span></li>
+        <li><span class="achievement-icon"><picture class="achievement-picture"><source srcset="SVG/project_images/image_11e354b8.webp" type="image/webp"><img loading="lazy" decoding="async" width="1408" height="768" src="SVG/project_images/image_11e354b8.png" alt="Web platforms authored artwork"></picture></span><span><strong>Web Platforms</strong>Operational dashboards, business workflows and self-hosted applications.</span></li>
+        <li><span class="achievement-icon"><picture class="achievement-picture"><source srcset="SVG/project_images/image_de74a9b8.webp" type="image/webp"><img loading="lazy" decoding="async" width="1408" height="768" src="SVG/project_images/image_de74a9b8.png" alt="Tools and infrastructure authored artwork"></picture></span><span><strong>Tools &amp; Infrastructure</strong>Reverse engineering, scripting, network diagnostics and maintenance utilities.</span></li>
+      </ul></article>
+      <article class="panel compact-panel"><div class="section-heading"><div><span class="section-kicker">05 / TOOLCHAIN</span><h2>TECHNOLOGY STACK</h2></div></div><div class="tech-cloud">
+        <span>Python</span><span>Flask</span><span>JavaScript</span><span>TypeScript</span><span>HTML</span><span>CSS</span><span>SQL</span><span>SQLite</span><span>PostgreSQL</span><span>Java</span><span>Kotlin</span><span>Android</span><span>Linux</span><span>Windows</span><span>PowerShell</span><span>Bash</span><span>Docker</span><span>Nginx</span><span>Git</span><span>REST APIs</span><span>JSON</span><span>XML</span><span>MQTT</span><span>GNU Radio</span><span>Wireshark</span><span>Networking</span><span>Beckhoff</span><span>Siemens</span>
+      </div><a class="outline-btn skills-button" href="#skills">VIEW FULL SKILLS <span aria-hidden="true">&#8594;</span></a></article>
     </section>
 
     <section id="contact" class="section shell panel contact-panel">
-      <div>
-        <div class="contact-title">
-          <span class="brand-mark mini" aria-hidden="true">
-            <svg viewBox="0 0 64 64"><path d="M32 3 56 17v30L32 61 8 47V17Z"/><path d="m32 11 17 10v22L32 53 15 43V21Z"/></svg>
-          </span>
-          <div><h2>LET'S BUILD SOMETHING GREAT TOGETHER</h2><p>Open to discussing new projects, ideas and opportunities.</p></div>
-        </div>
-      </div>
-      <a class="contact-item" href="mailto:SamFisher.Ghost@proton.me"><b><svg viewBox="0 0 64 64"><path d="M8 16h48v32H8Z"/><path d="m9 18 23 18 23-18"/></svg></b><span><small>Email</small>SamFisher.Ghost@proton.me</span></a>
-      <a class="contact-item" href="tel:+27674632394"><b><svg viewBox="0 0 64 64"><path d="M18 8h10l5 12-7 6c5 10 12 17 22 22l6-7 12 5v10c0 4-3 7-7 7C31 63 1 33 1 5c0-4 3-7 7-7h10"/></svg></b><span><small>Phone</small>+27 67 463 2394</span></a>
-      <div class="contact-item"><b><svg viewBox="0 0 64 64"><path d="M32 59s19-20 19-35a19 19 0 1 0-38 0c0 15 19 35 19 35Z"/><circle cx="32" cy="24" r="7"/></svg></b><span><small>Location</small>South Africa</span></div>
+      <img class="contact-circuit" src="assets/graphics/footer-circuit.svg" alt="" aria-hidden="true">
+      <div class="contact-copy"><div class="contact-title"><span class="brand-mark mini" aria-hidden="true"><img src="assets/logos/dean-mark.svg" alt=""></span><div><span class="section-kicker">06 / OPEN CHANNEL</span><h2>LET'S BUILD SOMETHING RELIABLE</h2><p>Need help with a complex software, integration or operational systems problem? I am open to engineering roles, consulting and technical collaboration.</p></div></div></div>
+      <a class="contact-item" href="mailto:dean.kruger3@gmail.com"><b><img src="assets/icons/email.svg" alt=""></b><span><small>Email</small>dean.kruger3@gmail.com</span></a>
+      <a class="contact-item" href="tel:+27796436540"><b><img src="assets/icons/phone.svg" alt=""></b><span><small>Phone</small>+27 79 643 6540</span></a>
+      <div class="contact-item"><b><img src="assets/icons/location.svg" alt=""></b><span><small>Location</small>South Africa</span></div>
+      <a class="contact-item" href="https://github.com/DK4Never" target="_blank" rel="noopener noreferrer"><b><img src="assets/icons/github.svg" alt=""></b><span><small>GitHub</small>DK4Never</span></a>
+      <a class="contact-item" href="https://www.linkedin.com/in/dean-kruger/" target="_blank" rel="noopener noreferrer"><b><img src="assets/icons/linkedin.svg" alt=""></b><span><small>LinkedIn</small>Dean Kruger</span></a>
     </section>
   </main>
 
   <footer class="footer shell">
-    <div class="brand footer-brand">
-      <span class="brand-mark mini" aria-hidden="true">
-        <svg viewBox="0 0 64 64"><path d="M32 3 56 17v30L32 61 8 47V17Z"/><path d="m32 11 17 10v22L32 53 15 43V21Z"/></svg>
-      </span>
-      <span><strong>DEAN KRUGER</strong><small>Software Engineer | Systems Architect</small></span>
-    </div>
-    <div class="footer-links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a></div>
-    <div class="footer-copy">© 2026 Dean Kruger. All rights reserved.</div>
+    <img class="footer-circuit" src="assets/graphics/footer-circuit.svg" alt="" aria-hidden="true">
+    <div class="brand footer-brand"><span class="brand-mark mini" aria-hidden="true"><img src="assets/logos/dean-mark.svg" alt=""></span><span><strong>DEAN KRUGER</strong><small>SOFTWARE ENGINEER • SYSTEMS ARCHITECT •<br>DEVOPS</small></span></div>
+    <div class="footer-links"><span>QUICK LINKS</span><div><a href="#about">About</a><a href="#focus">Focus</a><a href="#skills">Skills</a><a href="#achievements">Achievements</a><a href="#projects">Projects</a></div></div>
+    <div class="footer-connect"><span>CONNECT</span><div class="footer-social"><a href="https://github.com/DK4Never" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="assets/icons/github.svg" alt=""></a><a href="https://www.linkedin.com/in/dean-kruger/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt=""></a><a href="mailto:dean.kruger3@gmail.com" aria-label="Email Dean Kruger"><img src="assets/icons/email.svg" alt=""></a><a href="https://dk4never.github.io" target="_blank" rel="noopener noreferrer" aria-label="Portfolio"><img src="assets/icons/portfolio.svg" alt=""></a></div></div>
+    <div class="footer-copy"><span>SOFTWARE ENGINEERING FOR REAL-WORLD OPERATIONS.</span><small>&copy; 2026 Dean Kruger. All rights reserved.</small></div>
   </footer>
-
   <script src="app.js"></script>
 </body>
 </html>
