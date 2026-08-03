@@ -2506,3 +2506,96 @@ nav {
     height: 118px;
   }
 }
+
+/* Final approved polish: align desktop utility rows while preserving mobile flow. */
+.achievements-section .achievement-copy {
+  display: flex !important;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 4px 2px;
+  color: var(--muted);
+  font-size: .62rem;
+  line-height: 1.45;
+}
+
+.achievements-section .achievement-copy strong {
+  color: #f2fff9;
+  font: 700 .68rem/1.25 var(--mono);
+  text-align: center;
+}
+
+.achievements-section .achievement-copy > span {
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  .achievements-section .achievement-copy {
+    min-height: 7.2rem;
+    padding: 12px 8px 4px;
+    font-size: 15px;
+  }
+
+  .achievements-section .achievement-copy strong {
+    min-height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .achievements-section .achievement-copy > span {
+    max-width: 30ch;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-panel {
+    align-items: stretch;
+  }
+
+  .contact-copy,
+  .contact-panel > .contact-item {
+    min-height: 84px;
+  }
+
+  .contact-panel > .contact-item {
+    height: 100%;
+    align-items: center;
+  }
+
+  .contact-panel > .contact-item > span {
+    min-width: 0;
+    line-height: 1.45;
+  }
+
+  .footer {
+    grid-template-columns: minmax(240px, 1.35fr) minmax(180px, .9fr) minmax(160px, .7fr) minmax(300px, 1.2fr);
+    align-items: start;
+    gap: clamp(24px, 3vw, 48px);
+    padding-top: 30px;
+    padding-bottom: 32px;
+  }
+
+  .footer-brand,
+  .footer-links,
+  .footer-connect,
+  .footer-copy {
+    align-self: start;
+  }
+
+  .footer-brand {
+    align-items: flex-start;
+  }
+
+  .footer-links > div {
+    gap: 8px 22px;
+  }
+
+  .footer-copy,
+  .footer-copy small {
+    line-height: 1.45;
+  }
+}

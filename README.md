@@ -1,6 +1,6 @@
 # Dean Kruger Flagship Portfolio master biography.
 
-A static, local-first cyber-industrial portfolio for Dean Kruger, aligned to the approved Portfolio1 reference with one shared grid, six capability blocks, six authored featured systems, six Experience Highlights cards and five Additional Engineering Work cards.
+A static, local-first cyber-industrial portfolio for Dean Kruger, aligned to the approved Portfolio1 reference with one shared grid, six capability blocks, six authored featured systems, six Experience Highlights cards and six Additional Engineering Work cards.
 
 ## Run locally
 
@@ -20,7 +20,8 @@ Open `http://127.0.0.1:8080/`. The site uses only relative HTML, CSS, JavaScript
 - `assets/icons/capabilities/` contains the local capability line-art icon system.
 - `assets/illustrations/` contains the hero network and local decorative illustration artwork.
 - `assets/projects/` contains the authored Featured Projects source artwork and optimized WebP/PNG web derivatives.
-- `SVG/project_images/` contains the authored WebP/PNG artwork used by Additional Engineering Work cards.
+- `SVG/project_images/` contains the authored WebP/PNG artwork used by the six Additional Engineering Work cards.
+- `assets/logos/dean-mark.svg` is the primary DK / Dean Kruger mark; `assets/ui/favicon.svg` is the compact favicon-compatible variant.
 - `assets/BTC.ico` is the original BTC Control System logo used in BTC project cards.
 - `assets/legend-logo.png` is the original Legend Projects logo used in Legend project cards.
 - `assets/favicon.ico` and `assets/ui/favicon.svg` are declared as project favicon variants.
