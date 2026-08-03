@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc" style="color:#62f6bd">
+  <title id="title">Structured systems network</title><desc id="desc">A restrained network of orbital routes and connected system nodes surrounding the live globe.</desc>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M76 148h145l56 54h124l63-67h143" opacity=".34" stroke-width="1.4"/><path d="M82 378h136l58-53h138l57 59h181" opacity=".24" stroke-width="1.4"/>
+    <path d="M430 74c93 35 146 111 148 205 2 91-53 170-151 207" opacity=".32" stroke-width="1.2"/><path d="M295 84c-72 51-103 126-91 210 11 78 67 143 151 181" opacity=".2" stroke-width="1.2"/>
+    <path d="M176 183c78-78 232-104 363-41 81 39 123 111 96 188-34 97-169 147-304 122-125-23-204-105-182-182 4-16 13-32 27-47Z" opacity=".22" stroke-width="1.4"/>
+    <path d="M268 113c72 52 119 127 124 223 4 75-17 133-53 171" opacity=".2" stroke-width="1"/><path d="M505 116c-75 47-122 123-129 215-5 65 14 122 46 170" opacity=".2" stroke-width="1"/>
+    <path d="M139 148v-25h25M606 378v25h-25M219 378h-25v-25M591 148h25v25" opacity=".44" stroke-width="1"/>
+    <g fill="currentColor" stroke="none"><circle cx="277" cy="202" r="3"/><circle cx="401" cy="135" r="3"/><circle cx="464" cy="392" r="3"/><circle cx="544" cy="283" r="3"/><circle cx="219" cy="378" r="3"/></g>
+  </g>
+</svg>

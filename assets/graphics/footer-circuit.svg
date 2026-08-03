@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="footer circuit" >
+  <title>footer circuit</title>
+  <g fill="none" stroke="#3de5b1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 90h180l45 45h170M800 90H620l-45 45H405M0 300h230l55-55h180M800 300H570l-55-55H395M400 0v420"/><circle cx="180" cy="90" r="7"/><circle cx="620" cy="90" r="7"/><circle cx="230" cy="300" r="7"/><circle cx="570" cy="300" r="7"/></g>
+</svg>

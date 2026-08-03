@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="title desc" style="color:#62f6bd">
+  <title id="title">AI-assisted workflows</title><desc id="desc">A structured inference graph producing an analytical output.</desc>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m5 6 7 6 7-6M5 18l7-6 7 6M12 3v18"/><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="18" r="2"/><circle cx="12" cy="12" r="2.3" fill="currentColor" fill-opacity=".12"/><path d="M16 12h4"/>
+  </g>
+</svg>

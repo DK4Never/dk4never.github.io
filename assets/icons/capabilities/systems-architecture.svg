@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="title desc" style="color:#62f6bd">
+  <title id="title">Systems architecture</title><desc id="desc">Layered system nodes connected through a modular architecture.</desc>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m12 3 8 4-8 4-8-4 8-4Z"/><path d="m4 11 8 4 8-4M4 15l8 4 8-4"/><path d="M12 7v8"/><circle cx="12" cy="7" r="1.2" fill="currentColor"/>
+  </g>
+</svg>
