@@ -7,10 +7,25 @@ A static, local-first cyber-industrial portfolio for Dean Kruger, aligned to the
 From this directory:
 
 ```sh
-python3 -m http.server 8080
+python3 -m http.server 8082 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8080/`. The site uses only relative HTML, CSS, JavaScript and local media assets, so it remains compatible with GitHub Pages and offline hosting.
+Open `http://127.0.0.1:8082/`. Use the same server for direct route and refresh checks such as `http://127.0.0.1:8082/projects/` and `http://127.0.0.1:8082/projects/qr-traceability/`. The site uses only relative HTML, CSS, JavaScript and local media assets, so it remains compatible with GitHub Pages and offline hosting.
+
+## Project hub and case studies
+
+`projects/index.html` is the public project hub. It links to six static case-study routes:
+
+- `projects/btc-production-intelligence/`
+- `projects/industrial-integration/`
+- `projects/qr-traceability/`
+- `projects/android-operations/`
+- `projects/production-calculator/`
+- `projects/legend-investigations/`
+
+The shared project page stylesheet and interaction layer live in `projects/project-pages.css` and `projects/project-pages.js`. The QR lookup and production calculator are deliberately local, synthetic demonstrations; they do not call a backend or private API. `projects/project-calc.test.js` provides the lightweight arithmetic regression check.
+
+Run `python3 projects/check-links.py` to scan every HTML page for broken local paths, missing fragment IDs, placeholder links, localhost references and accidental absolute filesystem paths.
 
 ## Visual system
 

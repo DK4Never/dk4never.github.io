@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Public-safe Android operations case study covering authenticated mobile workflows, scanning, field usability and network-aware behaviour.">
+  <link rel="canonical" href="https://dk4never.github.io/projects/android-operations/">
+  <meta property="og:title" content="Android Operations App | Dean Kruger">
+  <meta property="og:description" content="A sanitized mobile workflow for scanning, operational information, errors and recovery-aware field use.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://dk4never.github.io/assets/projects/web/android-operations.png">
+  <link rel="icon" href="../../assets/ui/favicon.svg" type="image/svg+xml">
+  <title>Android Operations App | Dean Kruger</title>
+  <link rel="stylesheet" href="../project-pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="project-topbar"><div class="project-topbar__inner"><a class="project-brand" href="../../" aria-label="Dean Kruger home"><img src="../../assets/logos/dean-mark.svg" width="42" height="42" alt="DK"><span>Dean Kruger<small>Engineering portfolio</small></span></a><button class="project-nav__toggle" id="project-nav-toggle" type="button" aria-controls="project-nav" aria-expanded="false">MENU</button><nav class="project-nav" id="project-nav" aria-label="Project navigation"><a href="../../#about">About</a><a href="../../#capabilities">Capabilities</a><a href="../">Projects</a><a href="../../#contact">Contact</a></nav></div></header>
+  <main class="project-main" id="main-content"><div class="project-shell">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span aria-hidden="true">/</span><a href="../">Projects</a><span aria-hidden="true">/</span><span aria-current="page">Android Operations</span></nav>
+    <section class="case-hero reveal" data-reveal><div><span class="project-eyebrow">Android operations · Case study 04</span><h1>Android Operations App</h1><p class="case-hero__summary">An authenticated mobile interface for scanning, field tasks and access to operational information.</p><div class="case-hero__meta"><span>Private implementation</span><span>Android · Java · REST</span></div></div><picture class="case-hero__art"><source srcset="../../assets/projects/web/android-operations.webp" type="image/webp"><img src="../../assets/projects/web/android-operations.png" width="1254" height="1254" alt="Android Operations App authored mobile operations artwork"></picture></section>
+    <div class="case-layout"><div class="case-content">
+      <section class="case-panel reveal" data-reveal><h2>Summary</h2><p>Field software must make the next action obvious while respecting authentication, network state and operational context. This case study frames a mobile workflow around scanning, task handling, error feedback and safe recovery.</p></section>
+      <section class="case-panel reveal" data-reveal><h2>Mobile response</h2><ul><li>Present authenticated operational information in a focused field interface.</li><li>Use scanning as a deliberate workflow step rather than an unvalidated shortcut.</li><li>Make service errors and network uncertainty visible to the user.</li><li>Support recovery-aware behaviour without claiming a live connection in this public page.</li></ul></section>
+      <section class="case-panel reveal" data-reveal><h2>Workflow architecture</h2><p>The public-safe model keeps the client, API boundary and operational context separate.</p><div class="flow-diagram" role="img" aria-label="Authenticated Android client to scan or task input to API boundary to validated operational response, with network-aware error and recovery states."><div class="flow-node">Authenticated Android client</div><div class="flow-node">Scan / task input</div><div class="flow-node">API boundary</div><div class="flow-node">Validated response</div><div class="flow-node flow-node--wide">Network-aware error state</div><div class="flow-node flow-node--wide">Recovery and retry review</div></div></section>
+      <section class="case-panel reveal" data-reveal><h2>Security and contribution</h2><p>Authentication, constrained information display and careful failure states are more important than exposing a polished but unsafe public mock. No signing files, private URLs, secrets, internal APKs or operational identities are included here.</p><h3>Technology lens</h3><p>Android, Java, REST integration, QR scanning and field usability are the public-facing implementation themes.</p></section>
+      <section class="case-panel case-notice reveal" data-reveal><h2>Public boundary</h2><p>This public case study uses sanitized architecture and representative data. Operational credentials, private records and proprietary implementation details are excluded.</p></section>
+    </div><aside class="case-aside"><section class="case-panel"><h2>At a glance</h2><dl class="aside-list"><div><dt>Role</dt><dd>Mobile and operational workflow engineering</dd></div><div><dt>Focus</dt><dd>Field usability and network-aware states</dd></div><div><dt>Status</dt><dd>Private implementation</dd></div><div><dt>Public demo</dt><dd>Not published; no private API is called</dd></div></dl></section></aside></div>
+    <div class="case-cta"><p>Continue to the planning tool for a deterministic local demo.</p><a class="text-link" href="../production-calculator/">RELATED: PRODUCTION CALCULATOR <span aria-hidden="true">→</span></a></div>
+  </div></main>
+  <footer class="project-footer"><div class="project-footer__inner"><p>© 2026 Dean Kruger · Public-safe engineering portfolio</p><nav aria-label="Footer navigation"><a href="../">Projects</a><a href="../../#contact">Connect</a></nav></div></footer><script src="../project-pages.js"></script>
+</body>
+</html>
