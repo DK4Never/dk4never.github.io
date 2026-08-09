@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="android">
-  <title>android</title>
-  <g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M7 10h10v8H7zM5 10h14M8 7l-2-3M16 7l2-3M9 13v3M15 13v3M5 11v5M19 11v5"/>
-    <path d="M9 7h6"/>
-  </g>
-</svg>
