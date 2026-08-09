@@ -260,6 +260,7 @@ button { cursor: pointer; }
 .hub-card-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem 1rem; margin-top: auto; }
 .hub-card-actions .text-link { margin-top: 0; }
 .text-link--primary { color: var(--project-green); }
+.hub-card-private-note { display: inline-flex; align-items: center; margin-top: auto; color: var(--project-muted); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 
 @media (max-width: 1080px) {
   .project-hub-grid--github { grid-template-columns: repeat(2, minmax(0, 1fr)); }

@@ -102,23 +102,21 @@
       slug: "legend-industrial-controls",
       type: "github",
       title: "Legend Industrial Controls",
-      status: "Public repository · MIT",
+      status: "PRIVATE REPOSITORY",
       summary: "A modular industrial manufacturing platform for production monitoring, reporting, maintenance, inventory, HR and offline AI in PLC-driven manufacturing environments.",
       artwork: "../assets/projects/github/project-legend-industrial-controls",
       alt: "Legend Industrial Controls project artwork",
-      tags: ["Python", "SQLite", "Offline"],
-      github: "https://github.com/DK4Never/Legend-Industrial-Controls"
+      tags: ["Python", "SQLite", "Offline"]
     },
     {
       slug: "legend-investigations-github",
       type: "github",
       title: "Legend Investigations",
-      status: "Public repository · license not selected",
+      status: "PRIVATE REPOSITORY",
       summary: "An offline-first Tool Execution Engine and Center of Operations dashboard for approved reconnaissance and investigation workflows.",
       artwork: "../assets/projects/github/project-legend-investigations",
       alt: "Legend Investigations project artwork",
-      tags: ["FastAPI", "React", "TypeScript"],
-      github: "https://github.com/DK4Never/Legend-Investigations"
+      tags: ["FastAPI", "React", "TypeScript"]
     },
     {
       slug: "legend-hextotext",
@@ -135,23 +133,21 @@
       slug: "legend-devops",
       type: "github",
       title: "Legend Dev-OPS",
-      status: "Public repository · license not selected",
+      status: "PRIVATE REPOSITORY",
       summary: "A local web console for Splintercell, case editing, DA-260, CSV exports, ingestion, RAG and company configuration.",
       artwork: "../assets/projects/github/project-legend-devops",
       alt: "Legend Dev-OPS project artwork",
-      tags: ["Python", "SQLite", "RAG"],
-      github: "https://github.com/DK4Never/Legend-Dev-OPS"
+      tags: ["Python", "SQLite", "RAG"]
     },
     {
       slug: "legend-remote-support",
       type: "github",
       title: "Legend Remote Support",
-      status: "Public repository · license not selected",
+      status: "PRIVATE REPOSITORY",
       summary: "A consent-based Android remote support platform with diagnostics, session approval, hardware diagnostics, dashboard, audit logging and LLM-assisted support tools.",
       artwork: "../assets/projects/github/project-legend-remote-support",
       alt: "Legend Remote Support project artwork",
-      tags: ["Android", "Diagnostics", "Audit logging"],
-      github: "https://github.com/DK4Never/legend-remote-support"
+      tags: ["Android", "Diagnostics", "Audit logging"]
     },
     {
       slug: "legend-cyber-analyzer",

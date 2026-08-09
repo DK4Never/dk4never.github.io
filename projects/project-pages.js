@@ -64,6 +64,7 @@
       return "<a class=\"text-link\" href=\"" + escapeHtml(project.route) + "\">VIEW CASE STUDY <span aria-hidden=\"true\">→</span></a>";
     }
 
+    if (!project.github) return "<span class=\"hub-card-private-note\">PRIVATE REPOSITORY</span>";
     var sourceLink = "<a class=\"text-link\" href=\"" + escapeHtml(project.github) + "\" target=\"_blank\" rel=\"noopener noreferrer\">VIEW SOURCE <span aria-hidden=\"true\">↗</span></a>";
     if (!project.live) return sourceLink;
     return "<div class=\"hub-card-actions\"><a class=\"text-link text-link--primary\" href=\"" + escapeHtml(project.live) + "\" target=\"_blank\" rel=\"noopener noreferrer\">" + escapeHtml(project.liveLabel || "OPEN PROJECT") + " <span aria-hidden=\"true\">↗</span></a>" + sourceLink + "</div>";
