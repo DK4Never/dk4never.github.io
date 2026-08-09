@@ -1,0 +1,3691 @@
+[
+  {
+    "id": "achievements",
+    "label": "Achievements",
+    "file": "achievements.svg",
+    "url": "icons/achievements.svg",
+    "type": "generic",
+    "keywords": [
+      "achievements"
+    ]
+  },
+  {
+    "id": "ai",
+    "label": "Ai",
+    "file": "ai.svg",
+    "url": "icons/ai.svg",
+    "type": "generic",
+    "keywords": [
+      "ai"
+    ]
+  },
+  {
+    "id": "android",
+    "label": "Android",
+    "file": "android.svg",
+    "url": "icons/android.svg",
+    "type": "brand",
+    "keywords": [
+      "android"
+    ]
+  },
+  {
+    "id": "angular",
+    "label": "Angular",
+    "file": "angular.svg",
+    "url": "icons/angular.svg",
+    "type": "generic",
+    "keywords": [
+      "angular"
+    ]
+  },
+  {
+    "id": "ansible",
+    "label": "Ansible",
+    "file": "ansible.svg",
+    "url": "icons/ansible.svg",
+    "type": "generic",
+    "keywords": [
+      "ansible"
+    ]
+  },
+  {
+    "id": "ansible-wordmark",
+    "label": "Ansible Wordmark",
+    "file": "ansible-wordmark.svg",
+    "url": "icons/ansible-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "ansible",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "anthropic",
+    "label": "Anthropic",
+    "file": "anthropic.svg",
+    "url": "icons/anthropic.svg",
+    "type": "generic",
+    "keywords": [
+      "anthropic"
+    ]
+  },
+  {
+    "id": "anthropic-basic-dark",
+    "label": "Anthropic Basic Dark",
+    "file": "anthropic-basic-dark.svg",
+    "url": "icons/anthropic-basic-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "anthropic",
+      "basic",
+      "dark"
+    ]
+  },
+  {
+    "id": "anthropic-basic-light",
+    "label": "Anthropic Basic Light",
+    "file": "anthropic-basic-light.svg",
+    "url": "icons/anthropic-basic-light.svg",
+    "type": "generic",
+    "keywords": [
+      "anthropic",
+      "basic",
+      "light"
+    ]
+  },
+  {
+    "id": "apache",
+    "label": "Apache",
+    "file": "apache.svg",
+    "url": "icons/apache.svg",
+    "type": "generic",
+    "keywords": [
+      "apache"
+    ]
+  },
+  {
+    "id": "apple-dark",
+    "label": "Apple Dark",
+    "file": "apple-dark.svg",
+    "url": "icons/apple-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "apple",
+      "dark"
+    ]
+  },
+  {
+    "id": "apple-light",
+    "label": "Apple Light",
+    "file": "apple-light.svg",
+    "url": "icons/apple-light.svg",
+    "type": "generic",
+    "keywords": [
+      "apple",
+      "light"
+    ]
+  },
+  {
+    "id": "appwrite",
+    "label": "Appwrite",
+    "file": "appwrite.svg",
+    "url": "icons/appwrite.svg",
+    "type": "generic",
+    "keywords": [
+      "appwrite"
+    ]
+  },
+  {
+    "id": "arc",
+    "label": "Arc",
+    "file": "arc.svg",
+    "url": "icons/arc.svg",
+    "type": "generic",
+    "keywords": [
+      "arc"
+    ]
+  },
+  {
+    "id": "astro",
+    "label": "Astro",
+    "file": "astro.svg",
+    "url": "icons/astro.svg",
+    "type": "generic",
+    "keywords": [
+      "astro"
+    ]
+  },
+  {
+    "id": "atlassian",
+    "label": "Atlassian",
+    "file": "atlassian.svg",
+    "url": "icons/atlassian.svg",
+    "type": "generic",
+    "keywords": [
+      "atlassian"
+    ]
+  },
+  {
+    "id": "atom",
+    "label": "Atom",
+    "file": "atom.svg",
+    "url": "icons/atom.svg",
+    "type": "generic",
+    "keywords": [
+      "atom"
+    ]
+  },
+  {
+    "id": "auth0",
+    "label": "Auth0",
+    "file": "auth0.svg",
+    "url": "icons/auth0.svg",
+    "type": "generic",
+    "keywords": [
+      "auth0"
+    ]
+  },
+  {
+    "id": "avajs",
+    "label": "Avajs",
+    "file": "avajs.svg",
+    "url": "icons/avajs.svg",
+    "type": "generic",
+    "keywords": [
+      "avajs"
+    ]
+  },
+  {
+    "id": "aws",
+    "label": "Aws",
+    "file": "aws.svg",
+    "url": "icons/aws.svg",
+    "type": "generic",
+    "keywords": [
+      "aws"
+    ]
+  },
+  {
+    "id": "axiom",
+    "label": "Axiom",
+    "file": "axiom.svg",
+    "url": "icons/axiom.svg",
+    "type": "generic",
+    "keywords": [
+      "axiom"
+    ]
+  },
+  {
+    "id": "axure",
+    "label": "Axure",
+    "file": "axure.svg",
+    "url": "icons/axure.svg",
+    "type": "generic",
+    "keywords": [
+      "axure"
+    ]
+  },
+  {
+    "id": "azure",
+    "label": "Azure",
+    "file": "azure.svg",
+    "url": "icons/azure.svg",
+    "type": "generic",
+    "keywords": [
+      "azure"
+    ]
+  },
+  {
+    "id": "babel",
+    "label": "Babel",
+    "file": "babel.svg",
+    "url": "icons/babel.svg",
+    "type": "generic",
+    "keywords": [
+      "babel"
+    ]
+  },
+  {
+    "id": "backbonejs",
+    "label": "Backbonejs",
+    "file": "backbonejs.svg",
+    "url": "icons/backbonejs.svg",
+    "type": "generic",
+    "keywords": [
+      "backbonejs"
+    ]
+  },
+  {
+    "id": "bard",
+    "label": "Bard",
+    "file": "bard.svg",
+    "url": "icons/bard.svg",
+    "type": "generic",
+    "keywords": [
+      "bard"
+    ]
+  },
+  {
+    "id": "bash",
+    "label": "Bash",
+    "file": "bash.svg",
+    "url": "icons/bash.svg",
+    "type": "generic",
+    "keywords": [
+      "bash"
+    ]
+  },
+  {
+    "id": "beckhoff",
+    "label": "Beckhoff",
+    "file": "beckhoff.svg",
+    "url": "icons/beckhoff.svg",
+    "type": "brand",
+    "keywords": [
+      "beckhoff"
+    ]
+  },
+  {
+    "id": "bing",
+    "label": "Bing",
+    "file": "bing.svg",
+    "url": "icons/bing.svg",
+    "type": "generic",
+    "keywords": [
+      "bing"
+    ]
+  },
+  {
+    "id": "biome",
+    "label": "Biome",
+    "file": "biome.svg",
+    "url": "icons/biome.svg",
+    "type": "generic",
+    "keywords": [
+      "biome"
+    ]
+  },
+  {
+    "id": "bitbucket",
+    "label": "Bitbucket",
+    "file": "bitbucket.svg",
+    "url": "icons/bitbucket.svg",
+    "type": "generic",
+    "keywords": [
+      "bitbucket"
+    ]
+  },
+  {
+    "id": "bitnami",
+    "label": "Bitnami",
+    "file": "bitnami.svg",
+    "url": "icons/bitnami.svg",
+    "type": "generic",
+    "keywords": [
+      "bitnami"
+    ]
+  },
+  {
+    "id": "blueprintjs",
+    "label": "Blueprintjs",
+    "file": "blueprintjs.svg",
+    "url": "icons/blueprintjs.svg",
+    "type": "generic",
+    "keywords": [
+      "blueprintjs"
+    ]
+  },
+  {
+    "id": "bluesky",
+    "label": "Bluesky",
+    "file": "bluesky.svg",
+    "url": "icons/bluesky.svg",
+    "type": "generic",
+    "keywords": [
+      "bluesky"
+    ]
+  },
+  {
+    "id": "bootstrap4",
+    "label": "Bootstrap4",
+    "file": "bootstrap4.svg",
+    "url": "icons/bootstrap4.svg",
+    "type": "generic",
+    "keywords": [
+      "bootstrap4"
+    ]
+  },
+  {
+    "id": "bootstrap5",
+    "label": "Bootstrap5",
+    "file": "bootstrap5.svg",
+    "url": "icons/bootstrap5.svg",
+    "type": "generic",
+    "keywords": [
+      "bootstrap5"
+    ]
+  },
+  {
+    "id": "brave",
+    "label": "Brave",
+    "file": "brave.svg",
+    "url": "icons/brave.svg",
+    "type": "generic",
+    "keywords": [
+      "brave"
+    ]
+  },
+  {
+    "id": "bulmaui",
+    "label": "Bulmaui",
+    "file": "bulmaui.svg",
+    "url": "icons/bulmaui.svg",
+    "type": "generic",
+    "keywords": [
+      "bulmaui"
+    ]
+  },
+  {
+    "id": "bunjs",
+    "label": "Bunjs",
+    "file": "bunjs.svg",
+    "url": "icons/bunjs.svg",
+    "type": "generic",
+    "keywords": [
+      "bunjs"
+    ]
+  },
+  {
+    "id": "c",
+    "label": "C",
+    "file": "c.svg",
+    "url": "icons/c.svg",
+    "type": "generic",
+    "keywords": [
+      "c"
+    ]
+  },
+  {
+    "id": "c-plus-plus",
+    "label": "C Plus Plus",
+    "file": "c-plus-plus.svg",
+    "url": "icons/c-plus-plus.svg",
+    "type": "generic",
+    "keywords": [
+      "c",
+      "plus"
+    ]
+  },
+  {
+    "id": "c-sharp",
+    "label": "C Sharp",
+    "file": "c-sharp.svg",
+    "url": "icons/c-sharp.svg",
+    "type": "generic",
+    "keywords": [
+      "c",
+      "sharp"
+    ]
+  },
+  {
+    "id": "cakephp",
+    "label": "Cakephp",
+    "file": "cakephp.svg",
+    "url": "icons/cakephp.svg",
+    "type": "generic",
+    "keywords": [
+      "cakephp"
+    ]
+  },
+  {
+    "id": "calendar",
+    "label": "Calendar",
+    "file": "calendar.svg",
+    "url": "icons/calendar.svg",
+    "type": "generic",
+    "keywords": [
+      "calendar"
+    ]
+  },
+  {
+    "id": "canva",
+    "label": "Canva",
+    "file": "canva.svg",
+    "url": "icons/canva.svg",
+    "type": "generic",
+    "keywords": [
+      "canva"
+    ]
+  },
+  {
+    "id": "cassandradb",
+    "label": "Cassandradb",
+    "file": "cassandradb.svg",
+    "url": "icons/cassandradb.svg",
+    "type": "generic",
+    "keywords": [
+      "cassandradb"
+    ]
+  },
+  {
+    "id": "chakraui",
+    "label": "Chakraui",
+    "file": "chakraui.svg",
+    "url": "icons/chakraui.svg",
+    "type": "generic",
+    "keywords": [
+      "chakraui"
+    ]
+  },
+  {
+    "id": "chatgpt",
+    "label": "Chatgpt",
+    "file": "chatgpt.svg",
+    "url": "icons/chatgpt.svg",
+    "type": "generic",
+    "keywords": [
+      "chatgpt"
+    ]
+  },
+  {
+    "id": "chrome",
+    "label": "Chrome",
+    "file": "chrome.svg",
+    "url": "icons/chrome.svg",
+    "type": "generic",
+    "keywords": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chromium",
+    "label": "Chromium",
+    "file": "chromium.svg",
+    "url": "icons/chromium.svg",
+    "type": "generic",
+    "keywords": [
+      "chromium"
+    ]
+  },
+  {
+    "id": "circleci",
+    "label": "Circleci",
+    "file": "circleci.svg",
+    "url": "icons/circleci.svg",
+    "type": "generic",
+    "keywords": [
+      "circleci"
+    ]
+  },
+  {
+    "id": "claude-ai",
+    "label": "Claude Ai",
+    "file": "claude-ai.svg",
+    "url": "icons/claude-ai.svg",
+    "type": "generic",
+    "keywords": [
+      "claude",
+      "ai"
+    ]
+  },
+  {
+    "id": "clerk",
+    "label": "Clerk",
+    "file": "clerk.svg",
+    "url": "icons/clerk.svg",
+    "type": "generic",
+    "keywords": [
+      "clerk"
+    ]
+  },
+  {
+    "id": "clickhouse",
+    "label": "Clickhouse",
+    "file": "clickhouse.svg",
+    "url": "icons/clickhouse.svg",
+    "type": "generic",
+    "keywords": [
+      "clickhouse"
+    ]
+  },
+  {
+    "id": "clojure",
+    "label": "Clojure",
+    "file": "clojure.svg",
+    "url": "icons/clojure.svg",
+    "type": "generic",
+    "keywords": [
+      "clojure"
+    ]
+  },
+  {
+    "id": "cloudflare",
+    "label": "Cloudflare",
+    "file": "cloudflare.svg",
+    "url": "icons/cloudflare.svg",
+    "type": "generic",
+    "keywords": [
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudinary",
+    "label": "Cloudinary",
+    "file": "cloudinary.svg",
+    "url": "icons/cloudinary.svg",
+    "type": "generic",
+    "keywords": [
+      "cloudinary"
+    ]
+  },
+  {
+    "id": "codefresh",
+    "label": "Codefresh",
+    "file": "codefresh.svg",
+    "url": "icons/codefresh.svg",
+    "type": "generic",
+    "keywords": [
+      "codefresh"
+    ]
+  },
+  {
+    "id": "codeigniter",
+    "label": "Codeigniter",
+    "file": "codeigniter.svg",
+    "url": "icons/codeigniter.svg",
+    "type": "generic",
+    "keywords": [
+      "codeigniter"
+    ]
+  },
+  {
+    "id": "convex",
+    "label": "Convex",
+    "file": "convex.svg",
+    "url": "icons/convex.svg",
+    "type": "generic",
+    "keywords": [
+      "convex"
+    ]
+  },
+  {
+    "id": "copilot",
+    "label": "Copilot",
+    "file": "copilot.svg",
+    "url": "icons/copilot.svg",
+    "type": "generic",
+    "keywords": [
+      "copilot"
+    ]
+  },
+  {
+    "id": "crystal",
+    "label": "Crystal",
+    "file": "crystal.svg",
+    "url": "icons/crystal.svg",
+    "type": "generic",
+    "keywords": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "csharp",
+    "label": "Csharp",
+    "file": "csharp.svg",
+    "url": "icons/csharp.svg",
+    "type": "brand",
+    "keywords": [
+      "csharp"
+    ]
+  },
+  {
+    "id": "css",
+    "label": "Css",
+    "file": "css.svg",
+    "url": "icons/css.svg",
+    "type": "generic",
+    "keywords": [
+      "css"
+    ]
+  },
+  {
+    "id": "css3",
+    "label": "Css3",
+    "file": "css3.svg",
+    "url": "icons/css3.svg",
+    "type": "generic",
+    "keywords": [
+      "css3"
+    ]
+  },
+  {
+    "id": "cursor-dark",
+    "label": "Cursor Dark",
+    "file": "cursor-dark.svg",
+    "url": "icons/cursor-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "cursor",
+      "dark"
+    ]
+  },
+  {
+    "id": "cursor-light",
+    "label": "Cursor Light",
+    "file": "cursor-light.svg",
+    "url": "icons/cursor-light.svg",
+    "type": "generic",
+    "keywords": [
+      "cursor",
+      "light"
+    ]
+  },
+  {
+    "id": "cypress",
+    "label": "Cypress",
+    "file": "cypress.svg",
+    "url": "icons/cypress.svg",
+    "type": "generic",
+    "keywords": [
+      "cypress"
+    ]
+  },
+  {
+    "id": "dart",
+    "label": "Dart",
+    "file": "dart.svg",
+    "url": "icons/dart.svg",
+    "type": "generic",
+    "keywords": [
+      "dart"
+    ]
+  },
+  {
+    "id": "datadog",
+    "label": "Datadog",
+    "file": "datadog.svg",
+    "url": "icons/datadog.svg",
+    "type": "generic",
+    "keywords": [
+      "datadog"
+    ]
+  },
+  {
+    "id": "deepseek",
+    "label": "Deepseek",
+    "file": "deepseek.svg",
+    "url": "icons/deepseek.svg",
+    "type": "generic",
+    "keywords": [
+      "deepseek"
+    ]
+  },
+  {
+    "id": "deepseek-wordmark",
+    "label": "Deepseek Wordmark",
+    "file": "deepseek-wordmark.svg",
+    "url": "icons/deepseek-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "deepseek",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "deno",
+    "label": "Deno",
+    "file": "deno.svg",
+    "url": "icons/deno.svg",
+    "type": "generic",
+    "keywords": [
+      "deno"
+    ]
+  },
+  {
+    "id": "deno-fresh",
+    "label": "Deno Fresh",
+    "file": "deno-fresh.svg",
+    "url": "icons/deno-fresh.svg",
+    "type": "generic",
+    "keywords": [
+      "deno",
+      "fresh"
+    ]
+  },
+  {
+    "id": "developer-icons",
+    "label": "Developer Icons",
+    "file": "developer-icons.svg",
+    "url": "icons/developer-icons.svg",
+    "type": "generic",
+    "keywords": [
+      "developer",
+      "icons"
+    ]
+  },
+  {
+    "id": "digitalocean",
+    "label": "Digitalocean",
+    "file": "digitalocean.svg",
+    "url": "icons/digitalocean.svg",
+    "type": "generic",
+    "keywords": [
+      "digitalocean"
+    ]
+  },
+  {
+    "id": "discord",
+    "label": "Discord",
+    "file": "discord.svg",
+    "url": "icons/discord.svg",
+    "type": "generic",
+    "keywords": [
+      "discord"
+    ]
+  },
+  {
+    "id": "django",
+    "label": "Django",
+    "file": "django.svg",
+    "url": "icons/django.svg",
+    "type": "generic",
+    "keywords": [
+      "django"
+    ]
+  },
+  {
+    "id": "dlang",
+    "label": "Dlang",
+    "file": "dlang.svg",
+    "url": "icons/dlang.svg",
+    "type": "generic",
+    "keywords": [
+      "dlang"
+    ]
+  },
+  {
+    "id": "docker",
+    "label": "Docker",
+    "file": "docker.svg",
+    "url": "icons/docker.svg",
+    "type": "brand",
+    "keywords": [
+      "docker"
+    ]
+  },
+  {
+    "id": "doctrine",
+    "label": "Doctrine",
+    "file": "doctrine.svg",
+    "url": "icons/doctrine.svg",
+    "type": "generic",
+    "keywords": [
+      "doctrine"
+    ]
+  },
+  {
+    "id": "docusaurus",
+    "label": "Docusaurus",
+    "file": "docusaurus.svg",
+    "url": "icons/docusaurus.svg",
+    "type": "generic",
+    "keywords": [
+      "docusaurus"
+    ]
+  },
+  {
+    "id": "dovetail",
+    "label": "Dovetail",
+    "file": "dovetail.svg",
+    "url": "icons/dovetail.svg",
+    "type": "generic",
+    "keywords": [
+      "dovetail"
+    ]
+  },
+  {
+    "id": "ec2",
+    "label": "Ec2",
+    "file": "ec2.svg",
+    "url": "icons/ec2.svg",
+    "type": "generic",
+    "keywords": [
+      "ec2"
+    ]
+  },
+  {
+    "id": "edge",
+    "label": "Edge",
+    "file": "edge.svg",
+    "url": "icons/edge.svg",
+    "type": "generic",
+    "keywords": [
+      "edge"
+    ]
+  },
+  {
+    "id": "education",
+    "label": "Education",
+    "file": "education.svg",
+    "url": "icons/education.svg",
+    "type": "generic",
+    "keywords": [
+      "education"
+    ]
+  },
+  {
+    "id": "elastic",
+    "label": "Elastic",
+    "file": "elastic.svg",
+    "url": "icons/elastic.svg",
+    "type": "generic",
+    "keywords": [
+      "elastic"
+    ]
+  },
+  {
+    "id": "electron",
+    "label": "Electron",
+    "file": "electron.svg",
+    "url": "icons/electron.svg",
+    "type": "generic",
+    "keywords": [
+      "electron"
+    ]
+  },
+  {
+    "id": "elementui",
+    "label": "Elementui",
+    "file": "elementui.svg",
+    "url": "icons/elementui.svg",
+    "type": "generic",
+    "keywords": [
+      "elementui"
+    ]
+  },
+  {
+    "id": "elixir",
+    "label": "Elixir",
+    "file": "elixir.svg",
+    "url": "icons/elixir.svg",
+    "type": "generic",
+    "keywords": [
+      "elixir"
+    ]
+  },
+  {
+    "id": "email",
+    "label": "Email",
+    "file": "email.svg",
+    "url": "icons/email.svg",
+    "type": "generic",
+    "keywords": [
+      "email"
+    ]
+  },
+  {
+    "id": "ember",
+    "label": "Ember",
+    "file": "ember.svg",
+    "url": "icons/ember.svg",
+    "type": "generic",
+    "keywords": [
+      "ember"
+    ]
+  },
+  {
+    "id": "erlang",
+    "label": "Erlang",
+    "file": "erlang.svg",
+    "url": "icons/erlang.svg",
+    "type": "generic",
+    "keywords": [
+      "erlang"
+    ]
+  },
+  {
+    "id": "esbuild",
+    "label": "Esbuild",
+    "file": "esbuild.svg",
+    "url": "icons/esbuild.svg",
+    "type": "generic",
+    "keywords": [
+      "esbuild"
+    ]
+  },
+  {
+    "id": "eslint",
+    "label": "Eslint",
+    "file": "eslint.svg",
+    "url": "icons/eslint.svg",
+    "type": "generic",
+    "keywords": [
+      "eslint"
+    ]
+  },
+  {
+    "id": "experience",
+    "label": "Experience",
+    "file": "experience.svg",
+    "url": "icons/experience.svg",
+    "type": "generic",
+    "keywords": [
+      "experience"
+    ]
+  },
+  {
+    "id": "expressjs-dark",
+    "label": "Expressjs Dark",
+    "file": "expressjs-dark.svg",
+    "url": "icons/expressjs-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "expressjs",
+      "dark"
+    ]
+  },
+  {
+    "id": "expressjs-light",
+    "label": "Expressjs Light",
+    "file": "expressjs-light.svg",
+    "url": "icons/expressjs-light.svg",
+    "type": "generic",
+    "keywords": [
+      "expressjs",
+      "light"
+    ]
+  },
+  {
+    "id": "facebook",
+    "label": "Facebook",
+    "file": "facebook.svg",
+    "url": "icons/facebook.svg",
+    "type": "generic",
+    "keywords": [
+      "facebook"
+    ]
+  },
+  {
+    "id": "factory",
+    "label": "Factory",
+    "file": "factory.svg",
+    "url": "icons/factory.svg",
+    "type": "generic",
+    "keywords": [
+      "factory"
+    ]
+  },
+  {
+    "id": "fast-api",
+    "label": "Fast Api",
+    "file": "fast-api.svg",
+    "url": "icons/fast-api.svg",
+    "type": "generic",
+    "keywords": [
+      "fast",
+      "api"
+    ]
+  },
+  {
+    "id": "faunadb",
+    "label": "Faunadb",
+    "file": "faunadb.svg",
+    "url": "icons/faunadb.svg",
+    "type": "generic",
+    "keywords": [
+      "faunadb"
+    ]
+  },
+  {
+    "id": "figma",
+    "label": "Figma",
+    "file": "figma.svg",
+    "url": "icons/figma.svg",
+    "type": "generic",
+    "keywords": [
+      "figma"
+    ]
+  },
+  {
+    "id": "firebase",
+    "label": "Firebase",
+    "file": "firebase.svg",
+    "url": "icons/firebase.svg",
+    "type": "generic",
+    "keywords": [
+      "firebase"
+    ]
+  },
+  {
+    "id": "firebase-studio",
+    "label": "Firebase Studio",
+    "file": "firebase-studio.svg",
+    "url": "icons/firebase-studio.svg",
+    "type": "generic",
+    "keywords": [
+      "firebase",
+      "studio"
+    ]
+  },
+  {
+    "id": "firefox",
+    "label": "Firefox",
+    "file": "firefox.svg",
+    "url": "icons/firefox.svg",
+    "type": "generic",
+    "keywords": [
+      "firefox"
+    ]
+  },
+  {
+    "id": "flask",
+    "label": "Flask",
+    "file": "flask.svg",
+    "url": "icons/flask.svg",
+    "type": "brand",
+    "keywords": [
+      "flask"
+    ]
+  },
+  {
+    "id": "flask-dark",
+    "label": "Flask Dark",
+    "file": "flask-dark.svg",
+    "url": "icons/flask-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "flask",
+      "dark"
+    ]
+  },
+  {
+    "id": "flask-light",
+    "label": "Flask Light",
+    "file": "flask-light.svg",
+    "url": "icons/flask-light.svg",
+    "type": "generic",
+    "keywords": [
+      "flask",
+      "light"
+    ]
+  },
+  {
+    "id": "flutter",
+    "label": "Flutter",
+    "file": "flutter.svg",
+    "url": "icons/flutter.svg",
+    "type": "generic",
+    "keywords": [
+      "flutter"
+    ]
+  },
+  {
+    "id": "flyio",
+    "label": "Flyio",
+    "file": "flyio.svg",
+    "url": "icons/flyio.svg",
+    "type": "generic",
+    "keywords": [
+      "flyio"
+    ]
+  },
+  {
+    "id": "framer-dark",
+    "label": "Framer Dark",
+    "file": "framer-dark.svg",
+    "url": "icons/framer-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "framer",
+      "dark"
+    ]
+  },
+  {
+    "id": "framer-light",
+    "label": "Framer Light",
+    "file": "framer-light.svg",
+    "url": "icons/framer-light.svg",
+    "type": "generic",
+    "keywords": [
+      "framer",
+      "light"
+    ]
+  },
+  {
+    "id": "gatsby",
+    "label": "Gatsby",
+    "file": "gatsby.svg",
+    "url": "icons/gatsby.svg",
+    "type": "generic",
+    "keywords": [
+      "gatsby"
+    ]
+  },
+  {
+    "id": "gemini",
+    "label": "Gemini",
+    "file": "gemini.svg",
+    "url": "icons/gemini.svg",
+    "type": "generic",
+    "keywords": [
+      "gemini"
+    ]
+  },
+  {
+    "id": "ghostty",
+    "label": "Ghostty",
+    "file": "ghostty.svg",
+    "url": "icons/ghostty.svg",
+    "type": "generic",
+    "keywords": [
+      "ghostty"
+    ]
+  },
+  {
+    "id": "git",
+    "label": "Git",
+    "file": "git.svg",
+    "url": "icons/git.svg",
+    "type": "brand",
+    "keywords": [
+      "git"
+    ]
+  },
+  {
+    "id": "github",
+    "label": "Github",
+    "file": "github.svg",
+    "url": "icons/github.svg",
+    "type": "brand",
+    "keywords": [
+      "github"
+    ]
+  },
+  {
+    "id": "github-copilot",
+    "label": "Github Copilot",
+    "file": "github-copilot.svg",
+    "url": "icons/github-copilot.svg",
+    "type": "generic",
+    "keywords": [
+      "github",
+      "copilot"
+    ]
+  },
+  {
+    "id": "github-dark",
+    "label": "Github Dark",
+    "file": "github-dark.svg",
+    "url": "icons/github-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "github",
+      "dark"
+    ]
+  },
+  {
+    "id": "github-light",
+    "label": "Github Light",
+    "file": "github-light.svg",
+    "url": "icons/github-light.svg",
+    "type": "generic",
+    "keywords": [
+      "github",
+      "light"
+    ]
+  },
+  {
+    "id": "gitlab",
+    "label": "Gitlab",
+    "file": "gitlab.svg",
+    "url": "icons/gitlab.svg",
+    "type": "generic",
+    "keywords": [
+      "gitlab"
+    ]
+  },
+  {
+    "id": "globe",
+    "label": "Globe",
+    "file": "globe.svg",
+    "url": "icons/globe.svg",
+    "type": "generic",
+    "keywords": [
+      "globe"
+    ]
+  },
+  {
+    "id": "gmail",
+    "label": "Gmail",
+    "file": "gmail.svg",
+    "url": "icons/gmail.svg",
+    "type": "generic",
+    "keywords": [
+      "gmail"
+    ]
+  },
+  {
+    "id": "go",
+    "label": "Go",
+    "file": "go.svg",
+    "url": "icons/go.svg",
+    "type": "generic",
+    "keywords": [
+      "go"
+    ]
+  },
+  {
+    "id": "google",
+    "label": "Google",
+    "file": "google.svg",
+    "url": "icons/google.svg",
+    "type": "generic",
+    "keywords": [
+      "google"
+    ]
+  },
+  {
+    "id": "google-cloud",
+    "label": "Google Cloud",
+    "file": "google-cloud.svg",
+    "url": "icons/google-cloud.svg",
+    "type": "generic",
+    "keywords": [
+      "google",
+      "cloud"
+    ]
+  },
+  {
+    "id": "google-wordmark",
+    "label": "Google Wordmark",
+    "file": "google-wordmark.svg",
+    "url": "icons/google-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "google",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "grafana",
+    "label": "Grafana",
+    "file": "grafana.svg",
+    "url": "icons/grafana.svg",
+    "type": "generic",
+    "keywords": [
+      "grafana"
+    ]
+  },
+  {
+    "id": "grafbase",
+    "label": "Grafbase",
+    "file": "grafbase.svg",
+    "url": "icons/grafbase.svg",
+    "type": "generic",
+    "keywords": [
+      "grafbase"
+    ]
+  },
+  {
+    "id": "graphite",
+    "label": "Graphite",
+    "file": "graphite.svg",
+    "url": "icons/graphite.svg",
+    "type": "generic",
+    "keywords": [
+      "graphite"
+    ]
+  },
+  {
+    "id": "graphql",
+    "label": "Graphql",
+    "file": "graphql.svg",
+    "url": "icons/graphql.svg",
+    "type": "generic",
+    "keywords": [
+      "graphql"
+    ]
+  },
+  {
+    "id": "gridsome",
+    "label": "Gridsome",
+    "file": "gridsome.svg",
+    "url": "icons/gridsome.svg",
+    "type": "generic",
+    "keywords": [
+      "gridsome"
+    ]
+  },
+  {
+    "id": "gruntjs",
+    "label": "Gruntjs",
+    "file": "gruntjs.svg",
+    "url": "icons/gruntjs.svg",
+    "type": "generic",
+    "keywords": [
+      "gruntjs"
+    ]
+  },
+  {
+    "id": "gulp",
+    "label": "Gulp",
+    "file": "gulp.svg",
+    "url": "icons/gulp.svg",
+    "type": "generic",
+    "keywords": [
+      "gulp"
+    ]
+  },
+  {
+    "id": "hashnode",
+    "label": "Hashnode",
+    "file": "hashnode.svg",
+    "url": "icons/hashnode.svg",
+    "type": "generic",
+    "keywords": [
+      "hashnode"
+    ]
+  },
+  {
+    "id": "haskell",
+    "label": "Haskell",
+    "file": "haskell.svg",
+    "url": "icons/haskell.svg",
+    "type": "generic",
+    "keywords": [
+      "haskell"
+    ]
+  },
+  {
+    "id": "headlessui",
+    "label": "Headlessui",
+    "file": "headlessui.svg",
+    "url": "icons/headlessui.svg",
+    "type": "generic",
+    "keywords": [
+      "headlessui"
+    ]
+  },
+  {
+    "id": "heroku",
+    "label": "Heroku",
+    "file": "heroku.svg",
+    "url": "icons/heroku.svg",
+    "type": "generic",
+    "keywords": [
+      "heroku"
+    ]
+  },
+  {
+    "id": "hexo",
+    "label": "Hexo",
+    "file": "hexo.svg",
+    "url": "icons/hexo.svg",
+    "type": "generic",
+    "keywords": [
+      "hexo"
+    ]
+  },
+  {
+    "id": "hhvm",
+    "label": "Hhvm",
+    "file": "hhvm.svg",
+    "url": "icons/hhvm.svg",
+    "type": "generic",
+    "keywords": [
+      "hhvm"
+    ]
+  },
+  {
+    "id": "homebrew",
+    "label": "Homebrew",
+    "file": "homebrew.svg",
+    "url": "icons/homebrew.svg",
+    "type": "generic",
+    "keywords": [
+      "homebrew"
+    ]
+  },
+  {
+    "id": "hotjar",
+    "label": "Hotjar",
+    "file": "hotjar.svg",
+    "url": "icons/hotjar.svg",
+    "type": "generic",
+    "keywords": [
+      "hotjar"
+    ]
+  },
+  {
+    "id": "html5",
+    "label": "Html5",
+    "file": "html5.svg",
+    "url": "icons/html5.svg",
+    "type": "generic",
+    "keywords": [
+      "html5"
+    ]
+  },
+  {
+    "id": "hugging-face",
+    "label": "Hugging Face",
+    "file": "hugging-face.svg",
+    "url": "icons/hugging-face.svg",
+    "type": "generic",
+    "keywords": [
+      "hugging",
+      "face"
+    ]
+  },
+  {
+    "id": "hyper2",
+    "label": "Hyper2",
+    "file": "hyper2.svg",
+    "url": "icons/hyper2.svg",
+    "type": "generic",
+    "keywords": [
+      "hyper2"
+    ]
+  },
+  {
+    "id": "i18next",
+    "label": "I18next",
+    "file": "i18next.svg",
+    "url": "icons/i18next.svg",
+    "type": "generic",
+    "keywords": [
+      "i18next"
+    ]
+  },
+  {
+    "id": "indesign",
+    "label": "Indesign",
+    "file": "indesign.svg",
+    "url": "icons/indesign.svg",
+    "type": "generic",
+    "keywords": [
+      "indesign"
+    ]
+  },
+  {
+    "id": "insomnia",
+    "label": "Insomnia",
+    "file": "insomnia.svg",
+    "url": "icons/insomnia.svg",
+    "type": "generic",
+    "keywords": [
+      "insomnia"
+    ]
+  },
+  {
+    "id": "instagram",
+    "label": "Instagram",
+    "file": "instagram.svg",
+    "url": "icons/instagram.svg",
+    "type": "generic",
+    "keywords": [
+      "instagram"
+    ]
+  },
+  {
+    "id": "internet-explorer",
+    "label": "Internet Explorer",
+    "file": "internet-explorer.svg",
+    "url": "icons/internet-explorer.svg",
+    "type": "generic",
+    "keywords": [
+      "internet",
+      "explorer"
+    ]
+  },
+  {
+    "id": "invision",
+    "label": "Invision",
+    "file": "invision.svg",
+    "url": "icons/invision.svg",
+    "type": "generic",
+    "keywords": [
+      "invision"
+    ]
+  },
+  {
+    "id": "ionic",
+    "label": "Ionic",
+    "file": "ionic.svg",
+    "url": "icons/ionic.svg",
+    "type": "generic",
+    "keywords": [
+      "ionic"
+    ]
+  },
+  {
+    "id": "jamstack",
+    "label": "Jamstack",
+    "file": "jamstack.svg",
+    "url": "icons/jamstack.svg",
+    "type": "generic",
+    "keywords": [
+      "jamstack"
+    ]
+  },
+  {
+    "id": "java",
+    "label": "Java",
+    "file": "java.svg",
+    "url": "icons/java.svg",
+    "type": "generic",
+    "keywords": [
+      "java"
+    ]
+  },
+  {
+    "id": "javascript",
+    "label": "Javascript",
+    "file": "javascript.svg",
+    "url": "icons/javascript.svg",
+    "type": "brand",
+    "keywords": [
+      "javascript"
+    ]
+  },
+  {
+    "id": "jenkins",
+    "label": "Jenkins",
+    "file": "jenkins.svg",
+    "url": "icons/jenkins.svg",
+    "type": "generic",
+    "keywords": [
+      "jenkins"
+    ]
+  },
+  {
+    "id": "jest",
+    "label": "Jest",
+    "file": "jest.svg",
+    "url": "icons/jest.svg",
+    "type": "generic",
+    "keywords": [
+      "jest"
+    ]
+  },
+  {
+    "id": "jira",
+    "label": "Jira",
+    "file": "jira.svg",
+    "url": "icons/jira.svg",
+    "type": "generic",
+    "keywords": [
+      "jira"
+    ]
+  },
+  {
+    "id": "jquery",
+    "label": "Jquery",
+    "file": "jquery.svg",
+    "url": "icons/jquery.svg",
+    "type": "generic",
+    "keywords": [
+      "jquery"
+    ]
+  },
+  {
+    "id": "jslint",
+    "label": "Jslint",
+    "file": "jslint.svg",
+    "url": "icons/jslint.svg",
+    "type": "generic",
+    "keywords": [
+      "jslint"
+    ]
+  },
+  {
+    "id": "json",
+    "label": "Json",
+    "file": "json.svg",
+    "url": "icons/json.svg",
+    "type": "generic",
+    "keywords": [
+      "json"
+    ]
+  },
+  {
+    "id": "k6",
+    "label": "K6",
+    "file": "k6.svg",
+    "url": "icons/k6.svg",
+    "type": "generic",
+    "keywords": [
+      "k6"
+    ]
+  },
+  {
+    "id": "kafka",
+    "label": "Kafka",
+    "file": "kafka.svg",
+    "url": "icons/kafka.svg",
+    "type": "generic",
+    "keywords": [
+      "kafka"
+    ]
+  },
+  {
+    "id": "kibana",
+    "label": "Kibana",
+    "file": "kibana.svg",
+    "url": "icons/kibana.svg",
+    "type": "generic",
+    "keywords": [
+      "kibana"
+    ]
+  },
+  {
+    "id": "kotlin",
+    "label": "Kotlin",
+    "file": "kotlin.svg",
+    "url": "icons/kotlin.svg",
+    "type": "generic",
+    "keywords": [
+      "kotlin"
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "label": "Kubernetes",
+    "file": "kubernetes.svg",
+    "url": "icons/kubernetes.svg",
+    "type": "generic",
+    "keywords": [
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "laravel",
+    "label": "Laravel",
+    "file": "laravel.svg",
+    "url": "icons/laravel.svg",
+    "type": "generic",
+    "keywords": [
+      "laravel"
+    ]
+  },
+  {
+    "id": "lerna-dark",
+    "label": "Lerna Dark",
+    "file": "lerna-dark.svg",
+    "url": "icons/lerna-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "lerna",
+      "dark"
+    ]
+  },
+  {
+    "id": "lerna-light",
+    "label": "Lerna Light",
+    "file": "lerna-light.svg",
+    "url": "icons/lerna-light.svg",
+    "type": "generic",
+    "keywords": [
+      "lerna",
+      "light"
+    ]
+  },
+  {
+    "id": "less",
+    "label": "Less",
+    "file": "less.svg",
+    "url": "icons/less.svg",
+    "type": "generic",
+    "keywords": [
+      "less"
+    ]
+  },
+  {
+    "id": "lightroom",
+    "label": "Lightroom",
+    "file": "lightroom.svg",
+    "url": "icons/lightroom.svg",
+    "type": "generic",
+    "keywords": [
+      "lightroom"
+    ]
+  },
+  {
+    "id": "linkedin",
+    "label": "Linkedin",
+    "file": "linkedin.svg",
+    "url": "icons/linkedin.svg",
+    "type": "generic",
+    "keywords": [
+      "linkedin"
+    ]
+  },
+  {
+    "id": "linux",
+    "label": "Linux",
+    "file": "linux.svg",
+    "url": "icons/linux.svg",
+    "type": "brand",
+    "keywords": [
+      "linux"
+    ]
+  },
+  {
+    "id": "lit",
+    "label": "Lit",
+    "file": "lit.svg",
+    "url": "icons/lit.svg",
+    "type": "generic",
+    "keywords": [
+      "lit"
+    ]
+  },
+  {
+    "id": "liveblocks",
+    "label": "Liveblocks",
+    "file": "liveblocks.svg",
+    "url": "icons/liveblocks.svg",
+    "type": "generic",
+    "keywords": [
+      "liveblocks"
+    ]
+  },
+  {
+    "id": "location",
+    "label": "Location",
+    "file": "location.svg",
+    "url": "icons/location.svg",
+    "type": "generic",
+    "keywords": [
+      "location"
+    ]
+  },
+  {
+    "id": "logrocket",
+    "label": "Logrocket",
+    "file": "logrocket.svg",
+    "url": "icons/logrocket.svg",
+    "type": "generic",
+    "keywords": [
+      "logrocket"
+    ]
+  },
+  {
+    "id": "lokalise",
+    "label": "Lokalise",
+    "file": "lokalise.svg",
+    "url": "icons/lokalise.svg",
+    "type": "generic",
+    "keywords": [
+      "lokalise"
+    ]
+  },
+  {
+    "id": "lovable",
+    "label": "Lovable",
+    "file": "lovable.svg",
+    "url": "icons/lovable.svg",
+    "type": "generic",
+    "keywords": [
+      "lovable"
+    ]
+  },
+  {
+    "id": "lua",
+    "label": "Lua",
+    "file": "lua.svg",
+    "url": "icons/lua.svg",
+    "type": "generic",
+    "keywords": [
+      "lua"
+    ]
+  },
+  {
+    "id": "lunacy",
+    "label": "Lunacy",
+    "file": "lunacy.svg",
+    "url": "icons/lunacy.svg",
+    "type": "generic",
+    "keywords": [
+      "lunacy"
+    ]
+  },
+  {
+    "id": "mariadb",
+    "label": "Mariadb",
+    "file": "mariadb.svg",
+    "url": "icons/mariadb.svg",
+    "type": "generic",
+    "keywords": [
+      "mariadb"
+    ]
+  },
+  {
+    "id": "marionette",
+    "label": "Marionette",
+    "file": "marionette.svg",
+    "url": "icons/marionette.svg",
+    "type": "generic",
+    "keywords": [
+      "marionette"
+    ]
+  },
+  {
+    "id": "markdown",
+    "label": "Markdown",
+    "file": "markdown.svg",
+    "url": "icons/markdown.svg",
+    "type": "generic",
+    "keywords": [
+      "markdown"
+    ]
+  },
+  {
+    "id": "mastodon",
+    "label": "Mastodon",
+    "file": "mastodon.svg",
+    "url": "icons/mastodon.svg",
+    "type": "generic",
+    "keywords": [
+      "mastodon"
+    ]
+  },
+  {
+    "id": "materialui",
+    "label": "Materialui",
+    "file": "materialui.svg",
+    "url": "icons/materialui.svg",
+    "type": "generic",
+    "keywords": [
+      "materialui"
+    ]
+  },
+  {
+    "id": "messenger",
+    "label": "Messenger",
+    "file": "messenger.svg",
+    "url": "icons/messenger.svg",
+    "type": "generic",
+    "keywords": [
+      "messenger"
+    ]
+  },
+  {
+    "id": "meta",
+    "label": "Meta",
+    "file": "meta.svg",
+    "url": "icons/meta.svg",
+    "type": "generic",
+    "keywords": [
+      "meta"
+    ]
+  },
+  {
+    "id": "microsoft",
+    "label": "Microsoft",
+    "file": "microsoft.svg",
+    "url": "icons/microsoft.svg",
+    "type": "generic",
+    "keywords": [
+      "microsoft"
+    ]
+  },
+  {
+    "id": "microsoft-sql-server",
+    "label": "Microsoft Sql Server",
+    "file": "microsoft-sql-server.svg",
+    "url": "icons/microsoft-sql-server.svg",
+    "type": "generic",
+    "keywords": [
+      "microsoft",
+      "sql",
+      "server"
+    ]
+  },
+  {
+    "id": "microsoft-sql-server-2",
+    "label": "Microsoft Sql Server 2",
+    "file": "microsoft-sql-server-2.svg",
+    "url": "icons/microsoft-sql-server-2.svg",
+    "type": "generic",
+    "keywords": [
+      "microsoft",
+      "sql",
+      "server",
+      "2"
+    ]
+  },
+  {
+    "id": "miro",
+    "label": "Miro",
+    "file": "miro.svg",
+    "url": "icons/miro.svg",
+    "type": "generic",
+    "keywords": [
+      "miro"
+    ]
+  },
+  {
+    "id": "mochajs",
+    "label": "Mochajs",
+    "file": "mochajs.svg",
+    "url": "icons/mochajs.svg",
+    "type": "generic",
+    "keywords": [
+      "mochajs"
+    ]
+  },
+  {
+    "id": "mongodb",
+    "label": "Mongodb",
+    "file": "mongodb.svg",
+    "url": "icons/mongodb.svg",
+    "type": "generic",
+    "keywords": [
+      "mongodb"
+    ]
+  },
+  {
+    "id": "mozilla",
+    "label": "Mozilla",
+    "file": "mozilla.svg",
+    "url": "icons/mozilla.svg",
+    "type": "generic",
+    "keywords": [
+      "mozilla"
+    ]
+  },
+  {
+    "id": "mysql",
+    "label": "Mysql",
+    "file": "mysql.svg",
+    "url": "icons/mysql.svg",
+    "type": "generic",
+    "keywords": [
+      "mysql"
+    ]
+  },
+  {
+    "id": "n8n",
+    "label": "N8n",
+    "file": "n8n.svg",
+    "url": "icons/n8n.svg",
+    "type": "generic",
+    "keywords": [
+      "n8n"
+    ]
+  },
+  {
+    "id": "neovim",
+    "label": "Neovim",
+    "file": "neovim.svg",
+    "url": "icons/neovim.svg",
+    "type": "generic",
+    "keywords": [
+      "neovim"
+    ]
+  },
+  {
+    "id": "nestjs",
+    "label": "Nestjs",
+    "file": "nestjs.svg",
+    "url": "icons/nestjs.svg",
+    "type": "generic",
+    "keywords": [
+      "nestjs"
+    ]
+  },
+  {
+    "id": "netlify",
+    "label": "Netlify",
+    "file": "netlify.svg",
+    "url": "icons/netlify.svg",
+    "type": "generic",
+    "keywords": [
+      "netlify"
+    ]
+  },
+  {
+    "id": "netlify2",
+    "label": "Netlify2",
+    "file": "netlify2.svg",
+    "url": "icons/netlify2.svg",
+    "type": "generic",
+    "keywords": [
+      "netlify2"
+    ]
+  },
+  {
+    "id": "network",
+    "label": "Network",
+    "file": "network.svg",
+    "url": "icons/network.svg",
+    "type": "generic",
+    "keywords": [
+      "network"
+    ]
+  },
+  {
+    "id": "nextjs",
+    "label": "Nextjs",
+    "file": "nextjs.svg",
+    "url": "icons/nextjs.svg",
+    "type": "generic",
+    "keywords": [
+      "nextjs"
+    ]
+  },
+  {
+    "id": "nextjs-wordmark",
+    "label": "Nextjs Wordmark",
+    "file": "nextjs-wordmark.svg",
+    "url": "icons/nextjs-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "nextjs",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "nim",
+    "label": "Nim",
+    "file": "nim.svg",
+    "url": "icons/nim.svg",
+    "type": "generic",
+    "keywords": [
+      "nim"
+    ]
+  },
+  {
+    "id": "nodejs",
+    "label": "Nodejs",
+    "file": "nodejs.svg",
+    "url": "icons/nodejs.svg",
+    "type": "generic",
+    "keywords": [
+      "nodejs"
+    ]
+  },
+  {
+    "id": "notion",
+    "label": "Notion",
+    "file": "notion.svg",
+    "url": "icons/notion.svg",
+    "type": "generic",
+    "keywords": [
+      "notion"
+    ]
+  },
+  {
+    "id": "npm",
+    "label": "Npm",
+    "file": "npm.svg",
+    "url": "icons/npm.svg",
+    "type": "generic",
+    "keywords": [
+      "npm"
+    ]
+  },
+  {
+    "id": "npm-wordmark",
+    "label": "Npm Wordmark",
+    "file": "npm-wordmark.svg",
+    "url": "icons/npm-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "npm",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "numpy",
+    "label": "Numpy",
+    "file": "numpy.svg",
+    "url": "icons/numpy.svg",
+    "type": "generic",
+    "keywords": [
+      "numpy"
+    ]
+  },
+  {
+    "id": "nuxtjs",
+    "label": "Nuxtjs",
+    "file": "nuxtjs.svg",
+    "url": "icons/nuxtjs.svg",
+    "type": "generic",
+    "keywords": [
+      "nuxtjs"
+    ]
+  },
+  {
+    "id": "nvidia",
+    "label": "Nvidia",
+    "file": "nvidia.svg",
+    "url": "icons/nvidia.svg",
+    "type": "generic",
+    "keywords": [
+      "nvidia"
+    ]
+  },
+  {
+    "id": "nvidia-wordmark",
+    "label": "Nvidia Wordmark",
+    "file": "nvidia-wordmark.svg",
+    "url": "icons/nvidia-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "nvidia",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "nx",
+    "label": "Nx",
+    "file": "nx.svg",
+    "url": "icons/nx.svg",
+    "type": "generic",
+    "keywords": [
+      "nx"
+    ]
+  },
+  {
+    "id": "ocaml",
+    "label": "Ocaml",
+    "file": "ocaml.svg",
+    "url": "icons/ocaml.svg",
+    "type": "generic",
+    "keywords": [
+      "ocaml"
+    ]
+  },
+  {
+    "id": "onedrive",
+    "label": "Onedrive",
+    "file": "onedrive.svg",
+    "url": "icons/onedrive.svg",
+    "type": "generic",
+    "keywords": [
+      "onedrive"
+    ]
+  },
+  {
+    "id": "openai",
+    "label": "Openai",
+    "file": "openai.svg",
+    "url": "icons/openai.svg",
+    "type": "generic",
+    "keywords": [
+      "openai"
+    ]
+  },
+  {
+    "id": "openclaw",
+    "label": "Openclaw",
+    "file": "openclaw.svg",
+    "url": "icons/openclaw.svg",
+    "type": "generic",
+    "keywords": [
+      "openclaw"
+    ]
+  },
+  {
+    "id": "opera",
+    "label": "Opera",
+    "file": "opera.svg",
+    "url": "icons/opera.svg",
+    "type": "generic",
+    "keywords": [
+      "opera"
+    ]
+  },
+  {
+    "id": "oracle",
+    "label": "Oracle",
+    "file": "oracle.svg",
+    "url": "icons/oracle.svg",
+    "type": "generic",
+    "keywords": [
+      "oracle"
+    ]
+  },
+  {
+    "id": "outlook",
+    "label": "Outlook",
+    "file": "outlook.svg",
+    "url": "icons/outlook.svg",
+    "type": "generic",
+    "keywords": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "pandacss",
+    "label": "Pandacss",
+    "file": "pandacss.svg",
+    "url": "icons/pandacss.svg",
+    "type": "generic",
+    "keywords": [
+      "pandacss"
+    ]
+  },
+  {
+    "id": "phone",
+    "label": "Phone",
+    "file": "phone.svg",
+    "url": "icons/phone.svg",
+    "type": "generic",
+    "keywords": [
+      "phone"
+    ]
+  },
+  {
+    "id": "photoshop",
+    "label": "Photoshop",
+    "file": "photoshop.svg",
+    "url": "icons/photoshop.svg",
+    "type": "generic",
+    "keywords": [
+      "photoshop"
+    ]
+  },
+  {
+    "id": "php",
+    "label": "Php",
+    "file": "php.svg",
+    "url": "icons/php.svg",
+    "type": "generic",
+    "keywords": [
+      "php"
+    ]
+  },
+  {
+    "id": "pinia",
+    "label": "Pinia",
+    "file": "pinia.svg",
+    "url": "icons/pinia.svg",
+    "type": "generic",
+    "keywords": [
+      "pinia"
+    ]
+  },
+  {
+    "id": "pinterest",
+    "label": "Pinterest",
+    "file": "pinterest.svg",
+    "url": "icons/pinterest.svg",
+    "type": "generic",
+    "keywords": [
+      "pinterest"
+    ]
+  },
+  {
+    "id": "pixijs",
+    "label": "Pixijs",
+    "file": "pixijs.svg",
+    "url": "icons/pixijs.svg",
+    "type": "generic",
+    "keywords": [
+      "pixijs"
+    ]
+  },
+  {
+    "id": "playwright",
+    "label": "Playwright",
+    "file": "playwright.svg",
+    "url": "icons/playwright.svg",
+    "type": "generic",
+    "keywords": [
+      "playwright"
+    ]
+  },
+  {
+    "id": "pnpm-dark",
+    "label": "Pnpm Dark",
+    "file": "pnpm-dark.svg",
+    "url": "icons/pnpm-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "pnpm",
+      "dark"
+    ]
+  },
+  {
+    "id": "pnpm-dark-wordmark",
+    "label": "Pnpm Dark Wordmark",
+    "file": "pnpm-dark-wordmark.svg",
+    "url": "icons/pnpm-dark-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "pnpm",
+      "dark",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "pnpm-light",
+    "label": "Pnpm Light",
+    "file": "pnpm-light.svg",
+    "url": "icons/pnpm-light.svg",
+    "type": "generic",
+    "keywords": [
+      "pnpm",
+      "light"
+    ]
+  },
+  {
+    "id": "pnpm-light-wordmark",
+    "label": "Pnpm Light Wordmark",
+    "file": "pnpm-light-wordmark.svg",
+    "url": "icons/pnpm-light-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "pnpm",
+      "light",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "postgresql",
+    "label": "Postgresql",
+    "file": "postgresql.svg",
+    "url": "icons/postgresql.svg",
+    "type": "brand",
+    "keywords": [
+      "postgresql"
+    ]
+  },
+  {
+    "id": "posthog",
+    "label": "Posthog",
+    "file": "posthog.svg",
+    "url": "icons/posthog.svg",
+    "type": "generic",
+    "keywords": [
+      "posthog"
+    ]
+  },
+  {
+    "id": "postman",
+    "label": "Postman",
+    "file": "postman.svg",
+    "url": "icons/postman.svg",
+    "type": "generic",
+    "keywords": [
+      "postman"
+    ]
+  },
+  {
+    "id": "powershell",
+    "label": "Powershell",
+    "file": "powershell.svg",
+    "url": "icons/powershell.svg",
+    "type": "generic",
+    "keywords": [
+      "powershell"
+    ]
+  },
+  {
+    "id": "preact",
+    "label": "Preact",
+    "file": "preact.svg",
+    "url": "icons/preact.svg",
+    "type": "generic",
+    "keywords": [
+      "preact"
+    ]
+  },
+  {
+    "id": "presto",
+    "label": "Presto",
+    "file": "presto.svg",
+    "url": "icons/presto.svg",
+    "type": "generic",
+    "keywords": [
+      "presto"
+    ]
+  },
+  {
+    "id": "prettier",
+    "label": "Prettier",
+    "file": "prettier.svg",
+    "url": "icons/prettier.svg",
+    "type": "generic",
+    "keywords": [
+      "prettier"
+    ]
+  },
+  {
+    "id": "prisma",
+    "label": "Prisma",
+    "file": "prisma.svg",
+    "url": "icons/prisma.svg",
+    "type": "generic",
+    "keywords": [
+      "prisma"
+    ]
+  },
+  {
+    "id": "profile",
+    "label": "Profile",
+    "file": "profile.svg",
+    "url": "icons/profile.svg",
+    "type": "generic",
+    "keywords": [
+      "profile"
+    ]
+  },
+  {
+    "id": "pugjs",
+    "label": "Pugjs",
+    "file": "pugjs.svg",
+    "url": "icons/pugjs.svg",
+    "type": "generic",
+    "keywords": [
+      "pugjs"
+    ]
+  },
+  {
+    "id": "pulumi",
+    "label": "Pulumi",
+    "file": "pulumi.svg",
+    "url": "icons/pulumi.svg",
+    "type": "generic",
+    "keywords": [
+      "pulumi"
+    ]
+  },
+  {
+    "id": "pulumi-dark-wordmark",
+    "label": "Pulumi Dark Wordmark",
+    "file": "pulumi-dark-wordmark.svg",
+    "url": "icons/pulumi-dark-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "pulumi",
+      "dark",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "pulumi-light-wordmark",
+    "label": "Pulumi Light Wordmark",
+    "file": "pulumi-light-wordmark.svg",
+    "url": "icons/pulumi-light-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "pulumi",
+      "light",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "pwa",
+    "label": "Pwa",
+    "file": "pwa.svg",
+    "url": "icons/pwa.svg",
+    "type": "generic",
+    "keywords": [
+      "pwa"
+    ]
+  },
+  {
+    "id": "python",
+    "label": "Python",
+    "file": "python.svg",
+    "url": "icons/python.svg",
+    "type": "brand",
+    "keywords": [
+      "python"
+    ]
+  },
+  {
+    "id": "pytorch",
+    "label": "Pytorch",
+    "file": "pytorch.svg",
+    "url": "icons/pytorch.svg",
+    "type": "generic",
+    "keywords": [
+      "pytorch"
+    ]
+  },
+  {
+    "id": "pytorch3d",
+    "label": "Pytorch3d",
+    "file": "pytorch3d.svg",
+    "url": "icons/pytorch3d.svg",
+    "type": "generic",
+    "keywords": [
+      "pytorch3d"
+    ]
+  },
+  {
+    "id": "qwik",
+    "label": "Qwik",
+    "file": "qwik.svg",
+    "url": "icons/qwik.svg",
+    "type": "generic",
+    "keywords": [
+      "qwik"
+    ]
+  },
+  {
+    "id": "r",
+    "label": "R",
+    "file": "r.svg",
+    "url": "icons/r.svg",
+    "type": "generic",
+    "keywords": [
+      "r"
+    ]
+  },
+  {
+    "id": "radixui",
+    "label": "Radixui",
+    "file": "radixui.svg",
+    "url": "icons/radixui.svg",
+    "type": "generic",
+    "keywords": [
+      "radixui"
+    ]
+  },
+  {
+    "id": "rails",
+    "label": "Rails",
+    "file": "rails.svg",
+    "url": "icons/rails.svg",
+    "type": "generic",
+    "keywords": [
+      "rails"
+    ]
+  },
+  {
+    "id": "railway",
+    "label": "Railway",
+    "file": "railway.svg",
+    "url": "icons/railway.svg",
+    "type": "generic",
+    "keywords": [
+      "railway"
+    ]
+  },
+  {
+    "id": "react-query",
+    "label": "React Query",
+    "file": "react-query.svg",
+    "url": "icons/react-query.svg",
+    "type": "generic",
+    "keywords": [
+      "react",
+      "query"
+    ]
+  },
+  {
+    "id": "reactjs",
+    "label": "Reactjs",
+    "file": "reactjs.svg",
+    "url": "icons/reactjs.svg",
+    "type": "generic",
+    "keywords": [
+      "reactjs"
+    ]
+  },
+  {
+    "id": "reactrouter",
+    "label": "Reactrouter",
+    "file": "reactrouter.svg",
+    "url": "icons/reactrouter.svg",
+    "type": "generic",
+    "keywords": [
+      "reactrouter"
+    ]
+  },
+  {
+    "id": "reddit",
+    "label": "Reddit",
+    "file": "reddit.svg",
+    "url": "icons/reddit.svg",
+    "type": "generic",
+    "keywords": [
+      "reddit"
+    ]
+  },
+  {
+    "id": "reddit-wordmark",
+    "label": "Reddit Wordmark",
+    "file": "reddit-wordmark.svg",
+    "url": "icons/reddit-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "reddit",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "redhat",
+    "label": "Redhat",
+    "file": "redhat.svg",
+    "url": "icons/redhat.svg",
+    "type": "generic",
+    "keywords": [
+      "redhat"
+    ]
+  },
+  {
+    "id": "redis",
+    "label": "Redis",
+    "file": "redis.svg",
+    "url": "icons/redis.svg",
+    "type": "generic",
+    "keywords": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redux",
+    "label": "Redux",
+    "file": "redux.svg",
+    "url": "icons/redux.svg",
+    "type": "generic",
+    "keywords": [
+      "redux"
+    ]
+  },
+  {
+    "id": "redux-saga",
+    "label": "Redux Saga",
+    "file": "redux-saga.svg",
+    "url": "icons/redux-saga.svg",
+    "type": "generic",
+    "keywords": [
+      "redux",
+      "saga"
+    ]
+  },
+  {
+    "id": "remix-dark",
+    "label": "Remix Dark",
+    "file": "remix-dark.svg",
+    "url": "icons/remix-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "remix",
+      "dark"
+    ]
+  },
+  {
+    "id": "remix-dark-wordmark",
+    "label": "Remix Dark Wordmark",
+    "file": "remix-dark-wordmark.svg",
+    "url": "icons/remix-dark-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "remix",
+      "dark",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "remix-light",
+    "label": "Remix Light",
+    "file": "remix-light.svg",
+    "url": "icons/remix-light.svg",
+    "type": "generic",
+    "keywords": [
+      "remix",
+      "light"
+    ]
+  },
+  {
+    "id": "remix-light-wordmark",
+    "label": "Remix Light Wordmark",
+    "file": "remix-light-wordmark.svg",
+    "url": "icons/remix-light-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "remix",
+      "light",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "render",
+    "label": "Render",
+    "file": "render.svg",
+    "url": "icons/render.svg",
+    "type": "generic",
+    "keywords": [
+      "render"
+    ]
+  },
+  {
+    "id": "replit",
+    "label": "Replit",
+    "file": "replit.svg",
+    "url": "icons/replit.svg",
+    "type": "generic",
+    "keywords": [
+      "replit"
+    ]
+  },
+  {
+    "id": "resend",
+    "label": "Resend",
+    "file": "resend.svg",
+    "url": "icons/resend.svg",
+    "type": "generic",
+    "keywords": [
+      "resend"
+    ]
+  },
+  {
+    "id": "rollup",
+    "label": "Rollup",
+    "file": "rollup.svg",
+    "url": "icons/rollup.svg",
+    "type": "generic",
+    "keywords": [
+      "rollup"
+    ]
+  },
+  {
+    "id": "ruby",
+    "label": "Ruby",
+    "file": "ruby.svg",
+    "url": "icons/ruby.svg",
+    "type": "generic",
+    "keywords": [
+      "ruby"
+    ]
+  },
+  {
+    "id": "rust-dark",
+    "label": "Rust Dark",
+    "file": "rust-dark.svg",
+    "url": "icons/rust-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "rust",
+      "dark"
+    ]
+  },
+  {
+    "id": "rust-light",
+    "label": "Rust Light",
+    "file": "rust-light.svg",
+    "url": "icons/rust-light.svg",
+    "type": "generic",
+    "keywords": [
+      "rust",
+      "light"
+    ]
+  },
+  {
+    "id": "safari",
+    "label": "Safari",
+    "file": "safari.svg",
+    "url": "icons/safari.svg",
+    "type": "generic",
+    "keywords": [
+      "safari"
+    ]
+  },
+  {
+    "id": "sass",
+    "label": "Sass",
+    "file": "sass.svg",
+    "url": "icons/sass.svg",
+    "type": "generic",
+    "keywords": [
+      "sass"
+    ]
+  },
+  {
+    "id": "scala",
+    "label": "Scala",
+    "file": "scala.svg",
+    "url": "icons/scala.svg",
+    "type": "generic",
+    "keywords": [
+      "scala"
+    ]
+  },
+  {
+    "id": "semanticui",
+    "label": "Semanticui",
+    "file": "semanticui.svg",
+    "url": "icons/semanticui.svg",
+    "type": "generic",
+    "keywords": [
+      "semanticui"
+    ]
+  },
+  {
+    "id": "server",
+    "label": "Server",
+    "file": "server.svg",
+    "url": "icons/server.svg",
+    "type": "generic",
+    "keywords": [
+      "server"
+    ]
+  },
+  {
+    "id": "serverless",
+    "label": "Serverless",
+    "file": "serverless.svg",
+    "url": "icons/serverless.svg",
+    "type": "generic",
+    "keywords": [
+      "serverless"
+    ]
+  },
+  {
+    "id": "shadcnui",
+    "label": "Shadcnui",
+    "file": "shadcnui.svg",
+    "url": "icons/shadcnui.svg",
+    "type": "generic",
+    "keywords": [
+      "shadcnui"
+    ]
+  },
+  {
+    "id": "shield",
+    "label": "Shield",
+    "file": "shield.svg",
+    "url": "icons/shield.svg",
+    "type": "generic",
+    "keywords": [
+      "shield"
+    ]
+  },
+  {
+    "id": "shopware",
+    "label": "Shopware",
+    "file": "shopware.svg",
+    "url": "icons/shopware.svg",
+    "type": "generic",
+    "keywords": [
+      "shopware"
+    ]
+  },
+  {
+    "id": "siemens",
+    "label": "Siemens",
+    "file": "siemens.svg",
+    "url": "icons/siemens.svg",
+    "type": "brand",
+    "keywords": [
+      "siemens"
+    ]
+  },
+  {
+    "id": "sketch",
+    "label": "Sketch",
+    "file": "sketch.svg",
+    "url": "icons/sketch.svg",
+    "type": "generic",
+    "keywords": [
+      "sketch"
+    ]
+  },
+  {
+    "id": "sketch2",
+    "label": "Sketch2",
+    "file": "sketch2.svg",
+    "url": "icons/sketch2.svg",
+    "type": "generic",
+    "keywords": [
+      "sketch2"
+    ]
+  },
+  {
+    "id": "skills",
+    "label": "Skills",
+    "file": "skills.svg",
+    "url": "icons/skills.svg",
+    "type": "generic",
+    "keywords": [
+      "skills"
+    ]
+  },
+  {
+    "id": "skype",
+    "label": "Skype",
+    "file": "skype.svg",
+    "url": "icons/skype.svg",
+    "type": "generic",
+    "keywords": [
+      "skype"
+    ]
+  },
+  {
+    "id": "slack",
+    "label": "Slack",
+    "file": "slack.svg",
+    "url": "icons/slack.svg",
+    "type": "generic",
+    "keywords": [
+      "slack"
+    ]
+  },
+  {
+    "id": "solidity",
+    "label": "Solidity",
+    "file": "solidity.svg",
+    "url": "icons/solidity.svg",
+    "type": "generic",
+    "keywords": [
+      "solidity"
+    ]
+  },
+  {
+    "id": "solidjs",
+    "label": "Solidjs",
+    "file": "solidjs.svg",
+    "url": "icons/solidjs.svg",
+    "type": "generic",
+    "keywords": [
+      "solidjs"
+    ]
+  },
+  {
+    "id": "spring",
+    "label": "Spring",
+    "file": "spring.svg",
+    "url": "icons/spring.svg",
+    "type": "generic",
+    "keywords": [
+      "spring"
+    ]
+  },
+  {
+    "id": "sql",
+    "label": "Sql",
+    "file": "sql.svg",
+    "url": "icons/sql.svg",
+    "type": "generic",
+    "keywords": [
+      "sql"
+    ]
+  },
+  {
+    "id": "sqlite",
+    "label": "Sqlite",
+    "file": "sqlite.svg",
+    "url": "icons/sqlite.svg",
+    "type": "generic",
+    "keywords": [
+      "sqlite"
+    ]
+  },
+  {
+    "id": "storyblok",
+    "label": "Storyblok",
+    "file": "storyblok.svg",
+    "url": "icons/storyblok.svg",
+    "type": "generic",
+    "keywords": [
+      "storyblok"
+    ]
+  },
+  {
+    "id": "storybook",
+    "label": "Storybook",
+    "file": "storybook.svg",
+    "url": "icons/storybook.svg",
+    "type": "generic",
+    "keywords": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "stream",
+    "label": "Stream",
+    "file": "stream.svg",
+    "url": "icons/stream.svg",
+    "type": "generic",
+    "keywords": [
+      "stream"
+    ]
+  },
+  {
+    "id": "stylelint",
+    "label": "Stylelint",
+    "file": "stylelint.svg",
+    "url": "icons/stylelint.svg",
+    "type": "generic",
+    "keywords": [
+      "stylelint"
+    ]
+  },
+  {
+    "id": "sublime",
+    "label": "Sublime",
+    "file": "sublime.svg",
+    "url": "icons/sublime.svg",
+    "type": "generic",
+    "keywords": [
+      "sublime"
+    ]
+  },
+  {
+    "id": "summary",
+    "label": "Summary",
+    "file": "summary.svg",
+    "url": "icons/summary.svg",
+    "type": "generic",
+    "keywords": [
+      "summary"
+    ]
+  },
+  {
+    "id": "supabase",
+    "label": "Supabase",
+    "file": "supabase.svg",
+    "url": "icons/supabase.svg",
+    "type": "generic",
+    "keywords": [
+      "supabase"
+    ]
+  },
+  {
+    "id": "sveltejs",
+    "label": "Sveltejs",
+    "file": "sveltejs.svg",
+    "url": "icons/sveltejs.svg",
+    "type": "generic",
+    "keywords": [
+      "sveltejs"
+    ]
+  },
+  {
+    "id": "swagger",
+    "label": "Swagger",
+    "file": "swagger.svg",
+    "url": "icons/swagger.svg",
+    "type": "generic",
+    "keywords": [
+      "swagger"
+    ]
+  },
+  {
+    "id": "swift",
+    "label": "Swift",
+    "file": "swift.svg",
+    "url": "icons/swift.svg",
+    "type": "generic",
+    "keywords": [
+      "swift"
+    ]
+  },
+  {
+    "id": "symfony-dark",
+    "label": "Symfony Dark",
+    "file": "symfony-dark.svg",
+    "url": "icons/symfony-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "symfony",
+      "dark"
+    ]
+  },
+  {
+    "id": "symfony-light",
+    "label": "Symfony Light",
+    "file": "symfony-light.svg",
+    "url": "icons/symfony-light.svg",
+    "type": "generic",
+    "keywords": [
+      "symfony",
+      "light"
+    ]
+  },
+  {
+    "id": "tailwindcss",
+    "label": "Tailwindcss",
+    "file": "tailwindcss.svg",
+    "url": "icons/tailwindcss.svg",
+    "type": "generic",
+    "keywords": [
+      "tailwindcss"
+    ]
+  },
+  {
+    "id": "tanstack",
+    "label": "Tanstack",
+    "file": "tanstack.svg",
+    "url": "icons/tanstack.svg",
+    "type": "generic",
+    "keywords": [
+      "tanstack"
+    ]
+  },
+  {
+    "id": "technology",
+    "label": "Technology",
+    "file": "technology.svg",
+    "url": "icons/technology.svg",
+    "type": "generic",
+    "keywords": [
+      "technology"
+    ]
+  },
+  {
+    "id": "telegram",
+    "label": "Telegram",
+    "file": "telegram.svg",
+    "url": "icons/telegram.svg",
+    "type": "generic",
+    "keywords": [
+      "telegram"
+    ]
+  },
+  {
+    "id": "tensorflow",
+    "label": "Tensorflow",
+    "file": "tensorflow.svg",
+    "url": "icons/tensorflow.svg",
+    "type": "generic",
+    "keywords": [
+      "tensorflow"
+    ]
+  },
+  {
+    "id": "terraform",
+    "label": "Terraform",
+    "file": "terraform.svg",
+    "url": "icons/terraform.svg",
+    "type": "generic",
+    "keywords": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "threads-dark",
+    "label": "Threads Dark",
+    "file": "threads-dark.svg",
+    "url": "icons/threads-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "threads",
+      "dark"
+    ]
+  },
+  {
+    "id": "threads-light",
+    "label": "Threads Light",
+    "file": "threads-light.svg",
+    "url": "icons/threads-light.svg",
+    "type": "generic",
+    "keywords": [
+      "threads",
+      "light"
+    ]
+  },
+  {
+    "id": "threejs-dark",
+    "label": "Threejs Dark",
+    "file": "threejs-dark.svg",
+    "url": "icons/threejs-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "threejs",
+      "dark"
+    ]
+  },
+  {
+    "id": "threejs-light",
+    "label": "Threejs Light",
+    "file": "threejs-light.svg",
+    "url": "icons/threejs-light.svg",
+    "type": "generic",
+    "keywords": [
+      "threejs",
+      "light"
+    ]
+  },
+  {
+    "id": "tiktok",
+    "label": "Tiktok",
+    "file": "tiktok.svg",
+    "url": "icons/tiktok.svg",
+    "type": "generic",
+    "keywords": [
+      "tiktok"
+    ]
+  },
+  {
+    "id": "timer",
+    "label": "Timer",
+    "file": "timer.svg",
+    "url": "icons/timer.svg",
+    "type": "generic",
+    "keywords": [
+      "timer"
+    ]
+  },
+  {
+    "id": "tinyhttp",
+    "label": "Tinyhttp",
+    "file": "tinyhttp.svg",
+    "url": "icons/tinyhttp.svg",
+    "type": "generic",
+    "keywords": [
+      "tinyhttp"
+    ]
+  },
+  {
+    "id": "tor",
+    "label": "Tor",
+    "file": "tor.svg",
+    "url": "icons/tor.svg",
+    "type": "generic",
+    "keywords": [
+      "tor"
+    ]
+  },
+  {
+    "id": "trpc",
+    "label": "TRPC",
+    "file": "tRPC.svg",
+    "url": "icons/tRPC.svg",
+    "type": "generic",
+    "keywords": [
+      "trpc"
+    ]
+  },
+  {
+    "id": "twitter",
+    "label": "Twitter",
+    "file": "twitter.svg",
+    "url": "icons/twitter.svg",
+    "type": "generic",
+    "keywords": [
+      "twitter"
+    ]
+  },
+  {
+    "id": "typescript",
+    "label": "Typescript",
+    "file": "typescript.svg",
+    "url": "icons/typescript.svg",
+    "type": "brand",
+    "keywords": [
+      "typescript"
+    ]
+  },
+  {
+    "id": "ubuntu",
+    "label": "Ubuntu",
+    "file": "ubuntu.svg",
+    "url": "icons/ubuntu.svg",
+    "type": "generic",
+    "keywords": [
+      "ubuntu"
+    ]
+  },
+  {
+    "id": "unjs",
+    "label": "Unjs",
+    "file": "unjs.svg",
+    "url": "icons/unjs.svg",
+    "type": "generic",
+    "keywords": [
+      "unjs"
+    ]
+  },
+  {
+    "id": "upwork",
+    "label": "Upwork",
+    "file": "upwork.svg",
+    "url": "icons/upwork.svg",
+    "type": "generic",
+    "keywords": [
+      "upwork"
+    ]
+  },
+  {
+    "id": "upwork-basic",
+    "label": "Upwork Basic",
+    "file": "upwork-basic.svg",
+    "url": "icons/upwork-basic.svg",
+    "type": "generic",
+    "keywords": [
+      "upwork",
+      "basic"
+    ]
+  },
+  {
+    "id": "upwork-wordmark",
+    "label": "Upwork Wordmark",
+    "file": "upwork-wordmark.svg",
+    "url": "icons/upwork-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "upwork",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "user",
+    "label": "User",
+    "file": "user.svg",
+    "url": "icons/user.svg",
+    "type": "generic",
+    "keywords": [
+      "user"
+    ]
+  },
+  {
+    "id": "vagrant",
+    "label": "Vagrant",
+    "file": "vagrant.svg",
+    "url": "icons/vagrant.svg",
+    "type": "generic",
+    "keywords": [
+      "vagrant"
+    ]
+  },
+  {
+    "id": "vercel-dark",
+    "label": "Vercel Dark",
+    "file": "vercel-dark.svg",
+    "url": "icons/vercel-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "vercel",
+      "dark"
+    ]
+  },
+  {
+    "id": "vercel-dark-wordmark",
+    "label": "Vercel Dark Wordmark",
+    "file": "vercel-dark-wordmark.svg",
+    "url": "icons/vercel-dark-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "vercel",
+      "dark",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "vercel-light",
+    "label": "Vercel Light",
+    "file": "vercel-light.svg",
+    "url": "icons/vercel-light.svg",
+    "type": "generic",
+    "keywords": [
+      "vercel",
+      "light"
+    ]
+  },
+  {
+    "id": "vercel-light-wordmark",
+    "label": "Vercel Light Wordmark",
+    "file": "vercel-light-wordmark.svg",
+    "url": "icons/vercel-light-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "vercel",
+      "light",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "vim",
+    "label": "Vim",
+    "file": "vim.svg",
+    "url": "icons/vim.svg",
+    "type": "generic",
+    "keywords": [
+      "vim"
+    ]
+  },
+  {
+    "id": "visualbasic",
+    "label": "Visualbasic",
+    "file": "visualbasic.svg",
+    "url": "icons/visualbasic.svg",
+    "type": "generic",
+    "keywords": [
+      "visualbasic"
+    ]
+  },
+  {
+    "id": "vitejs",
+    "label": "Vitejs",
+    "file": "vitejs.svg",
+    "url": "icons/vitejs.svg",
+    "type": "generic",
+    "keywords": [
+      "vitejs"
+    ]
+  },
+  {
+    "id": "vitest",
+    "label": "Vitest",
+    "file": "vitest.svg",
+    "url": "icons/vitest.svg",
+    "type": "generic",
+    "keywords": [
+      "vitest"
+    ]
+  },
+  {
+    "id": "vivaldi",
+    "label": "Vivaldi",
+    "file": "vivaldi.svg",
+    "url": "icons/vivaldi.svg",
+    "type": "generic",
+    "keywords": [
+      "vivaldi"
+    ]
+  },
+  {
+    "id": "vk",
+    "label": "Vk",
+    "file": "vk.svg",
+    "url": "icons/vk.svg",
+    "type": "generic",
+    "keywords": [
+      "vk"
+    ]
+  },
+  {
+    "id": "vscode",
+    "label": "Vscode",
+    "file": "vscode.svg",
+    "url": "icons/vscode.svg",
+    "type": "generic",
+    "keywords": [
+      "vscode"
+    ]
+  },
+  {
+    "id": "vuejs",
+    "label": "Vuejs",
+    "file": "vuejs.svg",
+    "url": "icons/vuejs.svg",
+    "type": "generic",
+    "keywords": [
+      "vuejs"
+    ]
+  },
+  {
+    "id": "webassembly",
+    "label": "Webassembly",
+    "file": "webassembly.svg",
+    "url": "icons/webassembly.svg",
+    "type": "generic",
+    "keywords": [
+      "webassembly"
+    ]
+  },
+  {
+    "id": "webpack",
+    "label": "Webpack",
+    "file": "webpack.svg",
+    "url": "icons/webpack.svg",
+    "type": "generic",
+    "keywords": [
+      "webpack"
+    ]
+  },
+  {
+    "id": "webrtc",
+    "label": "Webrtc",
+    "file": "webrtc.svg",
+    "url": "icons/webrtc.svg",
+    "type": "generic",
+    "keywords": [
+      "webrtc"
+    ]
+  },
+  {
+    "id": "whatsapp",
+    "label": "Whatsapp",
+    "file": "whatsapp.svg",
+    "url": "icons/whatsapp.svg",
+    "type": "generic",
+    "keywords": [
+      "whatsapp"
+    ]
+  },
+  {
+    "id": "windows",
+    "label": "Windows",
+    "file": "windows.svg",
+    "url": "icons/windows.svg",
+    "type": "brand",
+    "keywords": [
+      "windows"
+    ]
+  },
+  {
+    "id": "windsurf",
+    "label": "Windsurf",
+    "file": "windsurf.svg",
+    "url": "icons/windsurf.svg",
+    "type": "generic",
+    "keywords": [
+      "windsurf"
+    ]
+  },
+  {
+    "id": "wordpress",
+    "label": "Wordpress",
+    "file": "wordpress.svg",
+    "url": "icons/wordpress.svg",
+    "type": "generic",
+    "keywords": [
+      "wordpress"
+    ]
+  },
+  {
+    "id": "x-dark",
+    "label": "X Dark",
+    "file": "x-dark.svg",
+    "url": "icons/x-dark.svg",
+    "type": "generic",
+    "keywords": [
+      "x",
+      "dark"
+    ]
+  },
+  {
+    "id": "x-light",
+    "label": "X Light",
+    "file": "x-light.svg",
+    "url": "icons/x-light.svg",
+    "type": "generic",
+    "keywords": [
+      "x",
+      "light"
+    ]
+  },
+  {
+    "id": "xamarin",
+    "label": "Xamarin",
+    "file": "xamarin.svg",
+    "url": "icons/xamarin.svg",
+    "type": "generic",
+    "keywords": [
+      "xamarin"
+    ]
+  },
+  {
+    "id": "xd",
+    "label": "Xd",
+    "file": "xd.svg",
+    "url": "icons/xd.svg",
+    "type": "generic",
+    "keywords": [
+      "xd"
+    ]
+  },
+  {
+    "id": "yoga",
+    "label": "Yoga",
+    "file": "yoga.svg",
+    "url": "icons/yoga.svg",
+    "type": "generic",
+    "keywords": [
+      "yoga"
+    ]
+  },
+  {
+    "id": "youtube",
+    "label": "Youtube",
+    "file": "youtube.svg",
+    "url": "icons/youtube.svg",
+    "type": "generic",
+    "keywords": [
+      "youtube"
+    ]
+  },
+  {
+    "id": "youtube-wordmark",
+    "label": "Youtube Wordmark",
+    "file": "youtube-wordmark.svg",
+    "url": "icons/youtube-wordmark.svg",
+    "type": "generic",
+    "keywords": [
+      "youtube",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "zen",
+    "label": "Zen",
+    "file": "zen.svg",
+    "url": "icons/zen.svg",
+    "type": "generic",
+    "keywords": [
+      "zen"
+    ]
+  },
+  {
+    "id": "zen-browser",
+    "label": "Zen Browser",
+    "file": "zen-browser.svg",
+    "url": "icons/zen-browser.svg",
+    "type": "generic",
+    "keywords": [
+      "zen",
+      "browser"
+    ]
+  },
+  {
+    "id": "zod",
+    "label": "Zod",
+    "file": "zod.svg",
+    "url": "icons/zod.svg",
+    "type": "generic",
+    "keywords": [
+      "zod"
+    ]
+  }
+]

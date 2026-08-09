@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc" style="color:#62f6bd">
+  <title id="title">Legend AI research and automation</title><desc id="desc">Evidence and document nodes pass through a controlled research graph into an action path.</desc>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 120h134M176 300h134M490 120h134M490 300h134" stroke-width="1.8"/><path d="M310 120c54 0 71 36 90 90M310 300c54 0 71-36 90-90M490 120c-54 0-71 36-90 90M490 300c-54 0-71-36-90-90" opacity=".44" stroke-width="1.4"/><circle cx="400" cy="210" r="52" stroke-width="2"/><circle cx="400" cy="210" r="19" opacity=".4"/><path d="M400 181v58M371 210h58" opacity=".8"/>
+    <rect x="76" y="78" width="100" height="84" rx="6" stroke-width="1.7"/><path d="M97 106h58M97 127h42" opacity=".7"/><rect x="76" y="258" width="100" height="84" rx="6" stroke-width="1.7"/><path d="M98 282h56M98 304h44" opacity=".7"/><rect x="624" y="78" width="100" height="84" rx="6" stroke-width="1.7"/><path d="M646 107h55M646 128h35" opacity=".7"/><rect x="624" y="258" width="100" height="84" rx="6" stroke-width="1.7"/><path d="M646 287h55M646 308h42" opacity=".7"/>
+    <circle cx="176" cy="120" r="6" fill="currentColor"/><circle cx="176" cy="300" r="6" fill="currentColor"/><circle cx="624" cy="120" r="6" fill="currentColor"/><circle cx="624" cy="300" r="6" fill="currentColor"/>
+  </g>
+</svg>

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Industrial Systems Logo</title>
+  <desc id="desc">Neon teal industrial factory outline with chimney and three windows.</desc>
+
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#49ffe1"/>
+      <stop offset="55%" stop-color="#00d9bb"/>
+      <stop offset="100%" stop-color="#00a88f"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0.95
+                0 0 0 0 0.75
+                0 0 0 0.55 0"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient glow -->
+  <path
+    d="M90 380V223
+       L164 168
+       L218 216
+       L280 168
+       L326 211
+       V104
+       H402
+       V380
+       Z"
+    fill="none"
+    stroke="#00e8c7"
+    stroke-width="34"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+    opacity="0.16"
+    filter="url(#softGlow)"/>
+
+  <!-- Main factory outline -->
+  <path
+    d="M90 380V223
+       L164 168
+       L218 216
+       L280 168
+       L326 211
+       V104
+       H402
+       V380
+       Z"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="24"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+    filter="url(#glow)"/>
+
+  <!-- Chimney cap -->
+  <rect
+    x="317"
+    y="68"
+    width="94"
+    height="46"
+    rx="13"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="20"
+    filter="url(#glow)"/>
+
+  <!-- Interior windows -->
+  <path
+    d="M136 300
+       Q154 274 174 300
+       V342
+       H136
+       Z"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="17"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+    filter="url(#glow)"/>
+
+  <path
+    d="M222 300
+       Q240 274 260 300
+       V342
+       H222
+       Z"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="17"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+    filter="url(#glow)"/>
+
+  <rect
+    x="316"
+    y="286"
+    width="36"
+    height="58"
+    rx="7"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="17"
+    filter="url(#glow)"/>
+
+  <!-- Base highlight -->
+  <path
+    d="M90 380H402"
+    fill="none"
+    stroke="#6affe7"
+    stroke-width="11"
+    stroke-linecap="round"
+    opacity="0.85"/>
+</svg>

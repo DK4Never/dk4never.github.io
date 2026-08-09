@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="world map" >
+  <title>world map</title>
+  <g fill="none" stroke="#3de5b1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="110" cy="100" r="10"/><circle cx="400" cy="210" r="15"/><circle cx="690" cy="100" r="10"/><circle cx="120" cy="330" r="9"/><circle cx="680" cy="330" r="9"/><path d="M120 106 385 205M415 205 680 106M120 324 385 215M415 215 680 324M110 100h580"/></g>
+</svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="docker" style="color:#62f6bd">
+  <title>docker</title>
+  <g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h3v3H3zM7 9h3v3H7zM11 9h3v3h-3zM15 9h3v3h-3zM7 13h3v3H7zM11 13h3v3h-3zM15 13h3v3h-3z"/><path d="M3 18h12c4 0 5-2 6-4-2 0-3 0-4-1"/></g>
+</svg>

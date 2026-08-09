@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="server rack" >
+  <title>server rack</title>
+  <g fill="none" stroke="#3de5b1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="280" y="25" width="240" height="370" rx="6"/><path d="M310 58h180v56H310zM310 138h180v56H310zM310 218h180v56H310zM310 298h180v56H310z"/><circle cx="335" cy="86" r="6"/><circle cx="335" cy="166" r="6"/><circle cx="335" cy="246" r="6"/><circle cx="335" cy="326" r="6"/></g>
+</svg>

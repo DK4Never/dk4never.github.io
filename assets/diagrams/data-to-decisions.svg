@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc" style="color:#62f6bd">
+  <title id="title">Data to decisions architecture backdrop</title><desc id="desc">Aligned horizontal stage guides and directional connectors for a four-layer operational architecture.</desc>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 108h784M58 235h784M58 362h784M58 489h784" opacity=".2" stroke-width="1"/><path d="M225 55v450M450 55v450M675 55v450" opacity=".16" stroke-width="1"/>
+    <path d="M130 235h100M355 235h100M580 235h100" opacity=".5" stroke-width="1.5"/><path d="m219 229 11 6-11 6M444 229l11 6-11 6M669 229l11 6-11 6" opacity=".8" stroke-width="1.3"/>
+    <circle cx="225" cy="235" r="73" opacity=".18"/><circle cx="450" cy="235" r="73" opacity=".18"/><circle cx="675" cy="235" r="73" opacity=".18"/>
+  </g>
+</svg>

@@ -55,7 +55,10 @@ The globe uses precomputed geometry and a small fixed route set. Its animation p
 
 Important content remains selectable HTML text. Decorative images and SVGs are hidden from assistive technology, authored project artwork has meaningful alt text and PNG fallbacks, the data-flow diagram has a semantic node description and accessible labels, visible focus outlines are retained, and touch targets remain approximately 44px or larger for primary controls.
 
-The Green Master CV PDF is the canonical public CV download; portfolio artwork remains local and offline-compatible.
+The current Legend Systems CV application at `/cv/` is the canonical public CV;
+the standalone deployment is available at
+`https://dk4never.github.io/legend-systems-cv/`. Portfolio artwork remains
+local and offline-compatible.
 
 ## Validation matrix
 

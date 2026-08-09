@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="tech divider" >
+  <title>tech divider</title>
+  <g fill="none" stroke="#3de5b1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 45h250l35-35h230l35 35h250"/><circle cx="250" cy="45" r="6"/><circle cx="550" cy="45" r="6"/></g>
+</svg>
