@@ -47,20 +47,67 @@
     elements.forEach(function (element) { observer.observe(element); });
   }
 
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, function (character) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character];
+    });
+  }
+
   function pictureMarkup(project) {
     var webp = project.artwork + ".webp";
     var png = project.artwork + ".png";
-    return "<picture class=\"project-card__picture\"><source srcset=\"" + webp + "\" type=\"image/webp\"><img src=\"" + png + "\" width=\"1600\" height=\"997\" loading=\"lazy\" decoding=\"async\" alt=\"" + project.alt + "\"></picture>";
+    return "<picture class=\"project-card__picture\"><source srcset=\"" + webp + "\" type=\"image/webp\"><img src=\"" + png + "\" width=\"1586\" height=\"992\" loading=\"lazy\" decoding=\"async\" alt=\"" + escapeHtml(project.alt) + "\"></picture>";
+  }
+
+  function projectLinkMarkup(project) {
+    if (project.type === "case-study") {
+      return "<a class=\"text-link\" href=\"" + escapeHtml(project.route) + "\">VIEW CASE STUDY <span aria-hidden=\"true\">→</span></a>";
+    }
+
+    var sourceLink = "<a class=\"text-link\" href=\"" + escapeHtml(project.github) + "\" target=\"_blank\" rel=\"noopener noreferrer\">VIEW SOURCE <span aria-hidden=\"true\">↗</span></a>";
+    if (!project.live) return sourceLink;
+    return "<div class=\"hub-card-actions\"><a class=\"text-link text-link--primary\" href=\"" + escapeHtml(project.live) + "\" target=\"_blank\" rel=\"noopener noreferrer\">" + escapeHtml(project.liveLabel || "OPEN PROJECT") + " <span aria-hidden=\"true\">↗</span></a>" + sourceLink + "</div>";
+  }
+
+  function cardMarkup(project) {
+    var demo = project.demo ? "<span class=\"project-card-demo\">" + escapeHtml(project.demo) + "</span>" : "";
+    var tags = (project.tags || []).map(function (tag) { return "<span>" + escapeHtml(tag) + "</span>"; }).join("");
+    var category = project.type === "github" ? "" : "<span class=\"project-card-category\">" + escapeHtml(project.category) + "</span>";
+    return "<article class=\"hub-card hub-card--" + escapeHtml(project.type) + "\" data-reveal data-project-type=\"" + escapeHtml(project.type) + "\"><div class=\"hub-card-art\">" + pictureMarkup(project) + category + "</div><div class=\"hub-card-body\"><div class=\"status-row\"><span class=\"status-label\">" + escapeHtml(project.status) + "</span>" + demo + "</div><h2>" + escapeHtml(project.title) + "</h2><p>" + escapeHtml(project.summary) + "</p><div class=\"tag-list\">" + tags + "</div>" + projectLinkMarkup(project) + "</div></article>";
   }
 
   function renderHub() {
-    var grid = document.querySelector("[data-project-grid]");
-    if (!grid || !window.DEAN_PROJECTS) return;
-    grid.innerHTML = window.DEAN_PROJECTS.map(function (project) {
-      var demo = project.demo ? "<span class=\"project-card-demo\">" + project.demo + "</span>" : "";
-      return "<article class=\"hub-card\" data-reveal><div class=\"hub-card-art\">" + pictureMarkup(project) + "<span class=\"project-card-category\">" + project.category + "</span></div><div class=\"hub-card-body\"><div class=\"status-row\"><span class=\"status-label\">" + project.status + "</span>" + demo + "</div><h2>" + project.title + "</h2><p>" + project.summary + "</p><div class=\"tag-list\">" + project.tags.map(function (tag) { return "<span>" + tag + "</span>"; }).join("") + "</div><a class=\"text-link\" href=\"" + project.route + "\">VIEW CASE STUDY <span aria-hidden=\"true\">→</span></a></div></article>";
-    }).join("");
+    var caseGrid = document.querySelector("[data-project-grid=case-studies]");
+    var githubGrid = document.querySelector("[data-project-grid=github-projects]");
+    if ((!caseGrid && !githubGrid) || !window.DEAN_PROJECTS) return;
+    var caseStudies = window.DEAN_PROJECTS.filter(function (project) { return project.type === "case-study"; });
+    var githubProjects = window.DEAN_PROJECTS.filter(function (project) { return project.type === "github"; });
+    if (caseGrid) caseGrid.innerHTML = caseStudies.map(cardMarkup).join("");
+    if (githubGrid) githubGrid.innerHTML = githubProjects.map(cardMarkup).join("");
+    var count = document.querySelector("[data-project-count]");
+    if (count) count.textContent = window.DEAN_PROJECTS.length + " indexed projects";
     setupReveal();
+  }
+
+  function setupFilters() {
+    var buttons = document.querySelectorAll("[data-project-filter]");
+    var groups = document.querySelectorAll("[data-project-group]");
+    if (!buttons.length || !groups.length) return;
+
+    function applyFilter(filter) {
+      groups.forEach(function (group) {
+        var visible = filter === "all" || group.getAttribute("data-project-group") === filter;
+        group.hidden = !visible;
+      });
+      buttons.forEach(function (button) {
+        button.setAttribute("aria-pressed", String(button.getAttribute("data-project-filter") === filter));
+      });
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () { applyFilter(button.getAttribute("data-project-filter")); });
+    });
+    applyFilter("all");
   }
 
   function setupQrDemo() {
@@ -113,6 +160,7 @@
   function init() {
     setupMenu();
     renderHub();
+    setupFilters();
     setupReveal();
     setupQrDemo();
     setupCalculator();
