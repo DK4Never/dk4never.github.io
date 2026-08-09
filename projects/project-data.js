@@ -2,6 +2,7 @@
   root.DEAN_PROJECTS = [
     {
       slug: "btc-production-intelligence",
+      type: "case-study",
       title: "BTC Production Intelligence Suite",
       category: "Manufacturing intelligence",
       status: "Private implementation",
@@ -13,6 +14,7 @@
     },
     {
       slug: "industrial-integration",
+      type: "case-study",
       title: "Industrial Systems Integration",
       category: "Systems integration",
       status: "Private implementation",
@@ -24,6 +26,7 @@
     },
     {
       slug: "qr-traceability",
+      type: "case-study",
       title: "QR Traceability System",
       category: "QR traceability",
       status: "Sanitised demonstration",
@@ -36,6 +39,7 @@
     },
     {
       slug: "android-operations",
+      type: "case-study",
       title: "Android Operations App",
       category: "Android operations",
       status: "Private implementation",
@@ -47,6 +51,7 @@
     },
     {
       slug: "production-calculator",
+      type: "case-study",
       title: "Production Calculator & Planner",
       category: "Production planning",
       status: "Sanitised demonstration",
@@ -59,6 +64,7 @@
     },
     {
       slug: "legend-investigations",
+      type: "case-study",
       title: "Legend Investigations Platform",
       category: "Legend systems",
       status: "Concept / prototype",
@@ -67,6 +73,96 @@
       alt: "Secure investigation case management and evidence workflow illustration.",
       tags: ["OSINT", "Security", "Web"],
       route: "legend-investigations/"
+    },
+    {
+      slug: "legend-location",
+      type: "github",
+      title: "Legend Location",
+      status: "Public repository · MIT",
+      summary: "Privacy-aware, consent-based phone metadata and authorized location analysis platform built with Flask.",
+      artwork: "../assets/projects/github/project-legend-location",
+      alt: "Legend Location project artwork",
+      tags: ["Flask", "Python", "SQLite"],
+      github: "https://github.com/DK4Never/Legend-Location"
+    },
+    {
+      slug: "legend-systems-cv",
+      type: "github",
+      title: "Legend Systems CV",
+      status: "Public repository · license review",
+      summary: "An editable, selectable and print-safe static CV application for Dean Kruger.",
+      artwork: "../assets/projects/github/project-legend-systems-cv",
+      alt: "Legend Systems CV Builder project artwork",
+      tags: ["Static HTML", "A4 print"],
+      github: "https://github.com/DK4Never/legend-systems-cv",
+      live: "https://dk4never.github.io/legend-systems-cv/",
+      liveLabel: "OPEN CV BUILDER"
+    },
+    {
+      slug: "legend-industrial-controls",
+      type: "github",
+      title: "Legend Industrial Controls",
+      status: "Public repository · MIT",
+      summary: "A modular industrial manufacturing platform for production monitoring, reporting, maintenance, inventory, HR and offline AI in PLC-driven manufacturing environments.",
+      artwork: "../assets/projects/github/project-legend-industrial-controls",
+      alt: "Legend Industrial Controls project artwork",
+      tags: ["Python", "SQLite", "Offline"],
+      github: "https://github.com/DK4Never/Legend-Industrial-Controls"
+    },
+    {
+      slug: "legend-investigations-github",
+      type: "github",
+      title: "Legend Investigations",
+      status: "Public repository · license not selected",
+      summary: "An offline-first Tool Execution Engine and Center of Operations dashboard for approved reconnaissance and investigation workflows.",
+      artwork: "../assets/projects/github/project-legend-investigations",
+      alt: "Legend Investigations project artwork",
+      tags: ["FastAPI", "React", "TypeScript"],
+      github: "https://github.com/DK4Never/Legend-Investigations"
+    },
+    {
+      slug: "legend-hextotext",
+      type: "github",
+      title: "Legend HexToText",
+      status: "Public repository · MIT",
+      summary: "An industrial Hex, Binary and ASCII analysis toolkit for reverse engineering, firmware inspection and text extraction.",
+      artwork: "../assets/projects/github/project-legend-hextotext",
+      alt: "Legend HexToText project artwork",
+      tags: ["Python", "Intel HEX", "Binary analysis"],
+      github: "https://github.com/DK4Never/Legend-HexToText"
+    },
+    {
+      slug: "legend-devops",
+      type: "github",
+      title: "Legend Dev-OPS",
+      status: "Public repository · license not selected",
+      summary: "A local web console for Splintercell, case editing, DA-260, CSV exports, ingestion, RAG and company configuration.",
+      artwork: "../assets/projects/github/project-legend-devops",
+      alt: "Legend Dev-OPS project artwork",
+      tags: ["Python", "SQLite", "RAG"],
+      github: "https://github.com/DK4Never/Legend-Dev-OPS"
+    },
+    {
+      slug: "legend-remote-support",
+      type: "github",
+      title: "Legend Remote Support",
+      status: "Public repository · license not selected",
+      summary: "A consent-based Android remote support platform with diagnostics, session approval, hardware diagnostics, dashboard, audit logging and LLM-assisted support tools.",
+      artwork: "../assets/projects/github/project-legend-remote-support",
+      alt: "Legend Remote Support project artwork",
+      tags: ["Android", "Diagnostics", "Audit logging"],
+      github: "https://github.com/DK4Never/legend-remote-support"
+    },
+    {
+      slug: "legend-cyber-analyzer",
+      type: "github",
+      title: "Legend Cyber Analyzer",
+      status: "Public repository · MIT",
+      summary: "A cybersecurity project focused on cybersecurity, AI integration and advanced digital solutions.",
+      artwork: "../assets/projects/github/project-legend-cyber-analyzer",
+      alt: "Legend Cyber Analyzer project artwork",
+      tags: ["Cybersecurity", "AI integration"],
+      github: "https://github.com/DK4Never/legend-cyber-analyzer"
     }
   ];
 }(window));

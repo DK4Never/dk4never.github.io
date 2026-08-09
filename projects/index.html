@@ -33,20 +33,51 @@
 
   <main class="project-main" id="main-content">
     <div class="project-shell">
-      <section class="project-hero reveal" data-reveal>
-        <span class="project-eyebrow">02 / Project hub</span>
-        <h1>Selected Engineering Projects</h1>
-        <p>Public-safe case studies covering manufacturing intelligence, industrial integration, QR traceability, Android operations, capacity planning and privacy-conscious case-support software. Screenshots, diagrams and demonstrations use representative or sanitised data; private operational details are excluded.</p>
-        <div class="project-hero__actions">
-          <a class="outline-btn" href="../#projects">Featured on home <span aria-hidden="true">↗</span></a>
-          <a class="outline-btn" href="../#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+      <section class="project-hero project-hero--hub reveal" data-reveal>
+        <div class="project-hero__copy">
+          <span class="project-eyebrow">02 / Project hub</span>
+          <h1>Selected Engineering Projects</h1>
+          <p>Public-safe case studies and selected GitHub projects covering manufacturing intelligence, systems integration, software tooling and privacy-conscious engineering. Screenshots, diagrams and demonstrations use representative or sanitised data; private operational details are excluded.</p>
+          <div class="project-hero__actions">
+            <a class="outline-btn" href="../#projects">Featured on home <span aria-hidden="true">↗</span></a>
+            <a class="outline-btn" href="../#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
+        <aside class="project-index-hud" aria-label="Project index summary">
+          <span class="project-index-hud__label">PROJECT INDEX / SYSTEM MAP</span>
+          <strong data-project-count>14 indexed projects</strong>
+          <div class="project-index-hud__rows">
+            <span><i aria-hidden="true"></i>CASE STUDIES</span>
+            <span><i aria-hidden="true"></i>GITHUB PROJECTS</span>
+            <span><i aria-hidden="true"></i>SOFTWARE · INDUSTRIAL · DATA</span>
+          </div>
+        </aside>
       </section>
 
-      <section aria-labelledby="project-grid-title">
-        <div class="section-kicker" id="project-grid-title">Six engineering case studies</div>
-        <div class="project-hub-grid" data-project-grid></div>
-        <noscript><p class="case-panel">Project cards require JavaScript for their shared data rendering. Enable local JavaScript to view the case-study links.</p></noscript>
+      <section class="project-index" aria-labelledby="project-grid-title">
+        <div class="project-index__toolbar">
+          <div>
+            <div class="section-kicker" id="project-grid-title">Project index</div>
+            <p class="project-artwork-note">Project artwork is illustrative. Repository descriptions and capabilities are based on the linked project source.</p>
+          </div>
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button class="project-filter is-active" type="button" data-project-filter="all" aria-pressed="true">ALL</button>
+            <button class="project-filter" type="button" data-project-filter="case-study" aria-pressed="false">CASE STUDIES</button>
+            <button class="project-filter" type="button" data-project-filter="github" aria-pressed="false">GITHUB PROJECTS</button>
+          </div>
+        </div>
+
+        <section class="project-group" data-project-group="case-study" aria-labelledby="case-study-title">
+          <div class="project-group__heading"><span class="section-kicker">Section A</span><h2 id="case-study-title">Flagship case studies</h2><span class="project-group__count">06 / preserved public-safe routes</span></div>
+          <div class="project-hub-grid" data-project-grid="case-studies"></div>
+        </section>
+
+        <section class="project-group" data-project-group="github" aria-labelledby="github-project-title">
+          <div class="project-group__heading"><span class="section-kicker">Section B</span><h2 id="github-project-title">Legend / GitHub projects</h2><span class="project-group__count">08 / linked repositories</span></div>
+          <div class="project-hub-grid project-hub-grid--github" data-project-grid="github-projects"></div>
+        </section>
+
+        <noscript><p class="case-panel">Project cards require JavaScript for their shared data rendering. Enable local JavaScript to view the case-study and repository links.</p></noscript>
       </section>
     </div>
   </main>
