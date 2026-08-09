@@ -1,0 +1,496 @@
+@page { size: A4 portrait; margin: 0; }
+
+@media print {
+  html, body { width: 210mm; min-width: 210mm; margin: 0; background: var(--cv-print-background) !important; color: var(--cv-print-ink); }
+  body:not(.executive-active) { height: 297mm; min-height: 297mm; }
+  body.executive-active { height: auto; min-height: 0; }
+  body { overflow: visible; }
+  .app-bar, .inspector { display: none !important; }
+  .workspace, .canvas-stage { display: block; min-height: 0; padding: 0; overflow: visible; }
+  .page-frame { width: 210mm !important; height: 297mm !important; margin: 0; transform: none !important; zoom: 1 !important; }
+  .cv-page {
+    --paper: var(--cv-print-background);
+    --paper-deep: var(--cv-print-background);
+    --panel: transparent;
+    --panel-deep: transparent;
+    --ink: var(--cv-print-ink);
+    --muted: var(--cv-print-muted);
+    --line: #9aaab0;
+    --accent: var(--cv-print-blue);
+    --accent-strong: var(--cv-print-blue);
+    background: var(--cv-print-background) !important;
+    background-image: none !important;
+    box-shadow: none;
+    transform: none !important;
+  }
+  .cv-page[data-theme="gold"] { --accent: var(--cv-print-gold); --accent-strong: var(--cv-print-gold); }
+  .cv-page[data-theme="red"] { --accent: var(--cv-print-red); --accent-strong: var(--cv-print-red); }
+  .cv-page .side-masthead, .cv-page .cv-panel, .cv-page .cv-footer { background: transparent !important; }
+  .cv-page .cv-panel::before, .cv-page .side-masthead::after, .cv-page .hero-panel::after, .cv-page .cv-footer::before { display: none !important; }
+  .cv-page .page-grain, .cv-page .section-divider { opacity: 0 !important; }
+  .cv-page .technical-art, body.executive-active .executive-art { display: none !important; }
+  .cv-page .masthead-role, .cv-page .hero-subtitle, .cv-page .hero-quote, .cv-page .cv-footer { color: var(--cv-print-ink) !important; }
+  .cv-page .job-bullets { color: var(--cv-print-muted) !important; }
+  .cv-page .stack-chip { background: transparent !important; border-color: var(--line); }
+  .cv-page .official-tech-mark, body.executive-active .official-tech-mark { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .cv-page .mask-icon { background: transparent !important; -webkit-mask: none !important; mask: none !important; border: .3mm solid var(--accent); border-radius: 50%; }
+  .cv-page .cv-local-icon { width: 4mm; height: 4mm; background: var(--accent) !important; -webkit-mask: var(--icon-url) center / contain no-repeat !important; mask: var(--icon-url) center / contain no-repeat !important; border: 0 !important; border-radius: 0 !important; }
+  .cv-page .contact-list a { color: var(--accent) !important; text-decoration: underline; }
+  .cv-page .editable { outline: 0; background: transparent; box-shadow: none; cursor: default; }
+  .cv-page .profile-orbit, .cv-page .summary-graphic img, .cv-page .hero-svg { opacity: 0 !important; }
+  .cv-page .portrait-frame { background: transparent; }
+  .legend-systems-mark { background: transparent !important; -webkit-mask: none !important; mask: none !important; }
+  .legend-systems-mark-fallback { display: block; }
+  body.executive-active .document-mount { min-width: 210mm; min-height: 0; }
+  body.executive-active .executive-frame { width: 210mm !important; height: auto !important; min-height: 0; }
+  body.executive-active .executive-document { transform: none !important; gap: 0; }
+  body.executive-active .executive-page {
+    --executive-background: var(--cv-print-background);
+    --executive-panel: transparent;
+    --executive-accent: var(--cv-print-blue);
+    --executive-accent-soft: transparent;
+    --executive-line: #9aaab0;
+    --executive-ink: var(--cv-print-ink);
+    --executive-body: var(--cv-print-ink);
+    --executive-muted: var(--cv-print-muted);
+    --executive-link: var(--cv-print-blue);
+    break-after: page;
+    page-break-after: always;
+    background: var(--cv-print-background) !important;
+    background-image: none !important;
+    box-shadow: none;
+  }
+  body.executive-active .executive-document[data-theme="gold"] .executive-page { --executive-accent: var(--cv-print-gold); }
+  body.executive-active .executive-document[data-theme="red"] .executive-page { --executive-accent: var(--cv-print-red); }
+  body.executive-active .executive-capabilities li, body.executive-active .executive-experience-card, body.executive-active .executive-system-card { background: transparent !important; }
+  body.executive-active .executive-contact a, body.executive-active .executive-footer a { color: var(--executive-link); text-decoration: underline; }
+  body.executive-active .executive-editable { border-bottom: 0; background: transparent; box-shadow: none; outline: 0; cursor: default; }
+  body.executive-active .executive-page--two { break-after: auto; page-break-after: auto; }
+  html.ats-active { background: #fff !important; }
+  body.ats-active { height: auto; min-height: 0; background: #fff !important; }
+  body.ats-active .document-mount { min-width: 210mm; min-height: 0; }
+  body.ats-active .ats-frame { width: 210mm !important; height: auto !important; min-height: 0; }
+  body.ats-active .ats-document { width: 210mm; min-height: 297mm; transform: none !important; box-shadow: none; }
+  html.technical-profile-active { background: #fff !important; }
+  body.technical-profile-active { height: auto; min-height: 0; background: #fff !important; }
+  body.technical-profile-active .document-mount { min-width: 210mm; min-height: 0; }
+  body.technical-profile-active .technical-profile-frame { width: 210mm !important; height: auto !important; min-height: 0; }
+  body.technical-profile-active .technical-profile-document { width: 210mm; min-height: 0; transform: none !important; box-shadow: none; }
+  a { color: inherit; text-decoration: underline; }
+
+  /* The normal print path is the background-independent fallback. The explicit
+     on-mode is used only by the print comparison harness to verify both paths. */
+  html[data-print-backgrounds="on"] .cv-page {
+    --paper: var(--cv-screen-background);
+    --paper-deep: #04080d;
+    --panel: rgba(15, 25, 34, .9);
+    --panel-deep: rgba(7, 14, 20, .92);
+    --ink: var(--cv-screen-ink);
+    --muted: var(--cv-screen-muted);
+    --line: rgba(185, 213, 225, .22);
+    --accent: var(--cv-accent-blue);
+    --accent-strong: var(--cv-focus-dark);
+    background: linear-gradient(135deg, var(--paper-deep), var(--paper) 52%, #07111a) !important;
+  }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="gold"] { --accent: var(--cv-accent-gold); --accent-strong: var(--cv-print-gold); }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] { --accent: var(--cv-accent-red); --accent-strong: var(--cv-print-red); }
+  html[data-print-backgrounds="on"] .cv-page .side-masthead { background: linear-gradient(160deg, rgba(23, 36, 47, .9), rgba(4, 9, 14, .96)) !important; }
+  html[data-print-backgrounds="on"] .cv-page .cv-panel { background: linear-gradient(145deg, var(--panel), var(--panel-deep)) !important; }
+  html[data-print-backgrounds="on"] .cv-page .cv-footer { background: rgba(20, 30, 38, .56) !important; }
+  html[data-print-backgrounds="on"] .cv-page .stack-chip { background: rgba(2, 8, 12, .54) !important; }
+  html[data-print-backgrounds="on"] .cv-page .cv-panel::before, html[data-print-backgrounds="on"] .cv-page .side-masthead::after, html[data-print-backgrounds="on"] .cv-page .hero-panel::after, html[data-print-backgrounds="on"] .cv-page .cv-footer::before { display: block !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .hero-panel::before,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .side-masthead::after,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-primary-brand::before,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .page-border::before,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .page-border::after { display: none !important; }
+  html[data-print-backgrounds="on"] .cv-page .page-grain, html[data-print-backgrounds="on"] .cv-page .section-divider { opacity: .08 !important; }
+  html[data-print-backgrounds="on"] .cv-page .masthead-role { color: #d8e5ea !important; }
+  html[data-print-backgrounds="on"] .cv-page .hero-subtitle { color: #e0ebef !important; }
+  html[data-print-backgrounds="on"] .cv-page .hero-quote { color: #d6e4e9 !important; }
+  html[data-print-backgrounds="on"] .cv-page .cv-footer { color: #d8e2e6 !important; }
+  html[data-print-backgrounds="on"] .cv-page .profile-orbit, html[data-print-backgrounds="on"] .cv-page .summary-graphic img, html[data-print-backgrounds="on"] .cv-page .hero-svg { opacity: .42 !important; }
+  html[data-print-backgrounds="on"] body.executive-active .executive-page {
+    --executive-background: #f6f8f8;
+    --executive-panel: #eef3f3;
+    --executive-accent: var(--cv-accent-blue);
+    --executive-accent-soft: rgba(13, 105, 117, .08);
+    --executive-line: #c8d5d8;
+    --executive-ink: #17252d;
+    --executive-body: #30434b;
+    --executive-muted: #5d7178;
+    --executive-link: #075e69;
+    background: #f6f8f8 !important;
+  }
+  html[data-print-backgrounds="on"] body.executive-active .executive-document[data-theme="gold"] .executive-page { --executive-accent: var(--cv-accent-gold); --executive-accent-soft: rgba(157, 104, 10, .08); --executive-link: #855600; }
+  html[data-print-backgrounds="on"] body.executive-active .executive-document[data-theme="red"] .executive-page { --executive-accent: var(--cv-accent-red); --executive-accent-soft: rgba(170, 47, 57, .07); --executive-link: #9d2833; }
+  html[data-print-backgrounds="on"] body.executive-active .executive-capabilities li, html[data-print-backgrounds="on"] body.executive-active .executive-experience-card, html[data-print-backgrounds="on"] body.executive-active .executive-system-card { background: var(--executive-panel) !important; }
+}
+
+@media print {
+  .icon-picker-dialog, .editor-toggle, .theme-switcher, .builder-card, .drawer-close { display: none !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-custom-accent="true"] .reference-map-slogan,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-custom-accent="true"] .reference-map-slogan { color: var(--accent-strong) !important; text-shadow: 0 .2mm .35mm rgba(0,0,0,.95), 0 0 .55mm color-mix(in srgb, var(--accent) 55%, transparent), 0 0 1.2mm color-mix(in srgb, var(--accent) 25%, transparent); }
+}
+
+/* CV-08 print parity: retain the supplied red reference geometry on both
+   screen and the explicit backgrounds-on PDF path. */
+@media print {
+  .cv-page[data-theme="red"] .page-inner {
+    grid-template-columns: 63mm minmax(0, 1fr);
+    grid-template-rows: 43mm 13mm 50mm 25mm 105mm 30mm 12mm;
+    column-gap: 2.5mm;
+    row-gap: 2mm;
+    padding: 3mm 3mm 4mm;
+  }
+  .cv-page[data-theme="red"] .cv-side {
+    grid-column: 1;
+    grid-row: 3 / 7;
+    display: flex;
+    height: 100%;
+    gap: 2mm;
+    position: static;
+  }
+  .cv-page[data-theme="red"] .cv-main { display: contents; }
+  .cv-page[data-theme="red"] .side-masthead {
+    position: absolute;
+    z-index: 3;
+    top: 3mm;
+    left: 3mm;
+    right: 3mm;
+    width: auto;
+    height: 43mm;
+    display: block;
+    flex: none;
+    padding: 0;
+    overflow: visible;
+    border: 0;
+    background: transparent !important;
+    clip-path: none;
+  }
+  .cv-page[data-theme="red"] .side-masthead::after,
+  .cv-page[data-theme="red"] .masthead-copy { display: none; }
+  .cv-page[data-theme="red"] .portrait-frame {
+    position: absolute;
+    top: 50%;
+    right: 5mm;
+    transform: translateY(-50%);
+    width: 31mm;
+    height: 34mm;
+    margin: 0;
+    border: .25mm solid #9aaab0;
+    outline: 0;
+    border-radius: 2.2mm;
+    clip-path: none;
+    box-shadow: none;
+  }
+  .cv-page[data-theme="red"] .portrait-frame::before { display: none; }
+  .cv-page[data-theme="red"] .hero-panel {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    padding: 5mm 3mm 3mm;
+  }
+  .cv-page[data-theme="red"] .hero-content { padding: 0 38mm 0 50mm; }
+  .cv-page[data-theme="red"] .capability-bar {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    min-height: 11.4mm;
+  }
+  .cv-page[data-theme="red"] .reference-intelligence-reserve { grid-column: 2; grid-row: 3; width: 100%; height: 100%; min-height: 0; margin: 0; }
+  .cv-page[data-theme="red"] .summary-panel { grid-column: 2; grid-row: 4; width: 100%; height: 100%; min-height: 0; margin: 0; }
+  .cv-page[data-theme="red"] .experience-panel { grid-column: 2; grid-row: 5; width: 100%; height: 100%; min-height: 0; margin: 0; overflow: hidden; }
+  .cv-page[data-theme="red"] .achievements-panel { grid-column: 2; grid-row: 6; width: 100%; height: 100%; min-height: 0; margin: 0; }
+  .cv-page[data-theme="red"] .cv-footer { grid-column: 1 / -1; grid-row: 7; width: 100%; height: 100%; min-height: 0; margin: 0; }
+  .cv-page[data-theme="red"] .reference-shell-reserve,
+  .cv-page[data-theme="red"] .cv-side::after { display: none; }
+  .cv-page[data-theme="red"] .contact-panel { flex-basis: 50mm; }
+  .cv-page[data-theme="red"] .profile-panel { flex-basis: 25mm; }
+  .cv-page[data-theme="red"] .skills-panel { flex-basis: 60mm; }
+  .cv-page[data-theme="red"] .stack-panel { flex-basis: 75mm; }
+  .cv-page[data-theme="red"] .reference-primary-brand {
+    top: 50%;
+    left: 10mm;
+    bottom: auto;
+    width: 31mm;
+    height: 36mm;
+    transform: translateY(-50%);
+    border: 0;
+    background: transparent !important;
+    clip-path: none;
+    box-shadow: none;
+  }
+  .cv-page[data-theme="red"] .reference-identity-panel { display: none; }
+}
+
+@media screen {
+  .cv-page { box-shadow: 0 22px 70px rgba(0, 0, 0, .5), 0 0 0 1px rgba(161, 205, 224, .12); }
+}
+
+@media print {
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] {
+    --paper: #050607;
+    --paper-deep: #030405;
+    --ink: #f3f5f6;
+    --body: #d0d4d6;
+    --muted: #899196;
+    --line: #343a3e;
+    --accent: #e32020;
+    --accent-strong: #ff2a20;
+    background:
+      radial-gradient(circle at 78% 7%, rgba(88, 16, 18, .28), transparent 31%),
+      linear-gradient(145deg, #050607 0%, #0a0d10 48%, #040506 100%) !important;
+    color: var(--ink) !important;
+  }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .page-border,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .technical-art,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-intelligence-reserve,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-shell-reserve { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-intelligence-reserve { background-color: #090b0d !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-shell-reserve,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .cv-side::after { background-color: #080a0c !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .hero-title { color: #f3f5f6 !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .hero-title strong,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .panel-title,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .section-title { color: #ff2a20 !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .hero-primary,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .job-title,
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .achievement strong { color: #f0f2f3 !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-primary-brand-image {
+    display: block !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-feature-visual {
+    display: block !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-map-slogan {
+    color: #ff2a20 !important;
+    text-shadow: 0 .2mm .35mm rgba(0, 0, 0, .95), 0 0 .55mm rgba(255, 42, 32, .55), 0 0 1.2mm rgba(255, 42, 32, .25);
+  }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-primary-brand-mark { display: none !important; }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .reference-primary-brand .legend-systems-mark-fallback { display: none !important; }
+
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] {
+    --paper: #fff;
+    --ink: var(--cv-print-ink);
+    --body: var(--cv-print-muted);
+    --muted: var(--cv-print-muted);
+    --line: #9aaab0;
+    --accent: var(--cv-print-red);
+    --accent-strong: var(--cv-print-red);
+    background: #fff !important;
+    color: var(--cv-print-ink) !important;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-map-slogan {
+    color: var(--cv-print-red) !important;
+    text-shadow: 0 .2mm .35mm rgba(0, 0, 0, .95), 0 0 .55mm rgba(255, 42, 32, .55), 0 0 1.2mm rgba(255, 42, 32, .25);
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .side-masthead {
+    flex-basis: 42mm;
+    display: grid;
+    grid-template-columns: 28mm minmax(0, 1fr);
+    gap: 4mm;
+    padding: 3mm;
+    border: 0;
+    border-bottom: .35mm solid var(--cv-print-red);
+    background: transparent !important;
+    clip-path: none;
+    box-shadow: none;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .portrait-frame { width: 28mm; height: 32mm; border: .35mm solid var(--cv-print-red); outline: 0; box-shadow: none; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .portrait-frame::before { display: none; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .masthead-copy { visibility: visible; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-primary-brand {
+    left: 35mm;
+    bottom: 2mm;
+    width: auto;
+    height: 6mm;
+    display: flex;
+    transform: none;
+    background: transparent;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-primary-brand-mark {
+    display: block;
+    width: 6mm;
+    height: 6mm;
+    background: var(--cv-print-red);
+    -webkit-mask: url('../assets/branding/legend-systems-mark.svg') center / contain no-repeat;
+    mask: url('../assets/branding/legend-systems-mark.svg') center / contain no-repeat;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-primary-brand-image { display: none; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-feature-visual { display: none; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-primary-brand .brand-lockup-text {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-intelligence-reserve,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-shell-reserve,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .cv-side::after { display: none; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .cv-panel,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .hero-panel,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .cv-footer { background: transparent !important; box-shadow: none; clip-path: none; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .hero-title,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .hero-primary,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .job-title,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .achievement strong { color: var(--cv-print-ink) !important; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .hero-title strong,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .panel-title,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .section-title { color: var(--cv-print-red) !important; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-identity-panel { color: var(--cv-print-ink); background: #fff; }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-identity-panel strong { color: var(--cv-print-red); }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-identity-panel span { color: var(--cv-print-muted); }
+}
+
+/* CV-08 backgrounds-off print parity: keep the red reference geometry while
+   retaining the existing legible, background-free print treatment. */
+@media print {
+  .cv-page[data-theme="red"] .side-masthead {
+    background: transparent !important;
+  }
+  html[data-print-backgrounds="on"] .cv-page[data-theme="red"] .side-masthead {
+    background: transparent !important;
+    background-image: none !important;
+  }
+  .cv-page[data-theme="red"] .hero-panel {
+    z-index: 1;
+  }
+  .cv-page[data-theme="red"] .reference-primary-brand {
+    z-index: 4;
+    width: 27mm;
+    height: 34mm;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .side-masthead {
+    position: absolute;
+    top: 3mm;
+    left: 3mm;
+    right: 3mm;
+    width: auto;
+    height: 43mm;
+    display: block;
+    flex: none;
+    padding: 0;
+    border: 0;
+    background: transparent !important;
+    clip-path: none;
+    box-shadow: none;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .side-masthead::after,
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .masthead-copy {
+    display: none;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .portrait-frame {
+    position: absolute;
+    top: 50%;
+    right: 5mm;
+    transform: translateY(-50%);
+    width: 31mm;
+    height: 34mm;
+    margin: 0;
+    border: .35mm solid var(--cv-print-red);
+    outline: 0;
+    border-radius: 2.2mm;
+    clip-path: none;
+    box-shadow: none;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-primary-brand {
+    top: 50%;
+    left: 10mm;
+    right: auto;
+    bottom: auto;
+    width: 27mm;
+    height: 34mm;
+    display: block;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    clip-path: none;
+  }
+  html:not([data-print-backgrounds="on"]) .cv-page[data-theme="red"] .reference-primary-brand .brand-lockup-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+}
+
+/* CV-10 print contract: Match CV Theme is the runtime default. Printer
+   Friendly is opt-in through html[data-print-backgrounds="off"]. */
+@media print {
+  html:not([data-print-backgrounds="off"]) body,
+  html:not([data-print-backgrounds="off"]) body.ats-active,
+  html:not([data-print-backgrounds="off"]) body.technical-profile-active { background: #05080d !important; color: #eef5f7; }
+  html:not([data-print-backgrounds="off"]) .cv-page {
+    --paper: #050607; --paper-deep: #030405; --ink: #f3f5f6; --body: #d0d4d6;
+    --muted: #899196; --line: #343a3e;
+    --accent: var(--cv-custom-accent, var(--cv-accent-red));
+    --accent-strong: var(--cv-custom-accent-strong, var(--cv-print-red));
+    background: radial-gradient(circle at 78% 7%, rgba(88, 16, 18, .28), transparent 31%), linear-gradient(145deg, #050607 0%, #0a0d10 48%, #040506 100%) !important;
+    color: var(--ink) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  html:not([data-print-backgrounds="off"]) .cv-page .reference-intelligence-reserve,
+  html:not([data-print-backgrounds="off"]) .cv-page .reference-shell-reserve,
+  html:not([data-print-backgrounds="off"]) .cv-page .cv-footer { background-color: #090b0d !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html:not([data-print-backgrounds="off"]) .cv-page .reference-feature-visual { display: block !important; opacity: 1 !important; }
+  html:not([data-print-backgrounds="off"]) .cv-page .reference-map-slogan { color: var(--accent-strong) !important; text-shadow: 0 .2mm .35mm rgba(0, 0, 0, .95), 0 0 .55mm color-mix(in srgb, var(--accent) 55%, transparent), 0 0 1.2mm color-mix(in srgb, var(--accent) 25%, transparent); }
+  html:not([data-print-backgrounds="off"]) .cv-page .cv-panel::before,
+  html:not([data-print-backgrounds="off"]) .cv-page .side-masthead::after,
+  html:not([data-print-backgrounds="off"]) .cv-page .cv-footer::before { display: block !important; }
+
+  html:not([data-print-backgrounds="off"]) body.executive-active .executive-page {
+    --executive-accent: var(--document-accent, var(--cv-accent-red)); --executive-accent-soft: rgba(255, 255, 255, .06);
+    --executive-line: rgba(155, 193, 208, .24); --executive-background: #071018; --executive-panel: rgba(14, 29, 39, .76);
+    --executive-ink: #f1f6f8; --executive-body: #c1cdd2; --executive-muted: #8da0a9; --executive-link: var(--executive-accent);
+    background: linear-gradient(145deg, #071018 0%, #0a151d 54%, #050a0f 100%) !important; color: var(--executive-body) !important;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  html:not([data-print-backgrounds="off"]) body.executive-active .executive-document[data-theme="blue"] .executive-page { --executive-accent: var(--document-accent, var(--cv-accent-blue)); }
+  html:not([data-print-backgrounds="off"]) body.executive-active .executive-document[data-theme="gold"] .executive-page { --executive-accent: var(--document-accent, var(--cv-accent-gold)); }
+  html:not([data-print-backgrounds="off"]) body.executive-active .executive-document[data-theme="red"] .executive-page { --executive-accent: var(--document-accent, var(--cv-accent-red)); }
+  html:not([data-print-backgrounds="off"]) body.executive-active .executive-capabilities li,
+  html:not([data-print-backgrounds="off"]) body.executive-active .executive-experience-card,
+  html:not([data-print-backgrounds="off"]) body.executive-active .executive-system-card { background: var(--executive-panel) !important; }
+
+  html:not([data-print-backgrounds="off"]) body.ats-active .ats-document,
+  html:not([data-print-backgrounds="off"]) body.technical-profile-active .technical-profile-document {
+    background: linear-gradient(145deg, #071018 0%, #0a151d 54%, #050a0f 100%) !important; color: #c1cdd2 !important;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  html:not([data-print-backgrounds="off"]) body.ats-active .ats-document[data-theme="blue"],
+  html:not([data-print-backgrounds="off"]) body.technical-profile-active .technical-profile-document[data-theme="blue"] { --ats-accent: var(--document-accent, var(--cv-accent-blue)); --technical-accent: var(--document-accent, var(--cv-accent-blue)); }
+  html:not([data-print-backgrounds="off"]) body.ats-active .ats-document[data-theme="gold"],
+  html:not([data-print-backgrounds="off"]) body.technical-profile-active .technical-profile-document[data-theme="gold"] { --ats-accent: var(--document-accent, var(--cv-accent-gold)); --technical-accent: var(--document-accent, var(--cv-accent-gold)); }
+  html:not([data-print-backgrounds="off"]) body.ats-active .ats-document[data-theme="red"],
+  html:not([data-print-backgrounds="off"]) body.technical-profile-active .technical-profile-document[data-theme="red"] { --ats-accent: var(--document-accent, var(--cv-accent-red)); --technical-accent: var(--document-accent, var(--cv-accent-red)); }
+
+  html[data-print-backgrounds="off"] body,
+  html[data-print-backgrounds="off"] body.ats-active,
+  html[data-print-backgrounds="off"] body.technical-profile-active { background: #fff !important; color: var(--cv-print-ink); }
+  html[data-print-backgrounds="off"] .cv-page,
+  html[data-print-backgrounds="off"] body.executive-active .executive-page,
+  html[data-print-backgrounds="off"] body.ats-active .ats-document,
+  html[data-print-backgrounds="off"] body.technical-profile-active .technical-profile-document {
+    background: #fff !important; color: var(--cv-print-ink) !important; box-shadow: none;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  html[data-print-backgrounds="off"] .cv-page .reference-feature-visual,
+  html[data-print-backgrounds="off"] .cv-page .reference-intelligence-reserve,
+  html[data-print-backgrounds="off"] .cv-page .reference-shell-reserve { display: none !important; }
+  html[data-print-backgrounds="off"] body.executive-active .executive-page,
+  html[data-print-backgrounds="off"] body.ats-active .ats-document,
+  html[data-print-backgrounds="off"] body.technical-profile-active .technical-profile-document {
+    --executive-accent: var(--cv-print-red); --ats-accent: var(--cv-print-red); --technical-accent: var(--cv-print-red);
+    --executive-ink: var(--cv-print-ink); --executive-body: var(--cv-print-ink); --ats-ink: var(--cv-print-ink); --ats-body: var(--cv-print-ink);
+    --technical-ink: var(--cv-print-ink); --technical-body: var(--cv-print-ink);
+  }
+}

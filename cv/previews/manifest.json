@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "previews": [
+    {
+      "documentId": "page-one",
+      "theme": "blue",
+      "path": "previews/page-one-blue.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "0da568a89197a0757d934bc84701acf4ee92a3897b8a484b5bbc2d5271b2c6c4"
+    },
+    {
+      "documentId": "page-one",
+      "theme": "gold",
+      "path": "previews/page-one-gold.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "c582c49420dda3de6fc316e024d57a9db7d153d182af51af65c077f9754799e9"
+    },
+    {
+      "documentId": "page-one",
+      "theme": "red",
+      "path": "previews/page-one-red.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "ecf5a98a16efe848587303e16e596160264b3af93cdbc85fb287fcdb6e98bc7f"
+    },
+    {
+      "documentId": "executive",
+      "theme": "blue",
+      "path": "previews/executive-blue.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "5b7b0dd85999b90ac2b4f1ed2cdf8ea972b8e02c55953e42c51fb535ae3cf5ab"
+    },
+    {
+      "documentId": "executive",
+      "theme": "gold",
+      "path": "previews/executive-gold.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "01ced27fc8df55f5761e28dd107cb29bf2537af6f22174304867f2e6bfa04213"
+    },
+    {
+      "documentId": "executive",
+      "theme": "red",
+      "path": "previews/executive-red.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "320fde2c13a17cf504e36b305db83b2dd2f54c7f1da3647431ba3b98c36655de"
+    },
+    {
+      "documentId": "ats",
+      "theme": null,
+      "path": "previews/ats.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "aaffd3a23ea335289868bd406ab318e7e9243442d7de87982345716093764dfd"
+    },
+    {
+      "documentId": "technical-profile",
+      "theme": "blue",
+      "path": "previews/technical-profile-blue.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "8c52cf1f3a0f8367b70ca399509e35ddb750a977801599e017becbe8631f808d"
+    },
+    {
+      "documentId": "technical-profile",
+      "theme": "gold",
+      "path": "previews/technical-profile-gold.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "5fe5da2114e2e495a408a2f6760e06a894d26103843fea5dcaf128f6f229f824"
+    },
+    {
+      "documentId": "technical-profile",
+      "theme": "red",
+      "path": "previews/technical-profile-red.png",
+      "page": 1,
+      "width": 1983,
+      "height": 2805,
+      "sha256": "6158a32536f872653137706990af5318383a3dcb4e353e822db33993808896c1"
+    }
+  ]
+}

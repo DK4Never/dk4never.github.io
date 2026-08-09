@@ -1,0 +1,1324 @@
+{
+  "documents": {
+    "ats": {
+      "achievements": [
+        {
+          "id": "recovery-aware-ingestion",
+          "label": "Recovery-aware ingestion",
+          "statement": "Designed recovery-aware ingestion workflows for disrupted machine-data sources."
+        },
+        {
+          "id": "production-context",
+          "label": "Production context and reporting",
+          "statement": "Connected production context with reporting and traceability workflows."
+        },
+        {
+          "id": "android-scanning",
+          "label": "Android scanning workflows",
+          "statement": "Developed Android scanning flows linked to server-side operational data."
+        },
+        {
+          "id": "operational-reporting",
+          "label": "Operational reporting",
+          "statement": "Built reporting and dashboard systems around practical operational decisions."
+        },
+        {
+          "id": "integrated-engineering",
+          "label": "Integrated engineering",
+          "statement": "Combined software, infrastructure and machine-integration work within manufacturing environments."
+        }
+      ],
+      "certifications": {
+        "earned": []
+      },
+      "contact": {
+        "email": "SamFisher.Ghost@proton.me",
+        "github": "https://github.com/DK4Never",
+        "linkedin": "https://www.linkedin.com/in/legendcyber",
+        "location": "Johannesburg, South Africa",
+        "name": "Dean Kruger",
+        "phoneDisplay": "+27 67 463 2394",
+        "phoneHref": "tel:+27674632394",
+        "portfolio": "https://dk4never.github.io/"
+      },
+      "education": {
+        "completed": "2008",
+        "institution": "Hoërskool Suid-Natal",
+        "qualification": "Grade 12 / Matric"
+      },
+      "experience": [
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "btc",
+          "location": "Germiston, South Africa",
+          "organisation": "Best Tobacco Company / BTC",
+          "period": {
+            "display": "Jan 2026–Present",
+            "end": "Present",
+            "start": "Jan 2026"
+          },
+          "role": "Software Engineer / Systems Developer",
+          "specialisation": "Manufacturing Intelligence and Industrial Systems",
+          "summary": "developing manufacturing-intelligence software, integrating and normalising machine and operational data, creating production and shift reporting, developing dashboards, implementing QR and Data Matrix traceability, developing Android scanning and operator workflows, developing technician and operational modules, developing APIs and SQL-backed services, supporting Linux-hosted services, developing Windows-side integration tooling, implementing offline buffering and recovery synchronisation, supporting factory infrastructure integration, and documenting and validating operational systems."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "gaap-pos",
+          "location": "KwaZulu-Natal, South Coast",
+          "organisation": "GAAP Point of Sale (Pty) Ltd",
+          "period": {
+            "display": "Feb 2022–Feb 2024",
+            "end": "Feb 2024",
+            "start": "Feb 2022"
+          },
+          "role": "Onsite Technician — Point-of-Sale Systems",
+          "specialisation": "Point-of-Sale Systems",
+          "summary": "Provided onsite technical support within GAAP point-of-sale environments across the KwaZulu-Natal South Coast."
+        },
+        {
+          "bullets": [],
+          "concurrent": true,
+          "id": "legend-investigations",
+          "location": null,
+          "organisation": "Legend Investigations",
+          "period": {
+            "display": "Previous company work; ongoing private assignments",
+            "end": "Present",
+            "start": null
+          },
+          "role": "Technical Contractor — Private Assignments",
+          "specialisation": "Authorised Technical and Investigation Support",
+          "summary": "Provides authorised technical and investigation-support work on private assignments for Legend Investigations."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "fs-control-equipment",
+          "location": "Margate / Southbroom, KwaZulu-Natal",
+          "organisation": "F&S Control Equipment",
+          "period": {
+            "display": "Jan 2018–Nov 2019",
+            "end": "Nov 2019",
+            "start": "Jan 2018"
+          },
+          "role": "Control Equipment Production & Technical Support",
+          "specialisation": "Control Equipment Production and Technical Support",
+          "summary": "electronic control-equipment assembly, SMT pick-and-place equipment, machine homing and axis-position troubleshooting, calibration, controller-reset workflows, machine-software recovery support, component and bill-of-material handling and technical fault diagnosis."
+        },
+        {
+          "bullets": [],
+          "concurrent": true,
+          "id": "independent-engineering",
+          "location": null,
+          "organisation": "Legend Systems Projects & Consulting",
+          "period": {
+            "display": "2015–Present",
+            "end": "Present",
+            "start": "2015"
+          },
+          "role": "Founder / Independent Software and Systems Engineer",
+          "specialisation": "Independent Software and Systems Engineering",
+          "summary": "Independent engineering, consulting, research and project work across software, websites, networking, infrastructure, recovery, mobile tooling and business systems."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "monster-signs",
+          "location": null,
+          "organisation": "Monster Signs / Monstar Group",
+          "period": {
+            "display": "2014–2016",
+            "end": "2016",
+            "start": "2014"
+          },
+          "role": "Rigger / Fabricator / Designer",
+          "specialisation": "Signage Fabrication, Rigging and Design-to-Production",
+          "summary": "Worked across signage fabrication, rigging, installation, repair and design-to-production workflows. Coordinated site scopes, production files, suppliers and field delivery while supporting illuminated-sign diagnosis, vinyl production and commercial signage projects."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "signland-margate",
+          "location": null,
+          "organisation": "Sign Land, Margate",
+          "period": {
+            "display": "Mar 2009–Apr 2011",
+            "end": "Apr 2011",
+            "start": "Mar 2009"
+          },
+          "role": "Signage Production, Fabrication & Field Installation",
+          "specialisation": "Commercial Signage Production and Field Installation",
+          "summary": "Contributed to signage production, fabrication, field installation and project delivery for commercial and local signage work. Worked in hands-on, deadline-driven environments requiring practical tools, travel and attention to production quality."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "early-technical-foundation",
+          "location": null,
+          "organisation": "Hoërskool Suid-Natal and self-directed technical work",
+          "period": {
+            "display": "2003–2008",
+            "end": "2008",
+            "start": "2003"
+          },
+          "role": "Early Technical Foundation",
+          "specialisation": "Computer Support and Self-Directed Technical Learning",
+          "summary": "Between 2003 and 2008 Dean built an early technical foundation through school, hands-on computer repair, software installation, patching, recovery and self-directed experimentation."
+        }
+      ],
+      "id": "ats",
+      "label": "ATS CV",
+      "languages": [
+        "English",
+        "Afrikaans"
+      ],
+      "positioning": {
+        "primary": "DevOps & Systems Engineer",
+        "secondary": "Senior Software Engineering · Systems Architecture · Industrial Integration"
+      },
+      "printProfile": {
+        "flow": "continuous",
+        "orientation": "portrait",
+        "pageSize": "A4",
+        "targetPages": 3
+      },
+      "professionalDevelopment": [],
+      "projects": [
+        {
+          "description": "Manufacturing intelligence software connecting operational data, machine events, reporting and recovery-aware workflows.",
+          "id": "manufacturing-production-intelligence",
+          "name": "Manufacturing Production Intelligence Platform",
+          "technologies": [
+            "Python",
+            "Flask",
+            "SQL",
+            "event normalisation",
+            "reporting"
+          ]
+        },
+        {
+          "description": "QR and Data Matrix workflows connecting production context, records and operator-facing scanning.",
+          "id": "qr-traceability-workflow",
+          "name": "QR Traceability Workflow",
+          "technologies": [
+            "QR",
+            "Data Matrix",
+            "Android",
+            "REST",
+            "SQL"
+          ]
+        },
+        {
+          "description": "A static, editable A4 CV application built with HTML, CSS, SVG and TypeScript, with local drafts and print-safe output.",
+          "id": "legend-systems-cv-application",
+          "name": "Legend Systems CV Application",
+          "technologies": [
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "SVG",
+            "Node.js"
+          ],
+          "url": "https://dk4never.github.io/legend-systems-cv/"
+        }
+      ],
+      "schemaVersion": 1,
+      "skills": {
+        "additionalTechnicalExposure": [],
+        "categories": [
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Python"
+              },
+              {
+                "classification": "Core capability",
+                "name": "JavaScript"
+              },
+              {
+                "classification": "Core capability",
+                "name": "TypeScript"
+              },
+              {
+                "classification": "Core capability",
+                "name": "HTML and CSS"
+              }
+            ],
+            "label": "Programming and application development"
+          },
+          {
+            "items": [
+              {
+                "classification": "Practical working capability",
+                "name": "REST, JSON and XML"
+              },
+              {
+                "classification": "Core capability",
+                "name": "SQL"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Data ingestion"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Reporting systems"
+              }
+            ],
+            "label": "Backend and data"
+          },
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Linux and Windows"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Git, Docker and Nginx"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Server deployment, backups and recovery"
+              }
+            ],
+            "label": "Infrastructure and DevOps"
+          },
+          {
+            "items": [
+              {
+                "classification": "Practical working capability",
+                "name": "Machine-data integration"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Offline buffering and synchronisation"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "QR and Data Matrix traceability"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Android scanning and operator workflows"
+              }
+            ],
+            "label": "Industrial integration and mobile"
+          }
+        ]
+      },
+      "summary": "DevOps and systems engineer with a hands-on career spanning software development, infrastructure, point-of-sale field support, electronics production and industrial integration. Builds backend services, SQL-backed reporting systems, Android operational workflows and recovery-aware data pipelines that connect machine and operational data with practical business decisions.",
+      "themeSupport": [
+        "blue",
+        "gold",
+        "red"
+      ]
+    },
+    "executive": {
+      "achievements": [
+        {
+          "id": "recovery-aware-ingestion",
+          "label": "Recovery-aware ingestion",
+          "statement": "Designed recovery-aware ingestion workflows for disrupted machine-data sources."
+        },
+        {
+          "id": "production-context",
+          "label": "Production context and reporting",
+          "statement": "Connected production context with reporting and traceability workflows."
+        },
+        {
+          "id": "android-scanning",
+          "label": "Android scanning workflows",
+          "statement": "Developed Android scanning flows linked to server-side operational data."
+        },
+        {
+          "id": "operational-reporting",
+          "label": "Operational reporting",
+          "statement": "Built reporting and dashboard systems around practical operational decisions."
+        },
+        {
+          "id": "integrated-engineering",
+          "label": "Integrated engineering",
+          "statement": "Combined software, infrastructure and machine-integration work within manufacturing environments."
+        }
+      ],
+      "certifications": {
+        "earned": []
+      },
+      "contact": {
+        "email": "SamFisher.Ghost@proton.me",
+        "github": "https://github.com/DK4Never",
+        "linkedin": "https://www.linkedin.com/in/legendcyber",
+        "location": "Johannesburg, South Africa",
+        "name": "Dean Kruger",
+        "phoneDisplay": "+27 67 463 2394",
+        "phoneHref": "tel:+27674632394",
+        "portfolio": "https://dk4never.github.io/"
+      },
+      "education": {
+        "completed": "2008",
+        "institution": "Hoërskool Suid-Natal",
+        "qualification": "Grade 12 / Matric"
+      },
+      "experience": [
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "btc",
+          "location": "Germiston, South Africa",
+          "organisation": "Best Tobacco Company / BTC",
+          "period": {
+            "display": "Jan 2026–Present",
+            "end": "Present",
+            "start": "Jan 2026"
+          },
+          "role": "Software Engineer / Systems Developer",
+          "specialisation": "Manufacturing Intelligence and Industrial Systems",
+          "summary": "developing manufacturing-intelligence software, integrating and normalising machine and operational data, creating production and shift reporting, developing dashboards, implementing QR and Data Matrix traceability, developing Android scanning and operator workflows, developing technician and operational modules, developing APIs and SQL-backed services, supporting Linux-hosted services, developing Windows-side integration tooling, implementing offline buffering and recovery synchronisation, supporting factory infrastructure integration, and documenting and validating operational systems."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "gaap-pos",
+          "location": "KwaZulu-Natal, South Coast",
+          "organisation": "GAAP Point of Sale (Pty) Ltd",
+          "period": {
+            "display": "Feb 2022–Feb 2024",
+            "end": "Feb 2024",
+            "start": "Feb 2022"
+          },
+          "role": "Onsite Technician — Point-of-Sale Systems",
+          "specialisation": "Point-of-Sale Systems",
+          "summary": "Provided onsite technical support within GAAP point-of-sale environments across the KwaZulu-Natal South Coast."
+        },
+        {
+          "bullets": [],
+          "concurrent": true,
+          "id": "legend-investigations",
+          "location": null,
+          "organisation": "Legend Investigations",
+          "period": {
+            "display": "Previous company work; ongoing private assignments",
+            "end": "Present",
+            "start": null
+          },
+          "role": "Technical Contractor — Private Assignments",
+          "specialisation": "Authorised Technical and Investigation Support",
+          "summary": "Provides authorised technical and investigation-support work on private assignments for Legend Investigations."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "fs-control-equipment",
+          "location": "Margate / Southbroom, KwaZulu-Natal",
+          "organisation": "F&S Control Equipment",
+          "period": {
+            "display": "Jan 2018–Nov 2019",
+            "end": "Nov 2019",
+            "start": "Jan 2018"
+          },
+          "role": "Control Equipment Production & Technical Support",
+          "specialisation": "Control Equipment Production and Technical Support",
+          "summary": "electronic control-equipment assembly, SMT pick-and-place equipment, machine homing and axis-position troubleshooting, calibration, controller-reset workflows, machine-software recovery support, component and bill-of-material handling and technical fault diagnosis."
+        },
+        {
+          "bullets": [],
+          "concurrent": true,
+          "id": "independent-engineering",
+          "location": null,
+          "organisation": "Legend Systems Projects & Consulting",
+          "period": {
+            "display": "2015–Present",
+            "end": "Present",
+            "start": "2015"
+          },
+          "role": "Founder / Independent Software and Systems Engineer",
+          "specialisation": "Independent Software and Systems Engineering",
+          "summary": "Independent engineering, consulting, research and project work across software, websites, networking, infrastructure, recovery, mobile tooling and business systems."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "monster-signs",
+          "location": null,
+          "organisation": "Monster Signs / Monstar Group",
+          "period": {
+            "display": "2014–2016",
+            "end": "2016",
+            "start": "2014"
+          },
+          "role": "Rigger / Fabricator / Designer",
+          "specialisation": "Signage Fabrication, Rigging and Design-to-Production",
+          "summary": "Worked across signage fabrication, rigging, installation, repair and design-to-production workflows. Coordinated site scopes, production files, suppliers and field delivery while supporting illuminated-sign diagnosis, vinyl production and commercial signage projects."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "signland-margate",
+          "location": null,
+          "organisation": "Sign Land, Margate",
+          "period": {
+            "display": "Mar 2009–Apr 2011",
+            "end": "Apr 2011",
+            "start": "Mar 2009"
+          },
+          "role": "Signage Production, Fabrication & Field Installation",
+          "specialisation": "Commercial Signage Production and Field Installation",
+          "summary": "Contributed to signage production, fabrication, field installation and project delivery for commercial and local signage work. Worked in hands-on, deadline-driven environments requiring practical tools, travel and attention to production quality."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "early-technical-foundation",
+          "location": null,
+          "organisation": "Hoërskool Suid-Natal and self-directed technical work",
+          "period": {
+            "display": "2003–2008",
+            "end": "2008",
+            "start": "2003"
+          },
+          "role": "Early Technical Foundation",
+          "specialisation": "Computer Support and Self-Directed Technical Learning",
+          "summary": "Between 2003 and 2008 Dean built an early technical foundation through school, hands-on computer repair, software installation, patching, recovery and self-directed experimentation."
+        }
+      ],
+      "id": "executive",
+      "label": "Executive CV",
+      "languages": [
+        "English",
+        "Afrikaans"
+      ],
+      "positioning": {
+        "primary": "DevOps & Systems Engineer",
+        "secondary": "Senior Software Engineering · Systems Architecture · Industrial Integration"
+      },
+      "printProfile": {
+        "flow": "fixed-pages",
+        "orientation": "portrait",
+        "pageSize": "A4",
+        "targetPages": 2
+      },
+      "professionalDevelopment": [],
+      "projects": [
+        {
+          "description": "Manufacturing intelligence software connecting operational data, machine events, reporting and recovery-aware workflows.",
+          "id": "manufacturing-production-intelligence",
+          "name": "Manufacturing Production Intelligence Platform",
+          "technologies": [
+            "Python",
+            "Flask",
+            "SQL",
+            "event normalisation",
+            "reporting"
+          ]
+        },
+        {
+          "description": "QR and Data Matrix workflows connecting production context, records and operator-facing scanning.",
+          "id": "qr-traceability-workflow",
+          "name": "QR Traceability Workflow",
+          "technologies": [
+            "QR",
+            "Data Matrix",
+            "Android",
+            "REST",
+            "SQL"
+          ]
+        },
+        {
+          "description": "Android scanning and operator-facing workflows integrated with authenticated operational services.",
+          "id": "android-operations-application",
+          "name": "Android Operations Application",
+          "technologies": [
+            "Android",
+            "Kotlin",
+            "Java",
+            "REST",
+            "QR"
+          ]
+        }
+      ],
+      "schemaVersion": 1,
+      "skills": {
+        "additionalTechnicalExposure": [],
+        "categories": [
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Python"
+              },
+              {
+                "classification": "Core capability",
+                "name": "JavaScript"
+              }
+            ],
+            "label": "Programming and application development"
+          },
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "SQL"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Data ingestion"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Reporting systems"
+              }
+            ],
+            "label": "Backend and data"
+          },
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Linux and Windows"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Server deployment, backups and recovery"
+              }
+            ],
+            "label": "Infrastructure and DevOps"
+          },
+          {
+            "items": [
+              {
+                "classification": "Practical working capability",
+                "name": "Machine-data integration"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Offline buffering and synchronisation"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "QR and Data Matrix traceability"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Android scanning and operator workflows"
+              }
+            ],
+            "label": "Industrial integration and mobile"
+          }
+        ]
+      },
+      "summary": "DevOps and systems engineer with a hands-on career spanning software development, infrastructure, point-of-sale field support, electronics production and industrial integration. Builds backend services, SQL-backed reporting systems, Android operational workflows and recovery-aware data pipelines that connect machine and operational data with practical business decisions.",
+      "themeSupport": [
+        "blue",
+        "gold",
+        "red"
+      ]
+    },
+    "page-one": {
+      "achievements": [
+        {
+          "id": "recovery-aware-ingestion",
+          "label": "Recovery-aware ingestion",
+          "statement": "Designed recovery-aware ingestion workflows for disrupted machine-data sources."
+        },
+        {
+          "id": "production-context",
+          "label": "Production context and reporting",
+          "statement": "Connected production context with reporting and traceability workflows."
+        },
+        {
+          "id": "android-scanning",
+          "label": "Android scanning workflows",
+          "statement": "Developed Android scanning flows linked to server-side operational data."
+        }
+      ],
+      "certifications": {
+        "earned": []
+      },
+      "contact": {
+        "email": "SamFisher.Ghost@proton.me",
+        "github": "https://github.com/DK4Never",
+        "linkedin": "https://www.linkedin.com/in/legendcyber",
+        "location": "Johannesburg, South Africa",
+        "name": "Dean Kruger",
+        "phoneDisplay": "+27 67 463 2394",
+        "phoneHref": "tel:+27674632394",
+        "portfolio": "https://dk4never.github.io/"
+      },
+      "education": {
+        "completed": "2008",
+        "institution": "Hoërskool Suid-Natal",
+        "qualification": "Grade 12 / Matric"
+      },
+      "experience": [
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "btc",
+          "location": "Germiston, South Africa",
+          "organisation": "Best Tobacco Company / BTC",
+          "period": {
+            "display": "Jan 2026–Present",
+            "end": "Present",
+            "start": "Jan 2026"
+          },
+          "role": "Software Engineer / Systems Developer",
+          "specialisation": "Manufacturing Intelligence and Industrial Systems",
+          "summary": "developing manufacturing-intelligence software, integrating and normalising machine and operational data, creating production and shift reporting, developing dashboards, implementing QR and Data Matrix traceability, developing Android scanning and operator workflows, developing technician and operational modules, developing APIs and SQL-backed services, supporting Linux-hosted services, developing Windows-side integration tooling, implementing offline buffering and recovery synchronisation, supporting factory infrastructure integration, and documenting and validating operational systems."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "gaap-pos",
+          "location": "KwaZulu-Natal, South Coast",
+          "organisation": "GAAP Point of Sale (Pty) Ltd",
+          "period": {
+            "display": "Feb 2022–Feb 2024",
+            "end": "Feb 2024",
+            "start": "Feb 2022"
+          },
+          "role": "Onsite Technician — Point-of-Sale Systems",
+          "specialisation": "Point-of-Sale Systems",
+          "summary": "Provided onsite technical support within GAAP point-of-sale environments across the KwaZulu-Natal South Coast."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "fs-control-equipment",
+          "location": "Margate / Southbroom, KwaZulu-Natal",
+          "organisation": "F&S Control Equipment",
+          "period": {
+            "display": "Jan 2018–Nov 2019",
+            "end": "Nov 2019",
+            "start": "Jan 2018"
+          },
+          "role": "Control Equipment Production & Technical Support",
+          "specialisation": "Control Equipment Production and Technical Support",
+          "summary": "electronic control-equipment assembly, SMT pick-and-place equipment, machine homing and axis-position troubleshooting, calibration, controller-reset workflows, machine-software recovery support, component and bill-of-material handling and technical fault diagnosis."
+        },
+        {
+          "bullets": [],
+          "concurrent": true,
+          "id": "independent-engineering",
+          "location": null,
+          "organisation": "Legend Systems Projects & Consulting",
+          "period": {
+            "display": "2015–Present",
+            "end": "Present",
+            "start": "2015"
+          },
+          "role": "Founder / Independent Software and Systems Engineer",
+          "specialisation": "Independent Software and Systems Engineering",
+          "summary": "Independent engineering, consulting, research and project work across software, websites, networking, infrastructure, recovery, mobile tooling and business systems."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "monster-signs",
+          "location": null,
+          "organisation": "Monster Signs / Monstar Group",
+          "period": {
+            "display": "2014–2016",
+            "end": "2016",
+            "start": "2014"
+          },
+          "role": "Rigger / Fabricator / Designer",
+          "specialisation": "Signage Fabrication, Rigging and Design-to-Production",
+          "summary": "Worked across signage fabrication, rigging, installation, repair and design-to-production workflows. Coordinated site scopes, production files, suppliers and field delivery while supporting illuminated-sign diagnosis, vinyl production and commercial signage projects."
+        }
+      ],
+      "id": "page-one",
+      "label": "Page One",
+      "languages": [
+        "English",
+        "Afrikaans"
+      ],
+      "positioning": {
+        "primary": "DevOps & Systems Engineer",
+        "secondary": "Senior Software Engineering · Systems Architecture · Industrial Integration"
+      },
+      "printProfile": {
+        "flow": "fixed-pages",
+        "orientation": "portrait",
+        "pageSize": "A4",
+        "targetPages": 1
+      },
+      "professionalDevelopment": [],
+      "projects": [
+        {
+          "description": "Manufacturing intelligence software connecting operational data, machine events, reporting and recovery-aware workflows.",
+          "id": "manufacturing-production-intelligence",
+          "name": "Manufacturing Production Intelligence Platform",
+          "technologies": [
+            "Python",
+            "Flask",
+            "SQL",
+            "event normalisation",
+            "reporting"
+          ]
+        },
+        {
+          "description": "QR and Data Matrix workflows connecting production context, records and operator-facing scanning.",
+          "id": "qr-traceability-workflow",
+          "name": "QR Traceability Workflow",
+          "technologies": [
+            "QR",
+            "Data Matrix",
+            "Android",
+            "REST",
+            "SQL"
+          ]
+        }
+      ],
+      "schemaVersion": 1,
+      "skills": {
+        "additionalTechnicalExposure": [],
+        "categories": [
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Python"
+              },
+              {
+                "classification": "Core capability",
+                "name": "JavaScript"
+              }
+            ],
+            "label": "Programming and application development"
+          },
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "SQL"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Data ingestion"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Reporting systems"
+              }
+            ],
+            "label": "Backend and data"
+          },
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Linux and Windows"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Server deployment, backups and recovery"
+              }
+            ],
+            "label": "Infrastructure and DevOps"
+          },
+          {
+            "items": [
+              {
+                "classification": "Practical working capability",
+                "name": "Machine-data integration"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Offline buffering and synchronisation"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "QR and Data Matrix traceability"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Android scanning and operator workflows"
+              }
+            ],
+            "label": "Industrial integration and mobile"
+          }
+        ]
+      },
+      "summary": "DevOps and systems engineer with a hands-on career spanning software development, infrastructure, point-of-sale field support, electronics production and industrial integration. Builds backend services, SQL-backed reporting systems, Android operational workflows and recovery-aware data pipelines that connect machine and operational data with practical business decisions.",
+      "themeSupport": [
+        "blue",
+        "gold",
+        "red"
+      ]
+    },
+    "technical-profile": {
+      "achievements": [
+        {
+          "id": "recovery-aware-ingestion",
+          "label": "Recovery-aware ingestion",
+          "statement": "Designed recovery-aware ingestion workflows for disrupted machine-data sources."
+        },
+        {
+          "id": "production-context",
+          "label": "Production context and reporting",
+          "statement": "Connected production context with reporting and traceability workflows."
+        },
+        {
+          "id": "android-scanning",
+          "label": "Android scanning workflows",
+          "statement": "Developed Android scanning flows linked to server-side operational data."
+        },
+        {
+          "id": "operational-reporting",
+          "label": "Operational reporting",
+          "statement": "Built reporting and dashboard systems around practical operational decisions."
+        },
+        {
+          "id": "integrated-engineering",
+          "label": "Integrated engineering",
+          "statement": "Combined software, infrastructure and machine-integration work within manufacturing environments."
+        },
+        {
+          "id": "public-tools",
+          "label": "Public technical tools",
+          "statement": "Created public technical tools and documented engineering prototypes where their public status is confirmed."
+        }
+      ],
+      "certifications": {
+        "earned": []
+      },
+      "contact": {
+        "email": "SamFisher.Ghost@proton.me",
+        "github": "https://github.com/DK4Never",
+        "linkedin": "https://www.linkedin.com/in/legendcyber",
+        "location": "Johannesburg, South Africa",
+        "name": "Dean Kruger",
+        "phoneDisplay": "+27 67 463 2394",
+        "phoneHref": "tel:+27674632394",
+        "portfolio": "https://dk4never.github.io/"
+      },
+      "education": {
+        "completed": "2008",
+        "institution": "Hoërskool Suid-Natal",
+        "qualification": "Grade 12 / Matric"
+      },
+      "experience": [
+        {
+          "bullets": [
+            "The technical profile may describe Python, Flask, SQL, SQLite, JavaScript, Android or Kotlin, REST, JSON, Linux, Windows, PowerShell, event normalisation and recovery-aware data pipelines in connection with the approved BTC work scope."
+          ],
+          "concurrent": false,
+          "id": "btc",
+          "location": "Germiston, South Africa",
+          "organisation": "Best Tobacco Company / BTC",
+          "period": {
+            "display": "Jan 2026–Present",
+            "end": "Present",
+            "start": "Jan 2026"
+          },
+          "role": "Software Engineer / Systems Developer",
+          "specialisation": "Manufacturing Intelligence and Industrial Systems",
+          "summary": "developing manufacturing-intelligence software, integrating and normalising machine and operational data, creating production and shift reporting, developing dashboards, implementing QR and Data Matrix traceability, developing Android scanning and operator workflows, developing technician and operational modules, developing APIs and SQL-backed services, supporting Linux-hosted services, developing Windows-side integration tooling, implementing offline buffering and recovery synchronisation, supporting factory infrastructure integration, and documenting and validating operational systems."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "gaap-pos",
+          "location": "KwaZulu-Natal, South Coast",
+          "organisation": "GAAP Point of Sale (Pty) Ltd",
+          "period": {
+            "display": "Feb 2022–Feb 2024",
+            "end": "Feb 2024",
+            "start": "Feb 2022"
+          },
+          "role": "Onsite Technician — Point-of-Sale Systems",
+          "specialisation": "Point-of-Sale Systems",
+          "summary": "Provided onsite technical support within GAAP point-of-sale environments across the KwaZulu-Natal South Coast."
+        },
+        {
+          "bullets": [],
+          "concurrent": true,
+          "id": "legend-investigations",
+          "location": null,
+          "organisation": "Legend Investigations",
+          "period": {
+            "display": "Previous company work; ongoing private assignments",
+            "end": "Present",
+            "start": null
+          },
+          "role": "Technical Contractor — Private Assignments",
+          "specialisation": "Authorised Technical and Investigation Support",
+          "summary": "Dean has worked for Legend Investigations and continues to undertake private technical assignments for the company. The work is conducted within authorised scopes and may involve technical systems support, recovery, research, documentation and investigation-support workflows. Confidential client, case and operational details are excluded."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "fs-control-equipment",
+          "location": "Margate / Southbroom, KwaZulu-Natal",
+          "organisation": "F&S Control Equipment",
+          "period": {
+            "display": "Jan 2018–Nov 2019",
+            "end": "Nov 2019",
+            "start": "Jan 2018"
+          },
+          "role": "Control Equipment Production & Technical Support",
+          "specialisation": "Control Equipment Production and Technical Support",
+          "summary": "electronic control-equipment assembly, SMT pick-and-place equipment, machine homing and axis-position troubleshooting, calibration, controller-reset workflows, machine-software recovery support, component and bill-of-material handling and technical fault diagnosis."
+        },
+        {
+          "bullets": [
+            "Independent work includes authorised recovery, defensive security, digital-forensics concepts, OSINT, infrastructure, field support, logistics and technical documentation."
+          ],
+          "concurrent": true,
+          "id": "independent-engineering",
+          "location": null,
+          "organisation": "Legend Systems Projects & Consulting",
+          "period": {
+            "display": "2015–Present",
+            "end": "Present",
+            "start": "2015"
+          },
+          "role": "Founder / Independent Software and Systems Engineer",
+          "specialisation": "Independent Software and Systems Engineering",
+          "summary": "Independent engineering, consulting, research and project work across software, websites, networking, infrastructure, recovery, mobile tooling and business systems."
+        },
+        {
+          "bullets": [
+            "Participated in preparing, converting and coordinating signage production files for multi-location commercial signage work, including CDR, EPS, CMX, BMP and colour-reference formats."
+          ],
+          "concurrent": false,
+          "id": "monster-signs",
+          "location": null,
+          "organisation": "Monster Signs / Monstar Group",
+          "period": {
+            "display": "2014–2016",
+            "end": "2016",
+            "start": "2014"
+          },
+          "role": "Rigger / Fabricator / Designer",
+          "specialisation": "Signage Fabrication, Rigging and Design-to-Production",
+          "summary": "Worked across signage fabrication, rigging, installation, repair and design-to-production workflows. Coordinated site scopes, production files, suppliers and field delivery while supporting illuminated-sign diagnosis, vinyl production and commercial signage projects."
+        },
+        {
+          "bullets": [],
+          "concurrent": false,
+          "id": "signland-margate",
+          "location": null,
+          "organisation": "Sign Land, Margate",
+          "period": {
+            "display": "Mar 2009–Apr 2011",
+            "end": "Apr 2011",
+            "start": "Mar 2009"
+          },
+          "role": "Signage Production, Fabrication & Field Installation",
+          "specialisation": "Commercial Signage Production and Field Installation",
+          "summary": "Contributed to signage production, fabrication, field installation and project delivery for commercial and local signage work. Worked in hands-on, deadline-driven environments requiring practical tools, travel and attention to production quality."
+        },
+        {
+          "bullets": [
+            "The early foundation included exploration of C++, C#, authorised data recovery, DVR and video extraction, mobile-device support, routers, network troubleshooting, radio and integrated technology."
+          ],
+          "concurrent": false,
+          "id": "early-technical-foundation",
+          "location": null,
+          "organisation": "Hoërskool Suid-Natal and self-directed technical work",
+          "period": {
+            "display": "2003–2008",
+            "end": "2008",
+            "start": "2003"
+          },
+          "role": "Early Technical Foundation",
+          "specialisation": "Computer Support and Self-Directed Technical Learning",
+          "summary": "Between 2003 and 2008 Dean built an early technical foundation through school, hands-on computer repair, software installation, patching, recovery and self-directed experimentation."
+        }
+      ],
+      "id": "technical-profile",
+      "label": "Technical Career Profile",
+      "languages": [
+        "English",
+        "Afrikaans"
+      ],
+      "positioning": {
+        "primary": "DevOps & Systems Engineer",
+        "secondary": "Senior Software Engineering · Systems Architecture · Industrial Integration"
+      },
+      "printProfile": {
+        "flow": "paginated-natural",
+        "orientation": "portrait",
+        "pageSize": "A4",
+        "targetPages": 4
+      },
+      "professionalDevelopment": [
+        "Currently completing freeCodeCamp's Responsive Web Design Certification."
+      ],
+      "projects": [
+        {
+          "description": "Manufacturing intelligence software connecting operational data, machine events, reporting and recovery-aware workflows.",
+          "id": "manufacturing-production-intelligence",
+          "name": "Manufacturing Production Intelligence Platform",
+          "technologies": [
+            "Python",
+            "Flask",
+            "SQL",
+            "event normalisation",
+            "reporting"
+          ]
+        },
+        {
+          "description": "Sanitised architecture work connecting industrial data, backend services and operational workflows.",
+          "id": "industrial-integration-architecture",
+          "name": "Industrial Integration Architecture",
+          "technologies": [
+            "machine-data integration",
+            "REST",
+            "SQL",
+            "Linux",
+            "recovery-aware design"
+          ]
+        },
+        {
+          "description": "QR and Data Matrix workflows connecting production context, records and operator-facing scanning.",
+          "id": "qr-traceability-workflow",
+          "name": "QR Traceability Workflow",
+          "technologies": [
+            "QR",
+            "Data Matrix",
+            "Android",
+            "REST",
+            "SQL"
+          ]
+        },
+        {
+          "description": "Android scanning and operator-facing workflows integrated with authenticated operational services.",
+          "id": "android-operations-application",
+          "name": "Android Operations Application",
+          "technologies": [
+            "Android",
+            "Kotlin",
+            "Java",
+            "REST",
+            "QR"
+          ]
+        },
+        {
+          "description": "A static, editable A4 CV application built with HTML, CSS, SVG and TypeScript, with local drafts and print-safe output.",
+          "id": "legend-systems-cv-application",
+          "name": "Legend Systems CV Application",
+          "technologies": [
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "SVG",
+            "Node.js"
+          ],
+          "url": "https://dk4never.github.io/legend-systems-cv/"
+        },
+        {
+          "description": "Private investigation-support software and technical workflow concepts developed or supported for authorised company use.",
+          "id": "legend-investigations-platform",
+          "name": "Legend Investigations Platform",
+          "technologies": [
+            "technical systems support",
+            "recovery-aware workflows",
+            "documentation",
+            "investigation-support workflows"
+          ]
+        }
+      ],
+      "schemaVersion": 1,
+      "skills": {
+        "additionalTechnicalExposure": [],
+        "categories": [
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Python"
+              },
+              {
+                "classification": "Core capability",
+                "name": "JavaScript"
+              },
+              {
+                "classification": "Core capability",
+                "name": "TypeScript"
+              },
+              {
+                "classification": "Core capability",
+                "name": "HTML and CSS"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Java"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Kotlin"
+              },
+              {
+                "classification": "Technical exposure",
+                "name": "C#"
+              },
+              {
+                "classification": "Technical exposure",
+                "name": "C++"
+              },
+              {
+                "classification": "Technical exposure",
+                "name": "C"
+              },
+              {
+                "classification": "Technical exposure",
+                "name": "PHP"
+              },
+              {
+                "classification": "Technical exposure",
+                "name": "Visual Basic"
+              }
+            ],
+            "label": "Programming and application development"
+          },
+          {
+            "items": [
+              {
+                "classification": "Practical working capability",
+                "name": "Flask"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "REST, JSON and XML"
+              },
+              {
+                "classification": "Core capability",
+                "name": "SQL"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "SQLite and PostgreSQL"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Data ingestion"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Event normalisation"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Reporting systems"
+              }
+            ],
+            "label": "Backend and data"
+          },
+          {
+            "items": [
+              {
+                "classification": "Core capability",
+                "name": "Linux and Windows"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Git, Docker and Nginx"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Bash and PowerShell"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Server deployment, backups and recovery"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "CI/CD concepts"
+              }
+            ],
+            "label": "Infrastructure and DevOps"
+          },
+          {
+            "items": [
+              {
+                "classification": "Technical exposure",
+                "name": "Beckhoff / TwinCAT exposure"
+              },
+              {
+                "classification": "Technical exposure",
+                "name": "Siemens systems exposure"
+              },
+              {
+                "classification": "Technical exposure",
+                "name": "PLC integration and control-equipment workflows"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Machine-data integration"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Offline buffering and synchronisation"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "QR and Data Matrix traceability"
+              },
+              {
+                "classification": "Practical working capability",
+                "name": "Android scanning and operator workflows"
+              }
+            ],
+            "label": "Industrial integration and mobile"
+          },
+          {
+            "items": [
+              {
+                "classification": "Practical working capability",
+                "name": "Wireshark and network diagnostics"
+              },
+              {
+                "classification": "Research and experimentation",
+                "name": "Firmware inspection and hex analysis"
+              },
+              {
+                "classification": "Research and experimentation",
+                "name": "OSINT and digital-forensics concepts"
+              },
+              {
+                "classification": "Research and experimentation",
+                "name": "GNU Radio and USRP research"
+              },
+              {
+                "classification": "Research and experimentation",
+                "name": "OBD2 and automotive diagnostics"
+              }
+            ],
+            "label": "Diagnostic and defensive tooling"
+          },
+          {
+            "items": [
+              {
+                "classification": "Research and experimentation",
+                "name": "Local LLM experimentation"
+              }
+            ],
+            "label": "AI-assisted tooling"
+          }
+        ]
+      },
+      "summary": "DevOps and systems engineer with a hands-on career spanning software development, infrastructure, point-of-sale field support, electronics production and industrial integration. Builds backend services, SQL-backed reporting systems, Android operational workflows and recovery-aware data pipelines that connect machine and operational data with practical business decisions.",
+      "themeSupport": [
+        "blue",
+        "gold",
+        "red"
+      ]
+    }
+  },
+  "generatedFrom": {
+    "contentVersion": 1,
+    "sourceCommit": "aca1815da4fa7289c84d931bbb1e0939171c6ff0"
+  },
+  "schemaVersion": 1,
+  "site": {
+    "defaultDocument": "page-one",
+    "name": "Dean Kruger"
+  }
+}

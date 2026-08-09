@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#060a10">
+    <meta name="application-name" content="Legend Systems CV Application">
+    <meta name="description" content="Interactive CV application for Dean Kruger, covering DevOps, software engineering, systems integration and industrial production intelligence.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Legend Systems CV Application — Dean Kruger">
+    <meta property="og:description" content="Interactive CV application for Dean Kruger, covering DevOps, software engineering, systems integration and industrial production intelligence.">
+    <meta property="og:image" content="previews/page-one-blue.png">
+    <meta property="og:image:alt" content="Legend Systems CV Application Page One preview">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Legend Systems CV Application — Dean Kruger</title>
+    <link rel="stylesheet" href="styles/editor.css">
+    <link rel="stylesheet" href="styles/document-shell.css">
+    <link rel="stylesheet" href="styles/page.css">
+    <link rel="stylesheet" href="styles/executive.css">
+    <link rel="stylesheet" href="styles/ats.css">
+    <link rel="stylesheet" href="styles/technical-profile.css">
+    <link rel="stylesheet" href="styles/print.css">
+  </head>
+  <body>
+    <h1 id="application-title" class="sr-only">Legend Systems CV application</h1>
+    <header class="app-bar" aria-label="CV application controls">
+      <div class="app-brand">
+        <img class="app-brand-logo" src="assets/branding/legend-systems-mark.svg" alt="Legend Systems">
+        <span><strong>LEGEND SYSTEMS</strong><small>CV BUILDER</small></span>
+      </div>
+      <div class="app-actions">
+        <button class="tool-button editor-toggle" id="sidebar-toggle" type="button" data-action="toggle-sidebar" aria-controls="editor-sidebar" aria-expanded="true">Editor</button>
+        <div class="theme-switcher" role="group" aria-label="Document theme">
+          <span class="control-label">THEME</span>
+          <button class="theme-button" type="button" data-theme="blue"><i></i>Legend Blue</button>
+          <button class="theme-button" type="button" data-theme="gold"><i></i>Legend Gold</button>
+          <button class="theme-button is-active" type="button" data-theme="red"><i></i>Signal Red</button>
+        </div>
+        <span class="toolbar-divider" aria-hidden="true"></span>
+        <button class="tool-button" type="button" data-action="fit" aria-label="Fit Page One to the available canvas">Fit</button>
+        <button class="tool-button" type="button" data-action="zoom-out" aria-label="Zoom out">-</button>
+        <button class="tool-button zoom-readout" id="zoom-readout" type="button" data-action="zoom-reset" aria-label="Set zoom to 100%">100%</button>
+        <button class="tool-button" type="button" data-action="zoom-in" aria-label="Zoom in">+</button>
+        <button class="tool-button" type="button" data-action="zoom-75" aria-label="Set zoom to 75 percent">75%</button>
+        <button class="tool-button" type="button" data-action="zoom-100" aria-label="Set zoom to 100 percent">100%</button>
+        <button class="tool-button" type="button" data-action="zoom-125" aria-label="Set zoom to 125 percent">125%</button>
+        <label class="print-mode-control" for="print-mode"><span>PDF</span><select id="print-mode" aria-label="PDF print mode"><option value="match">Match CV Theme</option><option value="printer">Printer Friendly</option></select></label>
+        <button class="tool-button tool-button-primary" type="button" data-action="print">Export PDF</button>
+      </div>
+    </header>
+
+    <main class="workspace" id="runtime-shell" aria-labelledby="application-title">
+      <aside class="inspector" id="editor-sidebar" aria-labelledby="inspector-title">
+        <div class="inspector-heading">
+          <span class="inspector-index">CV</span>
+          <div><strong id="inspector-title">EDITOR CONTROL CENTER</strong><small>LEGEND SYSTEMS CV BUILDER</small></div>
+          <button class="drawer-close" type="button" data-action="toggle-sidebar" aria-label="Close editor controls">×</button>
+        </div>
+        <section class="inspector-card document-selector-card" aria-labelledby="document-selector-title">
+          <label class="inspector-kicker" id="document-selector-title" for="document-selector">DOCUMENT</label>
+          <select id="document-selector" class="document-selector" aria-describedby="document-description">
+            <option value="page-one">Page One</option>
+          </select>
+          <p class="document-description" id="document-description">Editable A4 Page One composition</p>
+        </section>
+        <section class="inspector-card">
+          <p class="inspector-kicker">DOCUMENT STATUS</p>
+          <div class="status-line"><span class="status-pulse"></span><strong id="runtime-document-status">LOADING</strong><span id="save-status" role="status" aria-live="polite">CANONICAL</span></div>
+          <p class="inspector-copy" id="inspector-copy">The document selector switches between approved public CV outputs without reloading the application.</p>
+        </section>
+        <section class="inspector-card inspector-card-compact">
+          <p class="inspector-kicker">PAGE GEOMETRY</p>
+          <dl class="geometry-list">
+            <div><dt>FORMAT</dt><dd>A4 portrait</dd></div>
+            <div><dt>SIZE</dt><dd>210 × 297 mm</dd></div>
+            <div><dt>PRINT</dt><dd>Edge-to-edge</dd></div>
+          </dl>
+        </section>
+        <section class="inspector-card inspector-card-compact">
+          <p class="inspector-kicker">DOCUMENT ACTIONS</p>
+          <div class="history-actions"><button class="inspector-action" type="button" data-action="undo">Undo <span>↶</span></button><button class="inspector-action" type="button" data-action="redo">Redo <span>↷</span></button></div>
+          <div class="builder-file-actions"><button class="inspector-action" type="button" data-action="export-json">Export JSON <span>↓</span></button><button class="inspector-action" type="button" data-action="import-json">Import JSON <span>↑</span></button><input id="json-input" type="file" accept="application/json,.json" hidden></div>
+          <button class="inspector-action" type="button" data-action="save">Save Page One Draft <span>↓</span></button>
+          <button class="inspector-action" type="button" data-action="reset">Reset Page One <span>↺</span></button>
+          <button class="inspector-action" type="button" data-action="print">Print / Save PDF <span>↗</span></button>
+        </section>
+        <section class="inspector-card builder-card" id="builder-panel" aria-labelledby="builder-title">
+          <p class="inspector-kicker" id="builder-title">STRUCTURED BUILDER</p>
+          <div id="builder-content"></div>
+        </section>
+        <p class="overflow-status" id="overflow-status" data-state="ready" role="status" aria-live="polite">A4 FIT / CHECKING</p>
+        <p class="inspector-footnote">Page One is the default editable composition. The document selector preserves the selected document and theme in the query string.</p>
+      </aside>
+
+      <section class="canvas-stage" aria-label="Selected CV document canvas">
+        <div id="runtime-status" class="runtime-status" role="status" aria-live="polite">Loading approved public content…</div>
+        <div id="document-mount" class="document-mount">
+          <div class="page-frame" id="page-frame">
+            <article class="cv-page" id="page-one" data-theme="red" aria-label="Page One editable CV"></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
